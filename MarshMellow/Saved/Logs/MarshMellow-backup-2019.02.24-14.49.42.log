@@ -1,0 +1,1755 @@
+﻿Log file open, 02/19/19 01:35:53
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MarshMellow
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.318043
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.178s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.005s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.19-06.35.54:404][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.19-06.35.54:404][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.19-06.35.54:423][  0]LogHAL: Display: Platform has ~ 16 GB [16751534080 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.19-06.35.54:423][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.19-06.35.54:423][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.19-06.35.54:424][  0]LogInit: Computer: JESSIES-LAPTOP
+[2019.02.19-06.35.54:424][  0]LogInit: User: jessielichter
+[2019.02.19-06.35.54:424][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.19-06.35.54:424][  0]LogInit: High frequency timer resolution =2.531247 MHz
+[2019.02.19-06.35.54:424][  0]LogMemory: Memory total: Physical=15.6GB (16GB approx)
+[2019.02.19-06.35.54:424][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.19-06.35.54:424][  0]LogMemory: Process Physical Memory: 101.34 MB used, 101.34 MB peak
+[2019.02.19-06.35.54:424][  0]LogMemory: Process Virtual Memory: 89.46 MB used, 89.46 MB peak
+[2019.02.19-06.35.54:424][  0]LogMemory: Physical Memory: 7502.36 MB used,  8473.14 MB free, 15975.51 MB total
+[2019.02.19-06.35.54:424][  0]LogMemory: Virtual Memory: 4639.15 MB used,  8473.14 MB free, 134217728.00 MB total
+[2019.02.19-06.35.54:451][  0]LogInit: Using OS detected language (en-US).
+[2019.02.19-06.35.54:451][  0]LogInit: Using OS detected locale (en-US).
+[2019.02.19-06.35.54:452][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.19-06.35.54:980][  0]LogStreaming: Display: Took  0.528s to InitEngineTextLocalization.
+[2019.02.19-06.35.54:980][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.19-06.35.55:035][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.19-06.35.55:036][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.19-06.35.55:457][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.19-06.35.55:457][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.19-06.35.55:535][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.02.19-06.35.55:535][  0]LogD3D11RHI:       2010/0/7987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.19-06.35.55:545][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.02.19-06.35.55:545][  0]LogD3D11RHI:       128/0/7987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.02.19-06.35.55:548][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.19-06.35.55:548][  0]LogD3D11RHI:       0/0/7987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.19-06.35.55:548][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.19-06.35.55:613][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.19-06.35.55:613][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.02.19-06.35.55:613][  0]LogWindows: EnumDisplayDevices:
+[2019.02.19-06.35.55:613][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.02.19-06.35.55:614][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.02.19-06.35.55:614][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.02.19-06.35.55:615][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.02.19-06.35.55:615][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.02.19-06.35.55:615][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.02.19-06.35.55:615][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.02.19-06.35.55:615][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.02.19-06.35.55:659][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.19-06.35.55:677][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.19-06.35.55:678][  0]LogShaderCompilers: Guid format shader working directory is -52 characters bigger than the processId version (../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Intermediate/Shaders/WorkingDirectory/14312/).
+[2019.02.19-06.35.55:678][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jessie lichter/AppData/Local/Temp/UnrealShaderWorkingDir/B62A1C16462C36397A2BC0951F08CCFB/'.
+[2019.02.19-06.35.56:067][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.19-06.35.56:087][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.19-06.35.56:116][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.19-06.35.56:142][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.19-06.35.56:163][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.19-06.35.56:183][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.19-06.35.56:204][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.19-06.35.56:229][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.19-06.35.56:238][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.19-06.35.56:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-06.35.56:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-06.35.56:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-06.35.56:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-06.35.56:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-06.35.56:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-06.35.56:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-06.35.56:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-06.35.56:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-06.35.56:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-06.35.56:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-06.35.56:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-06.35.56:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-06.35.56:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-06.35.56:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-06.35.56:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-06.35.56:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-06.35.56:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-06.35.56:349][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.19-06.35.56:421][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.19-06.35.56:421][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.19-06.35.56:472][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.19-06.35.56:472][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.19-06.35.56:489][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.19-06.35.56:506][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.19-06.35.56:524][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.19-06.35.56:542][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.19-06.35.56:555][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.19-06.35.56:555][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.19-06.35.56:642][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.19-06.35.56:642][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.19-06.35.56:643][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.19-06.35.57:689][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.19-06.35.57:762][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/jessie lichter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.19-06.35.57:762][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jessie lichter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.19-06.35.57:762][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.19-06.35.57:762][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.19-06.35.57:762][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.19-06.35.57:762][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.19-06.35.57:783][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.19-06.35.57:796][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jessie lichter/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.19-06.35.57:796][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.19-06.35.57:796][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.19-06.35.57:824][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.19-06.35.57:825][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.19-06.35.57:826][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.19-06.35.57:924][  0]LogAssetRegistry: FAssetRegistry took 0.0278 seconds to start up
+[2019.02.19-06.35.58:409][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.19-06.35.58:599][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.19-06.35.58:605][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.19-06.35.58:605][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.19-06.35.58:605][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.19-06.35.58:605][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.19-06.35.58:625][  0]LogNetVersion: MarshMellow 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3750370364)
+[2019.02.19-06.35.59:400][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.199859 seconds
+[2019.02.19-06.35.59:408][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.19-06.35.59:408][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.02.19-06.35.59:408][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.19-06.36.00:704][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.19-06.36.00:718][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.19-06.36.00:885][  0]SourceControl: Source control is disabled
+[2019.02.19-06.36.00:885][  0]SourceControl: Source control is disabled
+[2019.02.19-06.36.00:887][  0]SourceControl: Source control is disabled
+[2019.02.19-06.36.00:888][  0]SourceControl: Source control is disabled
+[2019.02.19-06.36.01:079][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.19-06.36.01:455][  0]LogOcInput: OculusInput pre-init called
+[2019.02.19-06.36.01:536][  0]LogEngine: Initializing Engine...
+[2019.02.19-06.36.01:537][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.19-06.36.01:539][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.19-06.36.01:539][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.19-06.36.01:539][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.19-06.36.01:539][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.19-06.36.01:812][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.19-06.36.01:833][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.19-06.36.01:932][  0]LogInit: XAudio2 using 'Speakers (JBL Flip 4 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.19-06.36.01:956][  0]LogInit: FAudioDevice initialized.
+[2019.02.19-06.36.01:956][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.19-06.36.02:011][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/jessie lichter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.19-06.36.02:015][  0]LogInit: Texture streaming: Enabled
+[2019.02.19-06.36.02:038][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.19-06.36.02:058][  0]LogInit: Transaction tracking system initialized
+[2019.02.19-06.36.02:094][  0]BlueprintLog: New page: Editor Load
+[2019.02.19-06.36.02:210][  0]LocalizationService: Localization service is disabled
+[2019.02.19-06.36.02:605][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.19-06.36.02:605][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.19-06.36.02:605][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.19-06.36.02:605][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.19-06.36.02:605][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.19-06.36.02:606][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.19-06.36.02:606][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.19-06.36.02:771][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/' took 0.06s
+[2019.02.19-06.36.02:771][  0]SourceControl: Source control is disabled
+[2019.02.19-06.36.02:772][  0]LightingResults: New page: Lighting Build
+[2019.02.19-06.36.02:778][  0]MapCheck: New page: Map Check
+[2019.02.19-06.36.02:778][  0]LightingResults: New page: Lighting Build
+[2019.02.19-06.36.03:367][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.02.19-06.36.03:377][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.19-06.36.03:408][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.19-06.36.03:515][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 106.113ms to complete.
+[2019.02.19-06.36.03:515][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.743
+[2019.02.19-06.36.03:652][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-06.36.03:661][  0]LogCollectionManager: Loaded 0 collections in 0.002788 seconds
+[2019.02.19-06.36.03:705][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Collections/' took 0.01s
+[2019.02.19-06.36.03:705][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/Developers/jessielichter/Collections/' took 0.01s
+[2019.02.19-06.36.03:705][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/Collections/' took 0.01s
+[2019.02.19-06.36.03:705][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.19-06.36.03:727][  0]LogContentBrowser: Native class hierarchy populated in 0.0209 seconds. Added 2572 classes and 603 folders.
+[2019.02.19-06.36.03:746][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.02.19-06.36.03:817][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.19-06.36.03:823][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.02.19-06.36.03:898][  0]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.19-06.36.03:901][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.19-06.36.03:910][  0]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.19-06.36.04:013][  0]LogRenderer: Reallocating scene render targets to support 808x508 Format 10 NumSamples 1 (Frame:1).
+[2019.02.19-06.36.04:086][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.19-06.36.04:222][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.19-06.36.04:222][  0]LogLoad: (Engine Initialization) Total time: 12.40 seconds
+[2019.02.19-06.36.04:222][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.19-06.36.04:234][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.19-06.36.04:255][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.19-06.36.04:737][  4]LogAssetRegistry: Asset discovery search completed in 6.8348 seconds
+[2019.02.19-06.36.04:740][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.19-06.36.04:741][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000087 seconds (updated 0 objects)
+[2019.02.19-06.37.11:350][926]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-06.37.13:969][231]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.19-06.37.15:014][231]LogAIModule: Creating AISystem for world TestingWorldComposition
+[2019.02.19-06.37.15:062][231]LogAssetEditorManager: Opening Asset editor for World /Game/WorldCompositionLevels/TestingWorldComposition.TestingWorldComposition
+[2019.02.19-06.37.15:111][231]LightingResults: New page: Lighting Build
+[2019.02.19-06.37.15:112][231]LoadErrors: New page: Loading map: TestingWorldComposition.umap
+[2019.02.19-06.37.15:113][231]MapCheck: New page: Map Check
+[2019.02.19-06.37.15:113][231]LightingResults: New page: Lighting Build
+[2019.02.19-06.37.15:226][231]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.19-06.37.15:307][231]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.19-06.37.15:453][231]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 146.577ms to complete.
+[2019.02.19-06.37.15:453][231]LogFileHelpers: Loading map 'TestingWorldComposition' took 0.344
+[2019.02.19-06.40.49:004][108]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-06.40.49:281][127]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.19-06.40.49:357][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.19-06.40.49:373][127]PIE: New page: PIE session: TestingWorldComposition (Feb 18, 2019, 8:40:49 PM)
+[2019.02.19-06.40.49:373][127]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition
+[2019.02.19-06.40.49:381][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007730s)
+[2019.02.19-06.40.49:383][127]LogAIModule: Creating AISystem for world TestingWorldComposition
+[2019.02.19-06.40.49:384][127]LogPlayLevel: PIE: World Init took: (0.002323s)
+[2019.02.19-06.40.49:384][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/TestingWorldComposition.TestingWorldComposition to /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition (0.010637s)
+[2019.02.19-06.40.49:585][127]LogInit: XAudio2 using 'Speakers (JBL Flip 4 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.19-06.40.49:627][127]LogInit: FAudioDevice initialized.
+[2019.02.19-06.40.52:169][127]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.19-06.40.52:174][127]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition up for play (max tick rate 0) at 2019.02.19-01.40.52
+[2019.02.19-06.40.52:175][127]LogWorld: Bringing up level for play took: 0.003044
+[2019.02.19-06.40.52:199][127]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2019.02.19-06.40.52:200][127]LogScript: Warning: Script Msg: Divide by zero detected: -162.780563 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.02.19-06.40.52:222][127]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ParagonRevenant/Characters/Heroes/Revenant/RevenantPlayerCharacter.RevenantPlayerCharacter_C:ExecuteUbergraph_RevenantPlayerCharacter'!
+[2019.02.19-06.40.52:222][127]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition 3.028
+[2019.02.19-06.40.52:224][127]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:292][128]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:314][129]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:329][130]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:397][131]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:439][132]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:477][133]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:515][134]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:546][135]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:566][136]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:587][137]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:607][138]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:625][139]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:649][140]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:686][141]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:719][142]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:733][143]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:748][144]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:762][145]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:776][146]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:791][147]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:805][148]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:820][149]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:837][150]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:852][151]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:867][152]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:882][153]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:897][154]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:912][155]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:927][156]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:943][157]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:957][158]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:971][159]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:985][160]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.52:999][161]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:013][162]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:027][163]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:040][164]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:054][165]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:068][166]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:083][167]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:096][168]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:110][169]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:123][170]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:137][171]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:151][172]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:165][173]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:179][174]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:194][175]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:212][176]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:227][177]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:245][178]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:264][179]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:287][180]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:301][181]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:316][182]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:330][183]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:345][184]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:362][185]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:380][186]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:399][187]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:419][188]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:438][189]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:459][190]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:478][191]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:498][192]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:518][193]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:539][194]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:563][195]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:584][196]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:603][197]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:621][198]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:640][199]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:657][200]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:673][201]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:692][202]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:709][203]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:725][204]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:741][205]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:759][206]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:776][207]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:794][208]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:810][209]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:826][210]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:842][211]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:860][212]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:877][213]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:895][214]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:911][215]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:931][216]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:948][217]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:965][218]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:981][219]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.53:998][220]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:015][221]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:031][222]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:048][223]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:065][224]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:082][225]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:098][226]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:115][227]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:132][228]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:149][229]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:165][230]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:182][231]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:200][232]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:220][233]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:238][234]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:239][234]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.02.19-06.40.54:254][235]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:271][236]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:289][237]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:305][238]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:321][239]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:339][240]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:359][241]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:382][242]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:407][243]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:432][244]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:457][245]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:486][246]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:513][247]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:536][248]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:556][249]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:577][250]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:599][251]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:618][252]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:637][253]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:658][254]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:679][255]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:697][256]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:720][257]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:739][258]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:757][259]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:776][260]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:794][261]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:812][262]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:829][263]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:848][264]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:865][265]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:883][266]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:902][267]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:920][268]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:938][269]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:956][270]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:974][271]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.54:991][272]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:009][273]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:026][274]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:045][275]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:063][276]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:080][277]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:097][278]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:114][279]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:132][280]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:151][281]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:167][282]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:185][283]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:202][284]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:223][285]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:243][286]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:261][287]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:279][288]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:296][289]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:314][290]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:331][291]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:350][292]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:367][293]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:385][294]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:402][295]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:420][296]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:436][297]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:452][298]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:469][299]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:485][300]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:502][301]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:517][302]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:533][303]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:551][304]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:568][305]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:584][306]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:600][307]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:616][308]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:632][309]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:648][310]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:664][311]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:681][312]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:697][313]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:713][314]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:730][315]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:747][316]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:766][317]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:783][318]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:798][319]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:813][320]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:830][321]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:845][322]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:861][323]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:877][324]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:894][325]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:909][326]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:926][327]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:942][328]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:957][329]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:974][330]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.55:991][331]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:007][332]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:023][333]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:040][334]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:057][335]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:073][336]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:090][337]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:106][338]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:123][339]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:140][340]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:156][341]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:172][342]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:189][343]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:207][344]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:225][345]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:241][346]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:258][347]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:274][348]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:290][349]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:307][350]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:322][351]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:339][352]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:356][353]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:372][354]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:394][355]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:411][356]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:427][357]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:443][358]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:459][359]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:475][360]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:491][361]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:507][362]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:524][363]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:538][364]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:554][365]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:569][366]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:584][367]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:599][368]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:614][369]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:629][370]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:644][371]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:658][372]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:674][373]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:690][374]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:706][375]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:723][376]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:739][377]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:759][378]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:778][379]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:795][380]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:817][381]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:836][382]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:853][383]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:872][384]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:889][385]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:906][386]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:921][387]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:938][388]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:954][389]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:971][390]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.56:987][391]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:004][392]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:020][393]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:039][394]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:055][395]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:072][396]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:089][397]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:105][398]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:121][399]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:140][400]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:157][401]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:173][402]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:190][403]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:210][404]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:228][405]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:244][406]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:260][407]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:276][408]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:292][409]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:308][410]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:324][411]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:340][412]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:358][413]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:374][414]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:390][415]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:406][416]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:423][417]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:439][418]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:456][419]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:472][420]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:488][421]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:504][422]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:522][423]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:539][424]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:556][425]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:572][426]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:588][427]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:603][428]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:618][429]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:632][430]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:647][431]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:662][432]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:676][433]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:691][434]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:706][435]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:721][436]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:736][437]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:752][438]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:767][439]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:782][440]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:796][441]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:811][442]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:831][443]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:845][444]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:860][445]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:875][446]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:890][447]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:905][448]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:921][449]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:935][450]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:950][451]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:965][452]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:979][453]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.57:993][454]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:008][455]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:023][456]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:038][457]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:053][458]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:069][459]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:084][460]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:099][461]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:114][462]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:127][463]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:142][464]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:157][465]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:173][466]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:188][467]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:204][468]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:219][469]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:234][470]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:249][471]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:263][472]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:278][473]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:293][474]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:308][475]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:324][476]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:342][477]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:360][478]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:377][479]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:393][480]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:408][481]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:425][482]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:442][483]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:458][484]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:475][485]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:491][486]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:508][487]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:524][488]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:542][489]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:560][490]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:579][491]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:595][492]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:611][493]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:629][494]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:645][495]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:661][496]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:677][497]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:693][498]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:709][499]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:725][500]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:741][501]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:758][502]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:775][503]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:789][504]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:804][505]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:819][506]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:834][507]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:850][508]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:867][509]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:882][510]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:898][511]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:915][512]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:930][513]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:945][514]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:961][515]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:978][516]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.58:993][517]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:010][518]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:025][519]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:043][520]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:066][521]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:083][522]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:100][523]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:115][524]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:131][525]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:147][526]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:161][527]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:177][528]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:194][529]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:212][530]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:235][531]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:253][532]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:272][533]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:290][534]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:306][535]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:323][536]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:341][537]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:360][538]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:377][539]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:394][540]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:410][541]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:426][542]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:443][543]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:461][544]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:477][545]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:493][546]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:508][547]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:524][548]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:540][549]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:555][550]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:570][551]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:588][552]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:605][553]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:619][554]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:634][555]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:648][556]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:662][557]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:677][558]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:692][559]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:707][560]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:722][561]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:738][562]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:754][563]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:769][564]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:784][565]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:798][566]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:812][567]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:827][568]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:842][569]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:858][570]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:873][571]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:894][572]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:909][573]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:925][574]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:940][575]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:956][576]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:971][577]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.40.59:987][578]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:003][579]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:020][580]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:035][581]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:051][582]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:067][583]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:084][584]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:104][585]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:127][586]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:153][587]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:175][588]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:191][589]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:212][590]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:237][591]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:262][592]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:287][593]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:308][594]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:328][595]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:350][596]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:372][597]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:395][598]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:422][599]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:455][600]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:474][601]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:496][602]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:515][603]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:537][604]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:561][605]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:586][606]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:607][607]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:639][608]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:660][609]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:684][610]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:705][611]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:731][612]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:757][613]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:786][614]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:808][615]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:828][616]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:848][617]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:870][618]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:890][619]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:910][620]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:935][621]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:959][622]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.00:978][623]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:003][624]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:025][625]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:046][626]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:068][627]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:088][628]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:109][629]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:136][630]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:161][631]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:187][632]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:219][633]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:247][634]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:271][635]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:296][636]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:320][637]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:342][638]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:366][639]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:391][640]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:414][641]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:436][642]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:458][643]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:474][644]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:492][645]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:511][646]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:531][647]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:558][648]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:578][649]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:596][650]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:616][651]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:637][652]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:655][653]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:674][654]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:692][655]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:709][656]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:727][657]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:745][658]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:764][659]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:781][660]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:799][661]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:816][662]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:833][663]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:850][664]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:868][665]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:885][666]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:901][667]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:918][668]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:933][669]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:950][670]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:969][671]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.01:986][672]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:002][673]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:019][674]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:037][675]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:052][676]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:070][677]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:086][678]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:103][679]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:119][680]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:136][681]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:152][682]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:169][683]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:185][684]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:203][685]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:222][686]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:240][687]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:256][688]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:273][689]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:290][690]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:306][691]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:322][692]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:339][693]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:356][694]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:373][695]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:388][696]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:404][697]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:418][698]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:434][699]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:449][700]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:465][701]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:480][702]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:496][703]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:511][704]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:526][705]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:541][706]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:557][707]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:573][708]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:588][709]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:604][710]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:619][711]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:634][712]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:649][713]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:666][714]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:681][715]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:697][716]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:713][717]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:729][718]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:745][719]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:761][720]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:776][721]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:792][722]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:807][723]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:821][724]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:837][725]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:852][726]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:867][727]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:882][728]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:898][729]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:912][730]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:928][731]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:943][732]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:958][733]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:973][734]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.02:988][735]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:006][736]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:025][737]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:042][738]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:057][739]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:073][740]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:087][741]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:102][742]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:117][743]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:133][744]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:147][745]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:161][746]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:176][747]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:190][748]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:206][749]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:222][750]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:237][751]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:251][752]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:265][753]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:281][754]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:296][755]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:311][756]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:326][757]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:342][758]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:358][759]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:373][760]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:389][761]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:404][762]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:420][763]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:436][764]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:453][765]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:468][766]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:485][767]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:501][768]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:517][769]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:537][770]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:555][771]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:571][772]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:588][773]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:604][774]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:621][775]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:637][776]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:653][777]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:670][778]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:688][779]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:704][780]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:721][781]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:738][782]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:752][783]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:768][784]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:783][785]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:798][786]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:813][787]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:830][788]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:846][789]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:862][790]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:878][791]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:894][792]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:910][793]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:926][794]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:941][795]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:956][796]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:971][797]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.03:987][798]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:001][799]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:017][800]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:033][801]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:049][802]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:064][803]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:080][804]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:095][805]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:110][806]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:125][807]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:140][808]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:155][809]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:171][810]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:186][811]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:203][812]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:222][813]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:237][814]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:253][815]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:269][816]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:283][817]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:299][818]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:315][819]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:331][820]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:348][821]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:364][822]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:378][823]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:394][824]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:410][825]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:424][826]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:438][827]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:453][828]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:468][829]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:482][830]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:498][831]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:514][832]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:530][833]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:545][834]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:560][835]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:577][836]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:594][837]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:618][838]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:641][839]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:662][840]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:683][841]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:707][842]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:724][843]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:740][844]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:757][845]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:773][846]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:789][847]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:806][848]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:824][849]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:845][850]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:867][851]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:888][852]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:911][853]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:928][854]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:947][855]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:965][856]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.04:983][857]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:002][858]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:021][859]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:041][860]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:066][861]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:086][862]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:106][863]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:124][864]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:149][865]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:172][866]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:192][867]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:211][868]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:231][869]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:250][870]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:270][871]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:289][872]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:310][873]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:330][874]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:351][875]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:371][876]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:391][877]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:415][878]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:439][879]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:462][880]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:481][881]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:501][882]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:522][883]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:542][884]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:562][885]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:582][886]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:608][887]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:635][888]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:657][889]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:678][890]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:703][891]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:727][892]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:753][893]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:774][894]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:796][895]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:815][896]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:839][897]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:862][898]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:886][899]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:908][900]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:927][901]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:946][902]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:963][903]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.05:984][904]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:002][905]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:022][906]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:047][907]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:067][908]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:086][909]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:108][910]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:129][911]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:149][912]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:171][913]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:200][914]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:226][915]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:246][916]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:267][917]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:289][918]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:309][919]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:327][920]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:346][921]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:364][922]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:384][923]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:402][924]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:420][925]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:438][926]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:458][927]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:475][928]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:493][929]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:511][930]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:529][931]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:548][932]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:565][933]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:585][934]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:603][935]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:622][936]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:641][937]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:659][938]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:675][939]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:692][940]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:709][941]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:725][942]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:742][943]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:759][944]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:775][945]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:791][946]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:808][947]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:825][948]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:842][949]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:858][950]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:875][951]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:893][952]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:909][953]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:925][954]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:941][955]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:959][956]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:975][957]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.06:992][958]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:008][959]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:026][960]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:043][961]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:060][962]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:076][963]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:094][964]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:109][965]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:125][966]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:140][967]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:158][968]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:175][969]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:190][970]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:207][971]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:223][972]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:239][973]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:254][974]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:270][975]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:285][976]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:301][977]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:317][978]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:333][979]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:349][980]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:365][981]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:380][982]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:395][983]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:410][984]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:426][985]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:441][986]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:457][987]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:472][988]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:488][989]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:502][990]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:518][991]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:533][992]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:549][993]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:565][994]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:581][995]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:597][996]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:612][997]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:626][998]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:641][999]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:657][  0]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:673][  1]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:688][  2]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:702][  3]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:717][  4]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:733][  5]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:748][  6]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:762][  7]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:777][  8]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:791][  9]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:805][ 10]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:818][ 11]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:834][ 12]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:848][ 13]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:863][ 14]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:878][ 15]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:892][ 16]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:905][ 17]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:919][ 18]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:934][ 19]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:948][ 20]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:964][ 21]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:978][ 22]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.07:994][ 23]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:008][ 24]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:024][ 25]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:038][ 26]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:053][ 27]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:068][ 28]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:085][ 29]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:100][ 30]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:115][ 31]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:129][ 32]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:143][ 33]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:157][ 34]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:170][ 35]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:185][ 36]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:201][ 37]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:218][ 38]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:233][ 39]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:248][ 40]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:261][ 41]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:275][ 42]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:289][ 43]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:302][ 44]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:316][ 45]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:331][ 46]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:346][ 47]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:361][ 48]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:376][ 49]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:389][ 50]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:404][ 51]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:418][ 52]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:432][ 53]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:448][ 54]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:463][ 55]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:477][ 56]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:490][ 57]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:504][ 58]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:519][ 59]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:533][ 60]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:547][ 61]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:562][ 62]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:575][ 63]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:589][ 64]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:603][ 65]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:617][ 66]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:632][ 67]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:647][ 68]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:662][ 69]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:676][ 70]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:691][ 71]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:708][ 72]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:721][ 73]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:736][ 74]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:750][ 75]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:765][ 76]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:781][ 77]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:797][ 78]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:811][ 79]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:825][ 80]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:838][ 81]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:853][ 82]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:868][ 83]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:883][ 84]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:897][ 85]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:910][ 86]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:923][ 87]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:937][ 88]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:951][ 89]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:965][ 90]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:979][ 91]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.08:994][ 92]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:008][ 93]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:023][ 94]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:038][ 95]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:051][ 96]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:068][ 97]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:083][ 98]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:098][ 99]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:112][100]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:126][101]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:139][102]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:153][103]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:168][104]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:184][105]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:201][106]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:220][107]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:236][108]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:250][109]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:264][110]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:279][111]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:292][112]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:306][113]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:320][114]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:334][115]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:349][116]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:364][117]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:378][118]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:393][119]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:406][120]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:419][121]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:433][122]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:446][123]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:461][124]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:474][125]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:488][126]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:502][127]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:516][128]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:530][129]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:544][130]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:557][131]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:571][132]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:586][133]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:599][134]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:613][135]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:626][136]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:640][137]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:653][138]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:668][139]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:682][140]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:696][141]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:709][142]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:722][143]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:736][144]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:750][145]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:763][146]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:778][147]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:791][148]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:804][149]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:817][150]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:830][151]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:843][152]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:855][153]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:868][154]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:885][155]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:903][156]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:916][157]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:929][158]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:942][159]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:956][160]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:969][161]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:982][162]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.09:994][163]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:006][164]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:019][165]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:032][166]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:045][167]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:057][168]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:070][169]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:083][170]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:096][171]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:108][172]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:121][173]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:134][174]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:150][175]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:164][176]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:180][177]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:194][178]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:213][179]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:230][180]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:245][181]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:262][182]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:277][183]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:290][184]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:304][185]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:318][186]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:332][187]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:346][188]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:360][189]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:374][190]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:388][191]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:402][192]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:417][193]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
+[2019.02.19-06.41.10:421][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-06.41.10:463][193]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.19-06.41.10:523][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-06.41.10:588][194]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.02.19-06.41.55:995][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-06.47.22:027][404]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-06.47.22:227][418]LogSlate: Window 'MarshMellow - Unreal Editor' being destroyed
+[2019.02.19-06.47.22:229][418]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.19-06.47.22:389][419]Cmd: QUIT_EDITOR
+[2019.02.19-06.47.22:700][419]LogExit: Preparing to exit.
+[2019.02.19-06.47.23:137][419]LogExit: Editor shut down
+[2019.02.19-06.47.23:138][419]LogExit: Transaction tracking system shut down
+[2019.02.19-06.47.23:526][419]LogExit: Object subsystem successfully closed.
+[2019.02.19-06.47.23:552][419]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.02.19-06.47.23:557][419]LogD3D11RHI: Shutdown
+[2019.02.19-06.47.23:557][419]LogD3D11RHI: CleanupD3DDevice
+[2019.02.19-06.47.23:559][419]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.02.19-06.47.23:590][419]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (614)
+[2019.02.19-06.47.23:590][419]LogModuleManager: Shutting down and abandoning module Voice (612)
+[2019.02.19-06.47.23:590][419]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2019.02.19-06.47.23:590][419]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2019.02.19-06.47.23:590][419]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2019.02.19-06.47.23:591][419]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2019.02.19-06.47.23:591][419]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2019.02.19-06.47.23:591][419]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2019.02.19-06.47.23:591][419]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.02.19-06.47.23:591][419]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.02.19-06.47.23:591][419]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.02.19-06.47.23:592][419]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.02.19-06.47.23:593][419]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.02.19-06.47.23:593][419]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.02.19-06.47.23:593][419]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.02.19-06.47.23:593][419]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.02.19-06.47.23:593][419]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.02.19-06.47.23:593][419]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.02.19-06.47.23:593][419]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.02.19-06.47.23:593][419]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.02.19-06.47.23:593][419]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.02.19-06.47.23:593][419]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.02.19-06.47.23:593][419]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.02.19-06.47.23:593][419]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.02.19-06.47.23:593][419]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.02.19-06.47.23:593][419]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.02.19-06.47.23:593][419]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.02.19-06.47.23:593][419]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.02.19-06.47.23:593][419]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.02.19-06.47.23:653][419]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.02.19-06.47.23:653][419]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.02.19-06.47.23:653][419]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.02.19-06.47.23:653][419]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.02.19-06.47.23:653][419]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.02.19-06.47.23:653][419]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.02.19-06.47.23:653][419]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.02.19-06.47.23:653][419]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.02.19-06.47.23:654][419]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.02.19-06.47.23:654][419]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.02.19-06.47.23:654][419]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.02.19-06.47.23:654][419]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.02.19-06.47.23:654][419]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.02.19-06.47.23:654][419]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.02.19-06.47.23:654][419]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.02.19-06.47.23:654][419]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.02.19-06.47.23:654][419]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.02.19-06.47.23:654][419]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.02.19-06.47.23:654][419]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.02.19-06.47.23:654][419]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.02.19-06.47.23:655][419]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.02.19-06.47.23:655][419]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.02.19-06.47.23:709][419]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.02.19-06.47.23:709][419]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.02.19-06.47.23:709][419]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.02.19-06.47.23:709][419]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.02.19-06.47.23:709][419]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.02.19-06.47.23:709][419]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.02.19-06.47.23:709][419]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.02.19-06.47.23:709][419]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.02.19-06.47.23:710][419]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.02.19-06.47.23:710][419]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.02.19-06.47.23:711][419]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.02.19-06.47.23:711][419]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.02.19-06.47.23:711][419]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.02.19-06.47.23:711][419]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.02.19-06.47.23:711][419]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.02.19-06.47.23:711][419]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.02.19-06.47.23:711][419]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.02.19-06.47.23:712][419]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.02.19-06.47.23:712][419]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.02.19-06.47.23:712][419]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.02.19-06.47.23:712][419]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.02.19-06.47.23:712][419]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.02.19-06.47.23:712][419]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.02.19-06.47.23:712][419]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.02.19-06.47.23:712][419]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.02.19-06.47.23:712][419]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.02.19-06.47.23:712][419]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.02.19-06.47.23:712][419]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.02.19-06.47.23:712][419]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.02.19-06.47.23:712][419]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.02.19-06.47.23:712][419]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.02.19-06.47.23:712][419]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.02.19-06.47.23:775][419]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.02.19-06.47.23:775][419]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.02.19-06.47.23:775][419]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.02.19-06.47.23:775][419]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.02.19-06.47.23:775][419]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.02.19-06.47.23:775][419]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.02.19-06.47.23:775][419]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.02.19-06.47.23:776][419]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.02.19-06.47.23:776][419]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.02.19-06.47.23:776][419]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.02.19-06.47.23:776][419]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.02.19-06.47.23:776][419]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.02.19-06.47.23:776][419]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.02.19-06.47.23:776][419]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.02.19-06.47.23:776][419]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.02.19-06.47.23:776][419]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.02.19-06.47.23:776][419]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.02.19-06.47.23:776][419]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.02.19-06.47.23:784][419]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.02.19-06.47.23:784][419]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.02.19-06.47.23:784][419]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.02.19-06.47.23:784][419]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.02.19-06.47.23:784][419]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.02.19-06.47.23:784][419]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.02.19-06.47.23:784][419]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.02.19-06.47.23:785][419]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.02.19-06.47.23:785][419]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.02.19-06.47.23:785][419]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.02.19-06.47.23:785][419]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.02.19-06.47.23:785][419]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.02.19-06.47.23:787][419]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.02.19-06.47.23:787][419]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.02.19-06.47.23:787][419]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.02.19-06.47.23:787][419]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.02.19-06.47.23:787][419]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.02.19-06.47.23:787][419]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.02.19-06.47.23:787][419]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.02.19-06.47.23:787][419]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.02.19-06.47.23:787][419]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.02.19-06.47.23:787][419]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.02.19-06.47.23:787][419]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.02.19-06.47.23:788][419]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.02.19-06.47.23:788][419]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.02.19-06.47.23:788][419]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.02.19-06.47.23:788][419]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.02.19-06.47.23:788][419]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.02.19-06.47.23:788][419]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.02.19-06.47.23:788][419]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.02.19-06.47.23:788][419]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.02.19-06.47.23:788][419]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.02.19-06.47.23:789][419]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.02.19-06.47.23:789][419]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.02.19-06.47.23:789][419]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.02.19-06.47.23:789][419]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.02.19-06.47.23:789][419]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.02.19-06.47.23:789][419]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.02.19-06.47.23:789][419]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.02.19-06.47.23:789][419]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.02.19-06.47.23:789][419]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.02.19-06.47.23:890][419]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.02.19-06.47.23:991][419]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.02.19-06.47.23:991][419]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.02.19-06.47.23:991][419]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.02.19-06.47.23:991][419]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.02.19-06.47.23:991][419]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.02.19-06.47.23:991][419]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.02.19-06.47.23:991][419]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.02.19-06.47.23:992][419]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.02.19-06.47.23:992][419]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.02.19-06.47.23:992][419]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.02.19-06.47.23:992][419]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.02.19-06.47.23:992][419]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.02.19-06.47.23:993][419]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.02.19-06.47.23:993][419]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.02.19-06.47.23:993][419]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.02.19-06.47.23:993][419]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.02.19-06.47.23:993][419]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.02.19-06.47.23:993][419]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.02.19-06.47.23:995][419]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.02.19-06.47.24:001][419]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.02.19-06.47.24:001][419]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.02.19-06.47.24:001][419]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.02.19-06.47.24:001][419]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.02.19-06.47.24:001][419]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.02.19-06.47.24:001][419]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.02.19-06.47.24:001][419]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.02.19-06.47.24:001][419]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.02.19-06.47.24:001][419]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.02.19-06.47.24:001][419]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.02.19-06.47.24:001][419]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.02.19-06.47.24:001][419]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.02.19-06.47.24:001][419]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.02.19-06.47.24:002][419]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.02.19-06.47.24:002][419]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.02.19-06.47.24:002][419]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.02.19-06.47.24:002][419]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.02.19-06.47.24:002][419]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.02.19-06.47.24:002][419]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.02.19-06.47.24:002][419]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.02.19-06.47.24:004][419]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.02.19-06.47.24:004][419]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.02.19-06.47.24:004][419]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.02.19-06.47.24:004][419]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.02.19-06.47.24:004][419]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.02.19-06.47.24:004][419]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.02.19-06.47.24:004][419]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.02.19-06.47.24:004][419]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.02.19-06.47.24:004][419]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.02.19-06.47.24:004][419]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.02.19-06.47.24:004][419]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.02.19-06.47.24:004][419]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.02.19-06.47.24:004][419]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.02.19-06.47.24:004][419]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.02.19-06.47.24:004][419]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.02.19-06.47.24:004][419]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.02.19-06.47.24:004][419]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.02.19-06.47.24:004][419]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.02.19-06.47.24:104][419]LogDerivedDataCache: Shutdown
+[2019.02.19-06.47.24:104][419]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.02.19-06.47.24:104][419]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.02.19-06.47.24:104][419]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.02.19-06.47.24:104][419]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.02.19-06.47.24:104][419]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.02.19-06.47.24:104][419]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.02.19-06.47.24:104][419]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.02.19-06.47.24:104][419]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.02.19-06.47.24:104][419]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.02.19-06.47.24:104][419]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.02.19-06.47.24:105][419]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.02.19-06.47.24:105][419]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.02.19-06.47.24:105][419]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.02.19-06.47.24:105][419]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.02.19-06.47.24:105][419]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.02.19-06.47.24:105][419]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.02.19-06.47.24:105][419]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.02.19-06.47.24:105][419]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.02.19-06.47.24:105][419]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.02.19-06.47.24:105][419]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.02.19-06.47.24:105][419]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.02.19-06.47.24:105][419]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.02.19-06.47.24:105][419]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.02.19-06.47.24:106][419]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.02.19-06.47.24:106][419]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.02.19-06.47.24:107][419]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.02.19-06.47.24:107][419]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.02.19-06.47.24:116][419]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.02.19-06.47.24:116][419]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.02.19-06.47.24:116][419]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.02.19-06.47.24:116][419]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.02.19-06.47.24:116][419]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.02.19-06.47.24:116][419]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.02.19-06.47.24:116][419]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.02.19-06.47.24:116][419]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.02.19-06.47.24:116][419]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.02.19-06.47.24:116][419]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.02.19-06.47.24:116][419]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.02.19-06.47.24:116][419]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.02.19-06.47.24:116][419]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.02.19-06.47.24:116][419]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.02.19-06.47.24:116][419]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.02.19-06.47.24:116][419]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.02.19-06.47.24:116][419]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.02.19-06.47.24:117][419]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.02.19-06.47.24:117][419]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.02.19-06.47.24:118][419]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.02.19-06.47.24:149][419]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.02.19-06.47.24:150][419]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.02.19-06.47.24:150][419]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA1C89401-43FC-92F7-7E93-B9B7232C63EF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=52c8d69c47c3b558f96bdeaad69b44a8%7C1e4490187f7d4590821fe5ea33366920%7Ca0ac2db9-04c3-40ba-9c12-a7ac0bed75b1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.02.19-06.47.24:170][419]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.02.19-06.47.24:172][419]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.02.19-06.47.24:172][419]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.02.19-06.47.24:172][419]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.02.19-06.47.24:172][419]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.02.19-06.47.24:172][419]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.02.19-06.47.24:172][419]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.02.19-06.47.24:172][419]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.02.19-06.47.24:172][419]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.02.19-06.47.24:172][419]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.02.19-06.47.24:173][419]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.02.19-06.47.24:173][419]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.02.19-06.47.24:173][419]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.02.19-06.47.24:173][419]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.02.19-06.47.24:173][419]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.02.19-06.47.24:173][419]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.02.19-06.47.24:174][419]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.02.19-06.47.24:174][419]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.02.19-06.47.24:174][419]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.02.19-06.47.24:175][419]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.02.19-06.47.24:175][419]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.02.19-06.47.24:175][419]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.02.19-06.47.24:175][419]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.02.19-06.47.24:175][419]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.02.19-06.47.24:175][419]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.02.19-06.47.24:175][419]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.02.19-06.47.24:175][419]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.02.19-06.47.24:175][419]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.02.19-06.47.24:175][419]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.02.19-06.47.24:175][419]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.02.19-06.47.24:192][419]LogExit: Exiting.
+[2019.02.19-06.47.24:202][419]Log file closed, 02/19/19 01:47:24
