@@ -1,4 +1,4 @@
-﻿Log file open, 02/24/19 14:49:43
+﻿Log file open, 02/25/19 17:34:33
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MarshMellow
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.308939
+LogStats: Stats thread started at 0.302373
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -47,6 +47,7 @@ LogPluginManager: Mounting plugin ProxyLODPlugin
 LogPluginManager: Mounting plugin MagicLeap
 LogPluginManager: Mounting plugin MagicLeapEmulator
 LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
 LogPluginManager: Mounting plugin AndroidMedia
 LogPluginManager: Mounting plugin AvfMedia
 LogPluginManager: Mounting plugin ImgMedia
@@ -91,7 +92,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.200s to configure plugins.
+LogStreaming: Display: Took  0.163s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -145,1202 +146,200 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.015s to delete old logs.
+LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.02.24-19.49.43:619][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.24-19.49.43:619][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.24-19.49.43:674][  0]LogHAL: Display: Platform has ~ 16 GB [16751534080 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.02.24-19.49.43:674][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.02.24-19.49.43:674][  0]LogInit: Going up to parent DeviceProfile []
-[2019.02.24-19.49.43:675][  0]LogInit: Computer: JESSIES-LAPTOP
-[2019.02.24-19.49.43:675][  0]LogInit: User: jessielichter
-[2019.02.24-19.49.43:675][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.02.24-19.49.43:675][  0]LogInit: High frequency timer resolution =2.531248 MHz
-[2019.02.24-19.49.43:676][  0]LogMemory: Memory total: Physical=15.6GB (16GB approx)
-[2019.02.24-19.49.43:676][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.24-19.49.43:676][  0]LogMemory: Process Physical Memory: 101.07 MB used, 101.07 MB peak
-[2019.02.24-19.49.43:676][  0]LogMemory: Process Virtual Memory: 89.56 MB used, 89.56 MB peak
-[2019.02.24-19.49.43:676][  0]LogMemory: Physical Memory: 6740.47 MB used,  9235.04 MB free, 15975.51 MB total
-[2019.02.24-19.49.43:676][  0]LogMemory: Virtual Memory: 4639.15 MB used,  9235.04 MB free, 134217728.00 MB total
-[2019.02.24-19.49.43:739][  0]LogInit: Using OS detected language (en-US).
-[2019.02.24-19.49.43:739][  0]LogInit: Using OS detected locale (en-US).
-[2019.02.24-19.49.43:741][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.02.24-19.49.44:202][  0]LogStreaming: Display: Took  0.463s to InitEngineTextLocalization.
-[2019.02.24-19.49.44:202][  0]LogInit: Setting process to per monitor DPI aware
-[2019.02.24-19.49.44:246][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.24-19.49.44:246][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.24-19.49.44:487][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.24-19.49.44:487][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.24-19.49.44:548][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2019.02.24-19.49.44:548][  0]LogD3D11RHI:       2010/0/7987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.02.24-19.49.44:557][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2019.02.24-19.49.44:557][  0]LogD3D11RHI:       128/0/7987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.02.24-19.49.44:559][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.24-19.49.44:559][  0]LogD3D11RHI:       0/0/7987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.24-19.49.44:559][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.24-19.49.44:603][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.24-19.49.44:603][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2019.02.24-19.49.44:603][  0]LogWindows: EnumDisplayDevices:
-[2019.02.24-19.49.44:603][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2019.02.24-19.49.44:603][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2019.02.24-19.49.44:604][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2019.02.24-19.49.44:604][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.02.24-19.49.44:604][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2019.02.24-19.49.44:604][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.02.24-19.49.44:604][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.02.24-19.49.44:604][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
-[2019.02.24-19.49.44:643][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.24-19.49.44:662][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.02.24-19.49.44:663][  0]LogShaderCompilers: Guid format shader working directory is -52 characters bigger than the processId version (../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Intermediate/Shaders/WorkingDirectory/20332/).
-[2019.02.24-19.49.44:663][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jessie lichter/AppData/Local/Temp/UnrealShaderWorkingDir/C510474246337F769677718664AD46DB/'.
-[2019.02.24-19.49.45:247][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.24-19.49.45:263][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.24-19.49.45:282][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.24-19.49.45:309][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.24-19.49.45:328][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.24-19.49.45:344][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.24-19.49.45:361][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.24-19.49.45:375][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.24-19.49.45:383][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.24-19.49.45:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-19.49.45:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-19.49.45:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-19.49.45:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-19.49.45:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-19.49.45:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-19.49.45:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-19.49.45:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-19.49.45:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-19.49.45:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-19.49.45:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-19.49.45:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-19.49.45:477][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-19.49.45:477][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-19.49.45:477][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-19.49.45:477][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-19.49.45:477][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-19.49.45:477][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-19.49.45:479][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.24-19.49.45:548][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.24-19.49.45:548][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.24-19.49.45:602][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.24-19.49.45:602][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.24-19.49.45:619][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.24-19.49.45:635][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.24-19.49.45:650][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.24-19.49.45:665][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.24-19.49.45:676][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.24-19.49.45:676][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.24-19.49.45:771][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.24-19.49.45:772][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.24-19.49.45:772][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.24-19.49.46:737][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.24-19.49.46:801][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/jessie lichter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.24-19.49.46:802][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jessie lichter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.02.24-19.49.46:802][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.24-19.49.46:802][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.24-19.49.46:802][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.24-19.49.46:802][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.24-19.49.46:816][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.24-19.49.46:830][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jessie lichter/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.24-19.49.46:830][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.24-19.49.46:830][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.24-19.49.46:859][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.24-19.49.46:863][  0]LogSlate: Using FreeType 2.6.0
-[2019.02.24-19.49.46:864][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.24-19.49.46:957][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
-[2019.02.24-19.49.47:473][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.24-19.49.47:543][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.24-19.49.47:548][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.24-19.49.47:548][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.02.24-19.49.47:548][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.24-19.49.47:548][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.24-19.49.47:676][  0]LogNetVersion: MarshMellow 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3750370364)
-[2019.02.24-19.49.49:066][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.386727 seconds
-[2019.02.24-19.49.49:087][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.02.24-19.49.49:087][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.02.24-19.49.49:087][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.24-19.49.50:600][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.24-19.49.50:615][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.24-19.49.50:954][  0]SourceControl: Source control is disabled
-[2019.02.24-19.49.50:954][  0]SourceControl: Source control is disabled
-[2019.02.24-19.49.50:957][  0]SourceControl: Source control is disabled
-[2019.02.24-19.49.50:959][  0]SourceControl: Source control is disabled
-[2019.02.24-19.49.51:172][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.24-19.49.51:526][  0]LogOcInput: OculusInput pre-init called
-[2019.02.24-19.49.51:594][  0]LogEngine: Initializing Engine...
-[2019.02.24-19.49.51:595][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.24-19.49.51:597][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.24-19.49.51:597][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.24-19.49.51:597][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.24-19.49.51:597][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.24-19.49.52:050][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.02.24-19.49.52:074][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.24-19.49.52:215][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.24-19.49.52:594][  0]LogInit: FAudioDevice initialized.
-[2019.02.24-19.49.52:595][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.02.24-19.49.52:703][  0]LogDerivedDataCache: Saved boot cache 0.11s 71MB C:/Users/jessie lichter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.24-19.49.52:717][  0]LogInit: Texture streaming: Enabled
-[2019.02.24-19.49.52:768][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.24-19.49.52:793][  0]LogInit: Transaction tracking system initialized
-[2019.02.24-19.49.52:829][  0]BlueprintLog: New page: Editor Load
-[2019.02.24-19.49.52:978][  0]LocalizationService: Localization service is disabled
-[2019.02.24-19.49.53:423][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.24-19.49.53:423][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.24-19.49.53:423][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.24-19.49.53:423][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.24-19.49.53:423][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.24-19.49.53:423][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.24-19.49.53:423][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.24-19.49.53:590][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/' took 0.07s
-[2019.02.24-19.49.53:590][  0]SourceControl: Source control is disabled
-[2019.02.24-19.49.53:609][  0]LightingResults: New page: Lighting Build
-[2019.02.24-19.49.53:613][  0]MapCheck: New page: Map Check
-[2019.02.24-19.49.53:613][  0]LightingResults: New page: Lighting Build
-[2019.02.24-19.49.55:046][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2019.02.24-19.49.55:082][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.24-19.49.55:150][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.24-19.49.55:241][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90.5ms to complete.
-[2019.02.24-19.49.55:241][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.651
-[2019.02.24-19.49.55:496][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-19.49.55:540][  0]LogCollectionManager: Loaded 0 collections in 0.008372 seconds
-[2019.02.24-19.49.55:621][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Collections/' took 0.01s
-[2019.02.24-19.49.55:622][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/Developers/jessielichter/Collections/' took 0.01s
-[2019.02.24-19.49.55:622][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/Collections/' took 0.01s
-[2019.02.24-19.49.55:622][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.02.24-19.49.55:657][  0]LogContentBrowser: Native class hierarchy populated in 0.0325 seconds. Added 2572 classes and 603 folders.
-[2019.02.24-19.49.55:684][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.02.24-19.49.56:931][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2019.02.24-19.49.56:957][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2019.02.24-19.49.57:280][  0]LogSlate: Took 0.000703 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.24-19.49.57:291][  0]LogSlate: Took 0.000740 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.24-19.49.57:325][  0]LogSlate: Took 0.011197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.24-19.49.57:596][  0]LogRenderer: Reallocating scene render targets to support 808x508 Format 10 NumSamples 1 (Frame:1).
-[2019.02.24-19.49.57:709][  0]LogSlate: Took 0.006899 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.24-19.49.57:869][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2019.02.24-19.49.57:869][  0]LogLoad: (Engine Initialization) Total time: 17.99 seconds
-[2019.02.24-19.49.57:869][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.24-19.49.57:892][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.24-19.49.57:925][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.24-19.49.58:763][  6]LogAssetRegistry: Asset discovery search completed in 11.8280 seconds
-[2019.02.24-19.49.58:769][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.02.24-19.49.58:769][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000169 seconds (updated 0 objects)
-[2019.02.24-19.50.03:384][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-19.50.21:076][263]LogSlate: Took 0.000541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.24-19.50.23:507][263]LogAIModule: Creating AISystem for world TestingWorldComposition
-[2019.02.24-19.50.23:591][263]LogAssetEditorManager: Opening Asset editor for World /Game/WorldCompositionLevels/TestingWorldComposition.TestingWorldComposition
-[2019.02.24-19.50.23:667][263]LightingResults: New page: Lighting Build
-[2019.02.24-19.50.23:667][263]LoadErrors: New page: Loading map: TestingWorldComposition.umap
-[2019.02.24-19.50.23:669][263]MapCheck: New page: Map Check
-[2019.02.24-19.50.23:669][263]LightingResults: New page: Lighting Build
-[2019.02.24-19.50.23:848][263]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.24-19.50.24:018][263]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.24-19.50.24:235][263]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 215.904ms to complete.
-[2019.02.24-19.50.24:236][263]LogFileHelpers: Loading map 'TestingWorldComposition' took 0.570
-[2019.02.24-19.52.46:514][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-19.52.46:647][750]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-19.52.46:694][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-19.52.46:709][750]PIE: New page: PIE session: TestingWorldComposition (Feb 24, 2019, 9:52:46 AM)
-[2019.02.24-19.52.46:709][750]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition
-[2019.02.24-19.52.46:714][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004555s)
-[2019.02.24-19.52.46:715][750]LogAIModule: Creating AISystem for world TestingWorldComposition
-[2019.02.24-19.52.46:716][750]LogPlayLevel: PIE: World Init took: (0.001460s)
-[2019.02.24-19.52.46:716][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/TestingWorldComposition.TestingWorldComposition to /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition (0.006297s)
-[2019.02.24-19.52.46:787][750]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.24-19.52.46:845][750]LogInit: FAudioDevice initialized.
-[2019.02.24-19.52.52:911][750]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.24-19.52.52:916][750]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition up for play (max tick rate 60) at 2019.02.24-14.52.52
-[2019.02.24-19.52.52:918][750]LogWorld: Bringing up level for play took: 0.004018
-[2019.02.24-19.52.52:945][750]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
-[2019.02.24-19.52.52:947][750]LogScript: Warning: Script Msg: Divide by zero detected: 176.419769 / 0
-Script call stack:
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
-
-[2019.02.24-19.52.52:970][750]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ParagonRevenant/Characters/Heroes/Revenant/RevenantPlayerCharacter.RevenantPlayerCharacter_C:ExecuteUbergraph_RevenantPlayerCharacter'!
-[2019.02.24-19.52.52:970][750]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition 6.724
-[2019.02.24-19.52.52:976][750]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:148][751]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:174][752]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:191][753]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:262][754]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:278][755]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:295][756]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:311][757]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:328][758]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:345][759]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:363][760]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:382][761]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:397][762]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:415][763]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:432][764]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:449][765]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:466][766]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:485][767]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:502][768]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:519][769]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:535][770]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:553][771]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:569][772]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:587][773]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:603][774]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:620][775]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:636][776]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:653][777]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:670][778]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:686][779]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:703][780]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:720][781]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:736][782]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:753][783]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:770][784]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:786][785]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:803][786]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:820][787]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:837][788]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:853][789]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:870][790]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:887][791]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:904][792]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:920][793]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:936][794]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:953][795]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:970][796]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.53:987][797]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:004][798]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:020][799]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:037][800]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:054][801]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:071][802]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:089][803]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:109][804]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:127][805]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:149][806]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:166][807]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:183][808]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:200][809]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:220][810]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:239][811]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:260][812]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:280][813]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:299][814]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:334][815]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:361][816]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:381][817]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:401][818]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:417][819]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:434][820]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:450][821]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:468][822]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:484][823]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:500][824]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:517][825]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:533][826]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:550][827]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:569][828]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:588][829]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:609][830]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:628][831]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:649][832]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:669][833]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:689][834]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:709][835]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:729][836]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:749][837]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:768][838]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:788][839]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:809][840]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:828][841]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:848][842]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:867][843]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:888][844]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:908][845]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:929][846]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:949][847]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:968][848]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.54:997][849]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:021][850]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:046][851]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:068][852]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:089][853]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:090][853]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
-[2019.02.24-19.52.55:110][854]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:131][855]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:154][856]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:179][857]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:200][858]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:221][859]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:244][860]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:266][861]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:285][862]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:304][863]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:324][864]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:344][865]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:363][866]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:383][867]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:403][868]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:425][869]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:448][870]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:469][871]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:488][872]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:507][873]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:527][874]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:546][875]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:565][876]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:584][877]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:602][878]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:618][879]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:635][880]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:652][881]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:669][882]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:688][883]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:707][884]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:726][885]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:745][886]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:765][887]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:785][888]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:805][889]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:823][890]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:844][891]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:865][892]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:885][893]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:904][894]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:924][895]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:944][896]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:967][897]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.55:987][898]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:006][899]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:026][900]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:045][901]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:065][902]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:084][903]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:102][904]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:121][905]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:139][906]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:156][907]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:173][908]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:192][909]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:211][910]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:231][911]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:250][912]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:275][913]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:295][914]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:314][915]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:334][916]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:352][917]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:371][918]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:391][919]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:409][920]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:428][921]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:447][922]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:465][923]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:483][924]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:503][925]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:521][926]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:542][927]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:560][928]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:579][929]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:598][930]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:617][931]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:635][932]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:654][933]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:675][934]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:694][935]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:713][936]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:735][937]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:754][938]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:774][939]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:793][940]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:814][941]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:833][942]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:852][943]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:872][944]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:892][945]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:912][946]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:932][947]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:951][948]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:971][949]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.56:992][950]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:015][951]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:035][952]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:054][953]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:074][954]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:091][955]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:111][956]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:131][957]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:149][958]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:168][959]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:187][960]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:206][961]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:225][962]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:244][963]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:269][964]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:293][965]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:310][966]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:326][967]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:344][968]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:360][969]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:378][970]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:394][971]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:412][972]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:428][973]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:445][974]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:461][975]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:478][976]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:494][977]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:511][978]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:528][979]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:544][980]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:561][981]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:577][982]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:594][983]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:611][984]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:627][985]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:644][986]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:661][987]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:677][988]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:694][989]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:710][990]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:727][991]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:744][992]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:763][993]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:783][994]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:803][995]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:822][996]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:842][997]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:863][998]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:881][999]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:901][  0]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:920][  1]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:938][  2]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:959][  3]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:978][  4]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.57:998][  5]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:017][  6]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:042][  7]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:062][  8]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:082][  9]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:102][ 10]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:121][ 11]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:140][ 12]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:160][ 13]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:179][ 14]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:200][ 15]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:221][ 16]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:240][ 17]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:262][ 18]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:283][ 19]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:304][ 20]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:323][ 21]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:343][ 22]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:365][ 23]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:387][ 24]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:408][ 25]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:428][ 26]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:449][ 27]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:469][ 28]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:489][ 29]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:508][ 30]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:529][ 31]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:551][ 32]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:571][ 33]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:590][ 34]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:610][ 35]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:630][ 36]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:649][ 37]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:668][ 38]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:688][ 39]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:706][ 40]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:726][ 41]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:745][ 42]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:766][ 43]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:786][ 44]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:805][ 45]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:824][ 46]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:844][ 47]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:865][ 48]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:886][ 49]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:906][ 50]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:926][ 51]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:947][ 52]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:967][ 53]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.58:987][ 54]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:005][ 55]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:024][ 56]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:043][ 57]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:066][ 58]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:090][ 59]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:110][ 60]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:129][ 61]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:147][ 62]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:167][ 63]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:185][ 64]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:206][ 65]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:224][ 66]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:243][ 67]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:262][ 68]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:281][ 69]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:302][ 70]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:322][ 71]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:343][ 72]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:362][ 73]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:382][ 74]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:405][ 75]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:426][ 76]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:447][ 77]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:468][ 78]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:490][ 79]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:509][ 80]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:531][ 81]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:556][ 82]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:575][ 83]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:597][ 84]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:619][ 85]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:638][ 86]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:659][ 87]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:679][ 88]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:698][ 89]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:717][ 90]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:736][ 91]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:757][ 92]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:777][ 93]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:797][ 94]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:817][ 95]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:836][ 96]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:856][ 97]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:876][ 98]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:894][ 99]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:910][100]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:927][101]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:944][102]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:960][103]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:979][104]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.52.59:994][105]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:011][106]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:027][107]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:045][108]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:061][109]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:078][110]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:097][111]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:118][112]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:139][113]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:157][114]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:177][115]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:199][116]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:220][117]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:240][118]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:260][119]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:281][120]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:301][121]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:320][122]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:340][123]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:356][124]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:372][125]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:390][126]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:407][127]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:423][128]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:440][129]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:460][130]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:475][131]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:492][132]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:509][133]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:526][134]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:542][135]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:559][136]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:576][137]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:593][138]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:610][139]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:626][140]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:643][141]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:659][142]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:676][143]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:692][144]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:709][145]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:725][146]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:742][147]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:759][148]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:776][149]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:793][150]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:809][151]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:826][152]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:842][153]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:859][154]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:875][155]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:893][156]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:909][157]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:927][158]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:945][159]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:961][160]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:977][161]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.00:994][162]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:011][163]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:027][164]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:044][165]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:061][166]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:078][167]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:097][168]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:116][169]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:135][170]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:154][171]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:174][172]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:192][173]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:211][174]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:231][175]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:251][176]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:270][177]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:289][178]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:308][179]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:326][180]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:346][181]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:365][182]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:386][183]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:406][184]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:425][185]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:444][186]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:463][187]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:482][188]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:503][189]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:521][190]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:540][191]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:558][192]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:577][193]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:598][194]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:618][195]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:636][196]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:655][197]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:674][198]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:692][199]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:714][200]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:736][201]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:758][202]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:780][203]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Skysphere
-[2019.02.24-19.53.01:800][203]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-19.53.01:845][203]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-19.53.01:893][203]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-19.53.01:960][204]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2019.02.24-19.53.06:838][486]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-19.54.16:207][449]MapCheck: New page: Map Check
-[2019.02.24-19.54.16:261][449]Cmd: MAP REBUILD ALLVISIBLE
-[2019.02.24-19.54.16:261][449]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2019.02.24-19.54.16:510][449]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Testing_Space_Skybox, compiling. 
-[2019.02.24-19.54.16:548][449]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.02.24-19.54.16:548][449]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
-[2019.02.24-19.54.16:567][449]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
-[2019.02.24-19.54.16:588][449]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
-[2019.02.24-19.54.16:605][449]LogShaderCompilers: Display: Shaders left to compile 3
-[2019.02.24-19.54.16:605][449]LogShaderCompilers: Display: Shaders left to compile 2
-[2019.02.24-19.54.16:605][449]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.02.24-19.54.16:605][449]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2019.02.24-19.54.17:601][449]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.02.24-19.54.17:601][449]TextureStreamingBuild: Display: Compiling optional shaders took 1.101 seconds.
-[2019.02.24-19.54.17:631][449]LogLevel: Display: Export Material TexCoord Scales took 0.031 seconds.
-[2019.02.24-19.54.17:641][449]TextureStreamingBuild: Display: Build Texture Streaming took 0.010 seconds.
-[2019.02.24-19.54.17:668][449]LightingResults: New page: Lighting Build - Feb 24, 2019, 9:54:17 AM
-[2019.02.24-19.54.17:712][449]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2019.02.24-19.54.17:936][449]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2019.02.24-19.54.17:960][449]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2019.02.24-19.54.20:010][449]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2019.02.24-19.54.20:010][449]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20332
-[2019.02.24-19.54.23:349][449]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2019.02.24-19.54.23:349][449]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2019.02.24-19.54.23:350][449]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2019.02.24-19.54.23:350][449]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2019.02.24-19.54.23:350][449]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2019.02.24-19.54.23:675][449]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2019.02.24-19.54.23:675][449]MapCheck: New page: TestingWorldComposition - Feb 24, 2019, 9:54:23 AM
-[2019.02.24-19.54.23:980][449]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 304.682ms to complete.
-[2019.02.24-19.54.24:005][449]LogEditorBuildUtils: Build time 0:07
-[2019.02.24-19.54.30:452][738]Job is a success!
-[2019.02.24-19.54.30:608][739]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.027s
-[2019.02.24-19.54.30:608][739]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2019.02.24-19.54.30:608][739]LogVolumetricLightmapImport:      BrickData 10x5x5 = 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
-[2019.02.24-19.54.30:608][739]LogVolumetricLightmapImport:      Bricks at Level
-[2019.02.24-19.54.30:608][739]LogVolumetricLightmapImport:          0: 50.0% covering 100.0% of volume
-[2019.02.24-19.54.30:609][739]LogVolumetricLightmapImport:          1: 50.0% covering 1.6% of volume
-[2019.02.24-19.54.30:609][739]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
-[2019.02.24-19.54.30:675][739]Lightmass on JESSIES-LAPTOP: 4.97 sec total, 338 ms importing, 143 ms setup, 2.13 sec photons, 2.31 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 16.0 sec total, 1.57 sec processing.
-[2019.02.24-19.54.30:749][739]LogStaticLightingSystem: Illumination: 13.0 sec (13 ms encoding lightmaps, 0 ms encoding shadowmaps)
-[2019.02.24-19.54.30:749][739]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2019.02.24-19.54.30:749][739]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2019.02.24-19.54.31:390][739]DumpUnbuiltLightIteractions
-[2019.02.24-19.54.31:390][739]Lights with unbuilt interactions: 0
-[2019.02.24-19.54.31:390][739]
-[2019.02.24-19.54.31:390][739]Primitives with unbuilt interactions: 0
-[2019.02.24-19.54.31:481][740]Cmd: MAP CHECK NOTIFYRESULTS
-[2019.02.24-19.54.31:482][740]MapCheck: New page: TestingWorldComposition - Feb 24, 2019, 9:54:31 AM
-[2019.02.24-19.54.31:674][740]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 192.318ms to complete.
-[2019.02.24-19.56.32:637][973]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-19.56.33:254][ 10]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-19.56.33:303][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-19.56.33:304][ 10]PIE: New page: PIE session: TestingWorldComposition (Feb 24, 2019, 9:56:33 AM)
-[2019.02.24-19.56.33:304][ 10]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition
-[2019.02.24-19.56.33:308][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004181s)
-[2019.02.24-19.56.33:309][ 10]LogAIModule: Creating AISystem for world TestingWorldComposition
-[2019.02.24-19.56.33:310][ 10]LogPlayLevel: PIE: World Init took: (0.001450s)
-[2019.02.24-19.56.33:310][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/TestingWorldComposition.TestingWorldComposition to /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition (0.005946s)
-[2019.02.24-19.56.33:397][ 10]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.24-19.56.33:469][ 10]LogInit: FAudioDevice initialized.
-[2019.02.24-19.56.33:507][ 10]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.24-19.56.33:510][ 10]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition up for play (max tick rate 60) at 2019.02.24-14.56.33
-[2019.02.24-19.56.33:511][ 10]LogWorld: Bringing up level for play took: 0.002911
-[2019.02.24-19.56.33:529][ 10]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition -0.718
-[2019.02.24-19.56.37:139][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-19.56.37:184][221]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-19.56.37:253][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-19.56.37:303][222]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2019.02.24-19.56.41:219][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-19.57.11:228][189]LogEditorViewport: Clicking on Actor (context menu): ThirdPersonCharacter_C (TestingThirdCharacter)
-[2019.02.24-19.57.11:277][189]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-19.57.12:812][278]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (TestingThirdCharacter)
-[2019.02.24-19.57.13:579][322]LogEditorViewport: Clicking on Actor (context menu): ThirdPersonCharacter_C (TestingThirdCharacter)
-[2019.02.24-19.57.13:612][322]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-19.58.14:461][874]EditorErrors: New page: Actor Reattachment
-[2019.02.24-19.58.18:896][125]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-19.58.22:846][356]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-19.58.22:887][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-19.58.22:888][356]PIE: New page: PIE session: TestingWorldComposition (Feb 24, 2019, 9:58:22 AM)
-[2019.02.24-19.58.22:888][356]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition
-[2019.02.24-19.58.22:892][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003995s)
-[2019.02.24-19.58.22:893][356]LogAIModule: Creating AISystem for world TestingWorldComposition
-[2019.02.24-19.58.22:893][356]LogPlayLevel: PIE: World Init took: (0.001356s)
-[2019.02.24-19.58.22:893][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/TestingWorldComposition.TestingWorldComposition to /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition (0.005690s)
-[2019.02.24-19.58.22:998][356]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.24-19.58.23:056][356]LogInit: FAudioDevice initialized.
-[2019.02.24-19.58.23:093][356]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.24-19.58.23:098][356]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition up for play (max tick rate 60) at 2019.02.24-14.58.23
-[2019.02.24-19.58.23:099][356]LogWorld: Bringing up level for play took: 0.004231
-[2019.02.24-19.58.23:119][356]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition 0.872
-[2019.02.24-19.58.25:087][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-19.58.25:125][460]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-19.58.25:158][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-19.58.25:189][462]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2019.02.24-19.58.54:101][171]LogEditorViewport: Clicking on Actor (context menu): ThirdPersonCharacter_C (TestingThirdCharacter)
-[2019.02.24-19.58.54:142][171]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-19.58.56:645][315]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-19.58.59:244][470]LogEditorViewport: Clicking on Actor (context menu): ThirdPersonCharacter_C (TestingThirdCharacter)
-[2019.02.24-19.58.59:279][470]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-19.59.10:598][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-19.59.10:598][102]PIE: New page: PIE session: TestingWorldComposition (Feb 24, 2019, 9:59:10 AM)
-[2019.02.24-19.59.10:598][102]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition
-[2019.02.24-19.59.10:599][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002038s)
-[2019.02.24-19.59.10:599][102]LogAIModule: Creating AISystem for world TestingWorldComposition
-[2019.02.24-19.59.10:600][102]LogPlayLevel: PIE: World Init took: (0.000755s)
-[2019.02.24-19.59.10:600][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/TestingWorldComposition.TestingWorldComposition to /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition (0.002974s)
-[2019.02.24-19.59.10:675][102]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.24-19.59.10:715][102]LogInit: FAudioDevice initialized.
-[2019.02.24-19.59.10:715][102]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-19.59.10:749][102]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.24-19.59.10:751][102]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition up for play (max tick rate 60) at 2019.02.24-14.59.10
-[2019.02.24-19.59.10:752][102]LogWorld: Bringing up level for play took: 0.001862
-[2019.02.24-19.59.10:766][102]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition 0.519
-[2019.02.24-19.59.14:705][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-19.59.14:751][327]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-19.59.14:828][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-19.59.14:893][328]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2019.02.24-19.59.17:688][490]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-19.59.21:806][717]LogEditorViewport: Clicking on Actor (context menu): ThirdPersonCharacter_C (TestingThirdCharacter)
-[2019.02.24-19.59.21:849][717]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-20.00.56:779][354]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/TestingWorldComposition_Auto1A11BF5C14BCEDAF383EFA2BAEDDCF497.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/TestingWorldComposition_Auto1.umap'
-[2019.02.24-20.00.56:813][354]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldCompositionLevels/TestingWorldComposition' took 0.219
-[2019.02.24-20.00.56:813][354]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.219
-[2019.02.24-20.00.56:820][354]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/WorldCompositionLevels/TestingWorldComposition_BuiltData] ([1] browsable assets)...
-[2019.02.24-20.00.56:820][354]OBJ SavePackage: Finished generating thumbnails for package [/Game/WorldCompositionLevels/TestingWorldComposition_BuiltData]
-[2019.02.24-20.00.56:908][354]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/TestingWorldComposition_BuiltDat057A0F6E41875488DDA1B9A49ACA9B4B.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/TestingWorldComposition_BuiltData_Auto1.uasset'
-[2019.02.24-20.00.56:918][354]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode] ([1] browsable assets)...
-[2019.02.24-20.00.56:918][354]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode]
-[2019.02.24-20.00.57:048][354]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/ThirdPersonGameMode_Auto188ADD1234709CB08BA6A91AD65C980D4.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto1.uasset'
-[2019.02.24-20.00.57:057][354]LogFileHelpers: Auto-saving content packages took 0.241
-[2019.02.24-20.05.21:689][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-20.07.41:220][454]LogEditorViewport: Clicking on Actor (context menu): ThirdPersonCharacter_C (TestingThirdCharacter)
-[2019.02.24-20.07.41:262][454]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-20.08.15:604][366]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2019.02.24-20.08.15:607][366]EditorErrors: New page: Actor Reattachment
-[2019.02.24-20.08.18:026][510]Cmd: TRANSACTION UNDO
-[2019.02.24-20.08.18:026][510]LogEditorTransaction: Undo Replace Actor(s)
-[2019.02.24-20.08.21:621][695]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-20.08.30:993][228]LogSlate: Took 0.023307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.02.24-20.09.58:918][508]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-20.10.02:917][739]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2019.02.24-20.10.56:080][843]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (TestingThirdCharacter)
-[2019.02.24-20.10.57:591][909]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-20.11.13:915][824]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2019.02.24-20.11.15:047][824]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 116 classes and 0 folders.
-[2019.02.24-20.11.16:866][824]LogSlate: Took 0.010513 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.02.24-20.11.27:198][374]LogClass: Warning: In asset 'None', there is an enum property of type 'EAutoReceiveInput' with an invalid value of ''
-[2019.02.24-20.11.27:198][374]LogClass: Warning: In asset 'None', there is an enum property of type 'EAutoReceiveInput' with an invalid value of ''
-[2019.02.24-20.11.27:199][374]LogClass: Warning: In asset 'None', there is an enum property of type 'EAutoReceiveInput' with an invalid value of ''
-[2019.02.24-20.11.32:398][663]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.02.24-20.11.35:977][822]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/ThirdPersonCharacter57E4B4F34CD96AFB95E690A95ECE5B1B.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2019.02.24-20.11.42:070][134]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-20.11.42:130][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-20.11.42:130][134]PIE: New page: PIE session: TestingWorldComposition (Feb 24, 2019, 10:11:42 AM)
-[2019.02.24-20.11.42:131][134]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition
-[2019.02.24-20.11.42:135][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003743s)
-[2019.02.24-20.11.42:136][134]LogAIModule: Creating AISystem for world TestingWorldComposition
-[2019.02.24-20.11.42:136][134]LogPlayLevel: PIE: World Init took: (0.001402s)
-[2019.02.24-20.11.42:136][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/TestingWorldComposition.TestingWorldComposition to /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition (0.005479s)
-[2019.02.24-20.11.42:279][134]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.24-20.11.42:352][134]LogInit: FAudioDevice initialized.
-[2019.02.24-20.11.42:380][134]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.24-20.11.42:383][134]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition up for play (max tick rate 60) at 2019.02.24-15.11.42
-[2019.02.24-20.11.42:383][134]LogWorld: Bringing up level for play took: 0.001803
-[2019.02.24-20.11.42:396][134]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition 0.149
-[2019.02.24-20.11.47:274][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-20.11.47:321][417]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-20.11.47:394][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-20.11.47:414][418]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.02.24-20.11.51:357][644]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-20.12.04:490][401]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (TestingThirdCharacter)
-[2019.02.24-20.12.10:318][696]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-20.12.10:456][703]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-20.12.10:485][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-20.12.10:485][703]PIE: New page: PIE session: TestingWorldComposition (Feb 24, 2019, 10:12:10 AM)
-[2019.02.24-20.12.10:485][703]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition
-[2019.02.24-20.12.10:488][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002319s)
-[2019.02.24-20.12.10:488][703]LogAIModule: Creating AISystem for world TestingWorldComposition
-[2019.02.24-20.12.10:489][703]LogPlayLevel: PIE: World Init took: (0.000837s)
-[2019.02.24-20.12.10:489][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/TestingWorldComposition.TestingWorldComposition to /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition (0.003336s)
-[2019.02.24-20.12.10:578][703]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.24-20.12.10:620][703]LogInit: FAudioDevice initialized.
-[2019.02.24-20.12.10:648][703]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.24-20.12.10:650][703]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition up for play (max tick rate 60) at 2019.02.24-15.12.10
-[2019.02.24-20.12.10:651][703]LogWorld: Bringing up level for play took: 0.001581
-[2019.02.24-20.12.10:664][703]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition 0.417
-[2019.02.24-20.12.16:381][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-20.12.16:439][ 41]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-20.12.16:525][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-20.12.16:593][ 42]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2019.02.24-20.12.20:999][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-20.12.29:994][812]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-20.12.33:133][968]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.02.24-20.12.35:378][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-20.12.45:988][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
-[2019.02.24-20.12.46:904][770]Cmd: DELETE
-[2019.02.24-20.12.46:904][770]Cmd: ACTOR DELETE
-[2019.02.24-20.12.46:922][770]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.02.24-20.12.46:995][770]LogEditorActor: Deleted 1 Actors (0.091 secs)
-[2019.02.24-20.12.53:156][109]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-20.13.10:463][107]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (TestingThirdCharacter)
-[2019.02.24-20.13.13:955][286]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skysphere)
-[2019.02.24-20.13.15:025][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skysphere)
-[2019.02.24-20.13.17:505][469]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-20.13.17:605][475]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-20.13.17:649][475]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-20.13.17:649][475]PIE: New page: PIE session: TestingWorldComposition (Feb 24, 2019, 10:13:17 AM)
-[2019.02.24-20.13.17:649][475]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition
-[2019.02.24-20.13.17:656][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006074s)
-[2019.02.24-20.13.17:657][475]LogAIModule: Creating AISystem for world TestingWorldComposition
-[2019.02.24-20.13.17:657][475]LogPlayLevel: PIE: World Init took: (0.001320s)
-[2019.02.24-20.13.17:657][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/TestingWorldComposition.TestingWorldComposition to /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition (0.007687s)
-[2019.02.24-20.13.17:759][475]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.24-20.13.17:821][475]LogInit: FAudioDevice initialized.
-[2019.02.24-20.13.17:857][475]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.24-20.13.17:860][475]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition up for play (max tick rate 60) at 2019.02.24-15.13.17
-[2019.02.24-20.13.17:861][475]LogWorld: Bringing up level for play took: 0.002442
-[2019.02.24-20.13.17:875][475]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition -0.372
-[2019.02.24-20.13.23:877][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-20.13.23:929][829]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-20.13.24:015][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-20.13.24:039][830]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2019.02.24-20.13.25:901][934]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-20.14.15:497][298]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/TestingWorldComposition_Auto2466C0E354FC4E61F508DFBB77056C8EA.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/TestingWorldComposition_Auto2.umap'
-[2019.02.24-20.14.15:511][298]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldCompositionLevels/TestingWorldComposition' took 0.205
-[2019.02.24-20.14.15:512][298]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.205
-[2019.02.24-20.29.01:744][707]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-20.30.01:659][284]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0004 seconds. Added 2 classes and 3 folders.
-[2019.02.24-20.30.35:446][601]LogSlate: Window 'World Composition' being destroyed
-[2019.02.24-20.30.35:457][601]LogSlate: Window 'World Composition' being destroyed
-[2019.02.24-20.35.39:697][ 35]LogInit: XAudio2 using 'Headphones (WH-1000XM2 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.24-20.35.40:749][ 38]LogInit: XAudio2 using 'Headphones (WH-1000XM2 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.24-20.55.33:490][942]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-20.55.51:474][957]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-20.55.56:799][566]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-20.56.16:257][701]LogSlate: Window 'Levels' being destroyed
-[2019.02.24-20.56.16:265][701]LogSlate: Window 'Levels' being destroyed
-[2019.02.24-20.56.17:860][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-20.57.05:840][274]LogSlate: Window 'Levels' being destroyed
-[2019.02.24-21.01.01:658][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.01.14:417][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.01.56:121][143]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/TestingWorldComposition_Auto391ADBA784E060EB4B601A480421A34DB.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/TestingWorldComposition_Auto3.umap'
-[2019.02.24-21.01.56:134][143]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldCompositionLevels/TestingWorldComposition' took 0.220
-[2019.02.24-21.01.56:134][143]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.220
-[2019.02.24-21.06.49:475][542]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-21.06.49:507][542]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-21.06.49:507][542]PIE: New page: PIE session: TestingWorldComposition (Feb 24, 2019, 11:06:49 AM)
-[2019.02.24-21.06.49:508][542]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition
-[2019.02.24-21.06.49:515][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007284s)
-[2019.02.24-21.06.49:517][542]LogAIModule: Creating AISystem for world TestingWorldComposition
-[2019.02.24-21.06.49:517][542]LogPlayLevel: PIE: World Init took: (0.002020s)
-[2019.02.24-21.06.49:517][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/TestingWorldComposition.TestingWorldComposition to /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition (0.009671s)
-[2019.02.24-21.06.49:606][542]LogInit: XAudio2 using 'Headphones (WH-1000XM2 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.24-21.06.49:624][542]LogInit: FAudioDevice initialized.
-[2019.02.24-21.06.49:653][542]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.24-21.06.49:658][542]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition up for play (max tick rate 0) at 2019.02.24-16.06.49
-[2019.02.24-21.06.49:658][542]LogWorld: Bringing up level for play took: 0.003683
-[2019.02.24-21.06.49:673][542]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition -0.574
-[2019.02.24-21.07.12:199][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-21.07.12:253][198]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-21.07.12:290][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-21.07.12:336][199]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2019.02.24-21.07.14:280][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.07.18:590][923]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-21.07.18:617][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-21.07.18:617][923]PIE: New page: PIE session: TestingWorldComposition (Feb 24, 2019, 11:07:18 AM)
-[2019.02.24-21.07.18:617][923]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition
-[2019.02.24-21.07.18:622][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004547s)
-[2019.02.24-21.07.18:622][923]LogAIModule: Creating AISystem for world TestingWorldComposition
-[2019.02.24-21.07.18:622][923]LogPlayLevel: PIE: World Init took: (0.000783s)
-[2019.02.24-21.07.18:622][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/TestingWorldComposition.TestingWorldComposition to /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition (0.005513s)
-[2019.02.24-21.07.18:702][923]LogInit: XAudio2 using 'Headphones (WH-1000XM2 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.24-21.07.18:718][923]LogInit: FAudioDevice initialized.
-[2019.02.24-21.07.18:749][923]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.24-21.07.18:752][923]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition up for play (max tick rate 0) at 2019.02.24-16.07.18
-[2019.02.24-21.07.18:753][923]LogWorld: Bringing up level for play took: 0.002902
-[2019.02.24-21.07.18:766][923]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition 0.52
-[2019.02.24-21.07.41:893][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-21.07.41:930][667]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-21.07.41:959][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-21.07.42:011][670]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2019.02.24-21.07.48:821][430]LogEditorViewport: Clicking on Actor (context menu): ThirdPersonCharacter_C (TestingThirdCharacter)
-[2019.02.24-21.07.48:845][430]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-21.08.37:329][  1]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (TestingThirdCharacter)
-[2019.02.24-21.08.38:271][ 90]LogEditorViewport: Clicking on Actor (context menu): ThirdPersonCharacter_C (TestingThirdCharacter)
-[2019.02.24-21.08.38:298][ 90]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-21.08.59:586][380]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skysphere)
-[2019.02.24-21.09.03:047][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.09.16:984][434]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-21.09.17:009][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-21.09.17:010][434]PIE: New page: PIE session: TestingWorldComposition (Feb 24, 2019, 11:09:17 AM)
-[2019.02.24-21.09.17:010][434]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition
-[2019.02.24-21.09.17:013][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003683s)
-[2019.02.24-21.09.17:014][434]LogAIModule: Creating AISystem for world TestingWorldComposition
-[2019.02.24-21.09.17:014][434]LogPlayLevel: PIE: World Init took: (0.000792s)
-[2019.02.24-21.09.17:014][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/TestingWorldComposition.TestingWorldComposition to /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition (0.004648s)
-[2019.02.24-21.09.17:092][434]LogInit: XAudio2 using 'Headphones (WH-1000XM2 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.24-21.09.17:106][434]LogInit: FAudioDevice initialized.
-[2019.02.24-21.09.17:140][434]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.24-21.09.17:142][434]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition up for play (max tick rate 0) at 2019.02.24-16.09.17
-[2019.02.24-21.09.17:143][434]LogWorld: Bringing up level for play took: 0.001910
-[2019.02.24-21.09.17:156][434]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition 0.908
-[2019.02.24-21.09.26:547][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-21.09.26:584][544]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-21.09.26:615][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-21.09.26:660][545]LogPlayLevel: Display: Destroying online subsystem :Context_15
-[2019.02.24-21.09.34:305][444]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
-[2019.02.24-21.09.41:808][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.09.56:645][601]LogEditorViewport: Clicking on Actor (context menu): ThirdPersonCharacter_C (TestingThirdCharacter)
-[2019.02.24-21.09.56:683][601]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-21.10.02:506][928]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (TestingThirdCharacter)
-[2019.02.24-21.10.02:567][929]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
-[2019.02.24-21.10.03:722][ 10]LogEditorViewport: Clicking on Component (LMB): CameraComponent (FollowCamera)
-[2019.02.24-21.10.18:095][111]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
-[2019.02.24-21.10.19:778][246]LogEditorViewport: Clicking on Component (LMB): CameraComponent (FollowCamera)
-[2019.02.24-21.10.21:799][403]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
-[2019.02.24-21.10.25:468][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.10.57:779][381]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
-[2019.02.24-21.11.24:932][451]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.11.31:967][737]LogSlate: Window 'World Composition' being destroyed
-[2019.02.24-21.11.32:021][737]LogSlate: Window 'World Composition' being destroyed
-[2019.02.24-21.12.22:827][246]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-21.12.27:353][530]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.12.29:388][669]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-21.12.29:437][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-21.12.29:438][669]PIE: New page: PIE session: TestingWorldComposition (Feb 24, 2019, 11:12:29 AM)
-[2019.02.24-21.12.29:438][669]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition
-[2019.02.24-21.12.29:446][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007546s)
-[2019.02.24-21.12.29:447][669]LogAIModule: Creating AISystem for world TestingWorldComposition
-[2019.02.24-21.12.29:448][669]LogPlayLevel: PIE: World Init took: (0.001901s)
-[2019.02.24-21.12.29:448][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/TestingWorldComposition.TestingWorldComposition to /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition (0.009791s)
-[2019.02.24-21.12.29:626][669]LogInit: XAudio2 using 'Headphones (WH-1000XM2 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.24-21.12.29:652][669]LogInit: FAudioDevice initialized.
-[2019.02.24-21.12.29:687][669]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.24-21.12.29:691][669]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition up for play (max tick rate 0) at 2019.02.24-16.12.29
-[2019.02.24-21.12.29:692][669]LogWorld: Bringing up level for play took: 0.002913
-[2019.02.24-21.12.29:706][669]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition -0.542
-[2019.02.24-21.12.39:800][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-21.12.39:843][613]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-21.12.39:896][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-21.12.39:948][614]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2019.02.24-21.12.44:080][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.12.54:217][958]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skysphere)
-[2019.02.24-21.12.56:844][205]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.12.56:954][216]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-21.12.56:992][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-21.12.56:992][216]PIE: New page: PIE session: TestingWorldComposition (Feb 24, 2019, 11:12:56 AM)
-[2019.02.24-21.12.56:992][216]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition
-[2019.02.24-21.12.56:998][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005453s)
-[2019.02.24-21.12.56:999][216]LogAIModule: Creating AISystem for world TestingWorldComposition
-[2019.02.24-21.12.56:999][216]LogPlayLevel: PIE: World Init took: (0.001329s)
-[2019.02.24-21.12.56:999][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/TestingWorldComposition.TestingWorldComposition to /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition (0.007063s)
-[2019.02.24-21.12.57:115][216]LogInit: XAudio2 using 'Headphones (WH-1000XM2 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.24-21.12.57:136][216]LogInit: FAudioDevice initialized.
-[2019.02.24-21.12.57:170][216]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.24-21.12.57:174][216]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition up for play (max tick rate 0) at 2019.02.24-16.12.57
-[2019.02.24-21.12.57:174][216]LogWorld: Bringing up level for play took: 0.001969
-[2019.02.24-21.12.57:187][216]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition 0.94
-[2019.02.24-21.13.03:995][907]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-21.13.04:040][907]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-21.13.04:082][907]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-21.13.04:132][908]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2019.02.24-21.13.09:900][527]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.13.20:829][483]Cmd: DELETE
-[2019.02.24-21.13.20:829][483]Cmd: ACTOR DELETE
-[2019.02.24-21.13.20:833][483]LogEditorActor: Deleted Actor: LevelStreamingVolume
-[2019.02.24-21.13.20:874][483]LogEditorActor: Deleted 1 Actors (0.045 secs)
-[2019.02.24-21.13.26:082][ 67]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (TestingThirdCharacter)
-[2019.02.24-21.13.38:131][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skysphere)
-[2019.02.24-21.13.39:531][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skysphere)
-[2019.02.24-21.13.39:607][411]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2019.02.24-21.13.41:479][618]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2019.02.24-21.13.41:550][623]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Skysphere)
-[2019.02.24-21.13.43:540][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.14.35:716][189]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Space_Skybox_Collection_1/Meshes/Skysphere1.Skysphere1
-[2019.02.24-21.14.36:854][189]LogRenderer: Reallocating scene render targets to support 1144x748 Format 10 NumSamples 1 (Frame:1).
-[2019.02.24-21.14.59:429][488]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.15.06:609][882]LogSlate: Window 'Skysphere1*' being destroyed
-[2019.02.24-21.15.13:111][516]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skysphere)
-[2019.02.24-21.15.13:734][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skysphere)
-[2019.02.24-21.15.13:819][593]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2019.02.24-21.15.16:095][837]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.16.03:122][211]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-21.16.03:167][211]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-21.16.03:167][211]PIE: New page: PIE session: TestingWorldComposition (Feb 24, 2019, 11:16:03 AM)
-[2019.02.24-21.16.03:168][211]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition
-[2019.02.24-21.16.03:173][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004926s)
-[2019.02.24-21.16.03:174][211]LogAIModule: Creating AISystem for world TestingWorldComposition
-[2019.02.24-21.16.03:174][211]LogPlayLevel: PIE: World Init took: (0.001186s)
-[2019.02.24-21.16.03:174][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/TestingWorldComposition.TestingWorldComposition to /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition (0.006382s)
-[2019.02.24-21.16.03:301][211]LogInit: XAudio2 using 'Headphones (WH-1000XM2 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.24-21.16.03:324][211]LogInit: FAudioDevice initialized.
-[2019.02.24-21.16.03:357][211]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.24-21.16.03:360][211]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition up for play (max tick rate 0) at 2019.02.24-16.16.03
-[2019.02.24-21.16.03:360][211]LogWorld: Bringing up level for play took: 0.002048
-[2019.02.24-21.16.03:374][211]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition 1.128
-[2019.02.24-21.16.09:846][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-21.16.09:892][811]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-21.16.09:950][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-21.16.10:006][812]LogPlayLevel: Display: Destroying online subsystem :Context_19
-[2019.02.24-21.16.11:338][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.16.25:754][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.16.35:011][ 66]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.16.36:448][201]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
-
-[2019.02.24-21.16.43:374][860]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2019.02.24-21.16.44:415][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skysphere)
-[2019.02.24-21.16.46:967][199]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-21.16.52:666][656]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.16.52:777][665]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-21.16.52:828][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-21.16.52:829][665]PIE: New page: PIE session: TestingWorldComposition (Feb 24, 2019, 11:16:52 AM)
-[2019.02.24-21.16.52:829][665]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition
-[2019.02.24-21.16.52:835][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006231s)
-[2019.02.24-21.16.52:836][665]LogAIModule: Creating AISystem for world TestingWorldComposition
-[2019.02.24-21.16.52:837][665]LogPlayLevel: PIE: World Init took: (0.001517s)
-[2019.02.24-21.16.52:837][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/TestingWorldComposition.TestingWorldComposition to /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition (0.008051s)
-[2019.02.24-21.16.52:971][665]LogInit: XAudio2 using 'Headphones (WH-1000XM2 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.24-21.16.52:996][665]LogInit: FAudioDevice initialized.
-[2019.02.24-21.16.53:030][665]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.24-21.16.53:034][665]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition.TestingWorldComposition up for play (max tick rate 0) at 2019.02.24-16.16.53
-[2019.02.24-21.16.53:034][665]LogWorld: Bringing up level for play took: 0.002352
-[2019.02.24-21.16.53:048][665]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_TestingWorldComposition 0.801
-[2019.02.24-21.17.00:696][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-21.17.00:758][269]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-21.17.00:862][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-21.17.00:932][270]LogPlayLevel: Display: Destroying online subsystem :Context_22
-[2019.02.24-21.17.04:308][545]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.17.09:940][836]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
-[2019.02.24-21.17.17:118][365]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2019.02.24-21.17.42:200][499]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/TestingWorldComposition_Auto46AAC63E04A0EC9DC5E0FB7961ECA1CBE.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/TestingWorldComposition_Auto4.umap'
-[2019.02.24-21.17.42:208][499]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldCompositionLevels/TestingWorldComposition' took 0.127
-[2019.02.24-21.17.42:209][499]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.127
-[2019.02.24-21.17.42:214][499]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Space_Skybox_Collection_1/Meshes/Skysphere1] ([1] browsable assets)...
-[2019.02.24-21.17.42:257][499]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Space_Skybox_Collection_1/Meshes/Skysphere1.Skysphere1]
-[2019.02.24-21.17.42:258][499]OBJ SavePackage: Finished generating thumbnails for package [/Game/Space_Skybox_Collection_1/Meshes/Skysphere1]
-[2019.02.24-21.17.42:286][499]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Skysphere1_Auto4FB66518447695F55ECDF83A8DB44434A.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/Space_Skybox_Collection_1/Meshes/Skysphere1_Auto4.uasset'
-[2019.02.24-21.17.42:290][499]LogFileHelpers: Auto-saving content packages took 0.078
-[2019.02.24-21.18.19:352][712]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.19.05:326][291]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Space_Skybox_Collection_1/Meshes/Skysphere.Skysphere
-[2019.02.24-21.19.22:273][350]LogSlate: Window 'Skysphere' being destroyed
-[2019.02.24-21.19.27:634][938]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.19.44:259][701]LogAIModule: Creating AISystem for world Example_3
-[2019.02.24-21.19.44:310][701]LogAssetEditorManager: Opening Asset editor for World /Game/Space_Skybox_Collection_1/Maps/Example_3.Example_3
-[2019.02.24-21.19.48:324][701]LogSlate: Window 'Save Content' being destroyed
-[2019.02.24-21.19.48:334][701]LightingResults: New page: Lighting Build
-[2019.02.24-21.19.48:341][701]LoadErrors: New page: Loading map: Example_3.umap
-[2019.02.24-21.19.48:343][701]MapCheck: New page: Map Check
-[2019.02.24-21.19.48:343][701]LightingResults: New page: Lighting Build
-[2019.02.24-21.19.48:465][701]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.24-21.19.48:536][701]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.24-21.19.48:752][701]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 216.427ms to complete.
-[2019.02.24-21.19.48:758][701]LogFileHelpers: Loading map 'Example_3' took 0.428
-[2019.02.24-21.19.59:469][362]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.23.55:526][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.24.08:157][315]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/StarterMap_BuiltData'
-[2019.02.24-21.24.08:157][315]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/StarterMap_BuiltData' while loading ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/StarterContent/Maps/StarterMap.umap.
-[2019.02.24-21.24.08:157][315]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Maps/StarterMap_BuiltData
-[2019.02.24-21.24.09:441][315]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/StarterMap_BuiltData'
-[2019.02.24-21.24.09:441][315]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/StarterMap_BuiltData' while loading ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/StarterContent/Maps/StarterMap.umap.
-[2019.02.24-21.24.09:601][315]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/StarterMap_BuiltData'
-[2019.02.24-21.24.09:601][315]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/StarterMap_BuiltData' while loading NULL.
-[2019.02.24-21.24.09:601][315]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/StarterMap_BuiltData'
-[2019.02.24-21.24.09:601][315]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/StarterMap_BuiltData' while loading NULL.
-[2019.02.24-21.24.09:712][315]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/StarterMap_BuiltData'
-[2019.02.24-21.24.09:712][315]LoadErrors: Failed to load /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData Referenced by PersistentLevel
-[2019.02.24-21.24.09:712][315]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/StarterMap_BuiltData' while loading NULL.
-[2019.02.24-21.24.10:277][315]LogAIModule: Creating AISystem for world StarterMap
-[2019.02.24-21.24.10:343][315]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/StarterMap.StarterMap
-[2019.02.24-21.24.14:769][315]LogSlate: Window 'Save Content' being destroyed
-[2019.02.24-21.24.14:778][315]LightingResults: New page: Lighting Build
-[2019.02.24-21.24.14:779][315]LoadErrors: New page: Loading map: StarterMap.umap
-[2019.02.24-21.24.14:781][315]MapCheck: New page: Map Check
-[2019.02.24-21.24.14:781][315]LightingResults: New page: Lighting Build
-[2019.02.24-21.24.14:925][315]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.24-21.24.14:998][315]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.24-21.24.15:258][315]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 260.135ms to complete.
-[2019.02.24-21.24.15:262][315]LogFileHelpers: Loading map 'StarterMap' took 0.486
-[2019.02.24-21.24.20:217][709]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.24.30:840][662]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2019.02.24-21.24.30:854][662]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
-[2019.02.24-21.24.33:352][662]LogSlate: Window 'Save Content' being destroyed
-[2019.02.24-21.24.33:361][662]LightingResults: New page: Lighting Build
-[2019.02.24-21.24.33:362][662]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
-[2019.02.24-21.24.33:367][662]MapCheck: New page: Map Check
-[2019.02.24-21.24.33:367][662]LightingResults: New page: Lighting Build
-[2019.02.24-21.24.33:505][662]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.24-21.24.33:572][662]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.24-21.24.33:806][662]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 233.288ms to complete.
-[2019.02.24-21.24.33:811][662]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.453
-[2019.02.24-21.24.37:802][102]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.24.37:943][119]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-21.24.37:971][119]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2019.02.24-21.24.37:971][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-21.24.37:971][119]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 24, 2019, 11:24:37 AM)
-[2019.02.24-21.24.37:971][119]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2019.02.24-21.24.37:995][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024105s)
-[2019.02.24-21.24.37:996][119]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2019.02.24-21.24.37:997][119]LogPlayLevel: PIE: World Init took: (0.001105s)
-[2019.02.24-21.24.37:997][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025418s)
-[2019.02.24-21.24.38:060][119]LogInit: XAudio2 using 'Headphones (WH-1000XM2 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.24-21.24.38:075][119]LogInit: FAudioDevice initialized.
-[2019.02.24-21.24.38:106][119]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.02.24-21.24.38:109][119]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.02.24-16.24.38
-[2019.02.24-21.24.38:109][119]LogWorld: Bringing up level for play took: 0.001916
-[2019.02.24-21.24.38:122][119]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.125
-[2019.02.24-21.24.38:122][119]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2019.02.24-21.24.41:577][526]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2019.02.24-21.24.41:578][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-21.24.41:619][526]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-21.24.41:619][526]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2019.02.24-21.24.41:654][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-21.24.41:710][527]LogPlayLevel: Display: Destroying online subsystem :Context_24
-[2019.02.24-21.24.44:845][887]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2019.02.24-21.24.46:432][ 72]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2019.02.24-21.25.02:452][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.25.47:692][448]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
-[2019.02.24-21.25.56:721][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-21.26.51:770][272]LogAIModule: Creating AISystem for world TestingWorldComposition
-[2019.02.24-21.27.04:834][595]LogSlate: Window 'Delete Assets' being destroyed
+[2019.02.25-22.34.33:577][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.25-22.34.33:577][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.25-22.34.33:609][  0]LogHAL: Display: Platform has ~ 16 GB [16751534080 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.25-22.34.33:609][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.25-22.34.33:609][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.25-22.34.33:610][  0]LogInit: Computer: JESSIES-LAPTOP
+[2019.02.25-22.34.33:610][  0]LogInit: User: jessielichter
+[2019.02.25-22.34.33:610][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.25-22.34.33:610][  0]LogInit: High frequency timer resolution =2.531248 MHz
+[2019.02.25-22.34.33:610][  0]LogMemory: Memory total: Physical=15.6GB (16GB approx)
+[2019.02.25-22.34.33:610][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.25-22.34.33:610][  0]LogMemory: Process Physical Memory: 100.82 MB used, 100.82 MB peak
+[2019.02.25-22.34.33:610][  0]LogMemory: Process Virtual Memory: 91.18 MB used, 91.18 MB peak
+[2019.02.25-22.34.33:610][  0]LogMemory: Physical Memory: 6177.11 MB used,  9798.40 MB free, 15975.51 MB total
+[2019.02.25-22.34.33:610][  0]LogMemory: Virtual Memory: 4640.71 MB used,  9798.40 MB free, 134217728.00 MB total
+[2019.02.25-22.34.33:645][  0]LogInit: Using OS detected language (en-US).
+[2019.02.25-22.34.33:645][  0]LogInit: Using OS detected locale (en-US).
+[2019.02.25-22.34.33:647][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.25-22.34.34:056][  0]LogStreaming: Display: Took  0.412s to InitEngineTextLocalization.
+[2019.02.25-22.34.34:056][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.25-22.34.34:101][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.25-22.34.34:101][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.25-22.34.34:373][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.25-22.34.34:373][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.25-22.34.34:431][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.02.25-22.34.34:431][  0]LogD3D11RHI:       2010/0/7987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.25-22.34.34:441][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.02.25-22.34.34:441][  0]LogD3D11RHI:       128/0/7987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.02.25-22.34.34:443][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.25-22.34.34:443][  0]LogD3D11RHI:       0/0/7987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.25-22.34.34:443][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.25-22.34.34:482][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.25-22.34.34:482][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.02.25-22.34.34:482][  0]LogWindows: EnumDisplayDevices:
+[2019.02.25-22.34.34:483][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.02.25-22.34.34:483][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.02.25-22.34.34:483][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.02.25-22.34.34:483][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.02.25-22.34.34:483][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.02.25-22.34.34:483][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.02.25-22.34.34:483][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.02.25-22.34.34:483][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.02.25-22.34.34:521][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.25-22.34.34:540][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.25-22.34.34:541][  0]LogShaderCompilers: Guid format shader working directory is -52 characters bigger than the processId version (../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Intermediate/Shaders/WorkingDirectory/23672/).
+[2019.02.25-22.34.34:541][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jessie lichter/AppData/Local/Temp/UnrealShaderWorkingDir/5AB0E5BD4F61F80CB4A416A98AACAA66/'.
+[2019.02.25-22.34.34:851][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.25-22.34.34:867][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.25-22.34.34:885][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.25-22.34.34:900][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.25-22.34.34:918][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.25-22.34.34:934][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.25-22.34.34:951][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.25-22.34.34:973][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.25-22.34.34:981][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.25-22.34.35:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-22.34.35:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-22.34.35:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-22.34.35:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-22.34.35:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-22.34.35:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-22.34.35:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-22.34.35:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-22.34.35:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-22.34.35:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-22.34.35:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-22.34.35:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-22.34.35:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-22.34.35:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-22.34.35:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-22.34.35:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-22.34.35:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-22.34.35:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.25-22.34.35:091][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.25-22.34.35:160][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.25-22.34.35:160][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.25-22.34.35:194][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.25-22.34.35:194][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.25-22.34.35:216][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.25-22.34.35:238][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.25-22.34.35:255][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.25-22.34.35:273][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.25-22.34.35:286][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.25-22.34.35:286][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.25-22.34.35:372][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.25-22.34.35:372][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.25-22.34.35:372][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.25-22.34.36:162][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.25-22.34.36:214][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/jessie lichter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.25-22.34.36:215][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jessie lichter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.25-22.34.36:215][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.25-22.34.36:215][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.25-22.34.36:215][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.25-22.34.36:215][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.25-22.34.36:228][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.25-22.34.36:240][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jessie lichter/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.25-22.34.36:240][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.25-22.34.36:240][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.25-22.34.36:258][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.25-22.34.36:259][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.25-22.34.36:260][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.25-22.34.36:337][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2019.02.25-22.34.36:692][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.25-22.34.36:837][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.25-22.34.36:841][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.25-22.34.36:841][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.25-22.34.36:841][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.25-22.34.36:841][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.25-22.34.36:858][  0]LogNetVersion: MarshMellow 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3750370364)
+[2019.02.25-22.34.37:528][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.176710 seconds
+[2019.02.25-22.34.37:535][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.25-22.34.37:535][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.02.25-22.34.37:535][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.25-22.34.38:444][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2019.02.25-22.34.38:448][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.25-22.34.38:462][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.25-22.34.38:636][  0]SourceControl: Source control is disabled
+[2019.02.25-22.34.38:636][  0]SourceControl: Source control is disabled
+[2019.02.25-22.34.38:638][  0]SourceControl: Source control is disabled
+[2019.02.25-22.34.38:639][  0]SourceControl: Source control is disabled
+[2019.02.25-22.34.38:827][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.25-22.34.39:041][  0]LogOcInput: OculusInput pre-init called
+[2019.02.25-22.34.39:210][  0]LogEngine: Initializing Engine...
+[2019.02.25-22.34.39:210][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.25-22.34.39:212][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.25-22.34.39:212][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.25-22.34.39:212][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.25-22.34.39:212][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.25-22.34.39:441][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.25-22.34.39:457][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.25-22.34.39:521][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.25-22.34.39:830][  0]LogInit: FAudioDevice initialized.
+[2019.02.25-22.34.39:831][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.25-22.34.39:968][  0]LogDerivedDataCache: Saved boot cache 0.14s 71MB C:/Users/jessie lichter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.25-22.34.39:979][  0]LogInit: Texture streaming: Enabled
+[2019.02.25-22.34.40:021][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.25-22.34.40:041][  0]LogInit: Transaction tracking system initialized
+[2019.02.25-22.34.40:074][  0]BlueprintLog: New page: Editor Load
+[2019.02.25-22.34.40:180][  0]LocalizationService: Localization service is disabled
+[2019.02.25-22.34.40:487][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.25-22.34.40:487][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.25-22.34.40:487][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.25-22.34.40:487][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.25-22.34.40:487][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.25-22.34.40:487][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.25-22.34.40:487][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.25-22.34.40:641][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/' took 0.06s
+[2019.02.25-22.34.40:641][  0]SourceControl: Source control is disabled
+[2019.02.25-22.34.40:641][  0]LightingResults: New page: Lighting Build
+[2019.02.25-22.34.40:645][  0]MapCheck: New page: Map Check
+[2019.02.25-22.34.40:645][  0]LightingResults: New page: Lighting Build
+[2019.02.25-22.34.41:021][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.02.25-22.34.41:033][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.25-22.34.41:058][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.25-22.34.41:154][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 96.337ms to complete.
+[2019.02.25-22.34.41:154][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.513
+[2019.02.25-22.34.41:272][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.25-22.34.41:280][  0]LogCollectionManager: Loaded 0 collections in 0.002516 seconds
+[2019.02.25-22.34.41:322][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Collections/' took 0.01s
+[2019.02.25-22.34.41:322][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/Developers/jessielichter/Collections/' took 0.01s
+[2019.02.25-22.34.41:322][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/Collections/' took 0.01s
+[2019.02.25-22.34.41:322][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.25-22.34.41:331][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2586 classes and 609 folders.
+[2019.02.25-22.34.41:340][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.25-22.34.41:396][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.02.25-22.34.41:403][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2019.02.25-22.34.41:411][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.02.25-22.34.41:480][  0]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.25-22.34.41:483][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.25-22.34.41:493][  0]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.25-22.34.41:584][  0]LogRenderer: Reallocating scene render targets to support 808x508 Format 10 NumSamples 1 (Frame:1).
+[2019.02.25-22.34.41:643][  0]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.25-22.34.41:761][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.25-22.34.41:761][  0]LogLoad: (Engine Initialization) Total time: 10.71 seconds
+[2019.02.25-22.34.41:761][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.25-22.34.41:773][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.25-22.34.41:798][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.25-22.34.41:842][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2019.02.25-22.34.42:144][  3]LogAssetRegistry: Asset discovery search completed in 5.8302 seconds
+[2019.02.25-22.34.42:147][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.25-22.34.42:147][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
+[2019.02.25-22.35.04:413][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-22.35.08:573][156]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.25-22.35.09:008][156]LogAIModule: Creating AISystem for world PreAlpha
+[2019.02.25-22.35.09:027][156]LogAssetEditorManager: Opening Asset editor for World /Game/WorldCompositionLevels/PreAlpha.PreAlpha
+[2019.02.25-22.35.09:053][156]LightingResults: New page: Lighting Build
+[2019.02.25-22.35.09:054][156]LoadErrors: New page: Loading map: PreAlpha.umap
+[2019.02.25-22.35.09:055][156]MapCheck: New page: Map Check
+[2019.02.25-22.35.09:055][156]LightingResults: New page: Lighting Build
+[2019.02.25-22.35.09:169][156]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.25-22.35.09:247][156]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.25-22.35.09:358][156]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 111.974ms to complete.
+[2019.02.25-22.35.09:358][156]LogFileHelpers: Loading map 'PreAlpha' took 0.306
+[2019.02.25-22.40.49:390][465]LogSlate: FSceneViewport::OnFocusLost() reason 0
