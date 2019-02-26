@@ -1286,3 +1286,47 @@ LogInit: Object subsystem initialized
 [2019.02.26-01.49.54:354][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.02.26-01.49.54:429][773]LogPlayLevel: Display: Destroying online subsystem :Context_19
 [2019.02.26-01.50.40:571][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.58.04:971][203]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 16X16)
+[2019.02.26-01.58.04:973][203]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 16X16)
+[2019.02.26-01.58.04:976][203]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 16X16)
+[2019.02.26-01.58.04:977][203]LogTexture: Display: Building textures: Texture2D_42 (BGRA8, 16X16)
+[2019.02.26-01.58.04:978][203]LogTexture: Display: Building textures: Texture2D_43 (BGRA8, 16X16)
+[2019.02.26-01.58.04:986][203]LogTexture: Display: Building textures: Texture2D_44 (BGRA8, 16X16)
+[2019.02.26-01.58.05:006][203]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 16X16)
+[2019.02.26-01.58.05:007][203]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 16X16)
+[2019.02.26-01.58.05:008][203]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 16X16)
+[2019.02.26-01.58.05:008][203]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 16X16)
+[2019.02.26-01.58.05:009][203]LogTexture: Display: Building textures: Texture2D_51 (BGRA8, 16X16)
+[2019.02.26-01.58.05:010][203]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 16X16)
+[2019.02.26-01.58.05:020][203]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 16X16)
+[2019.02.26-01.58.05:025][203]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 16X16)
+[2019.02.26-01.58.05:026][203]LogTexture: Display: Building textures: Texture2D_57 (BGRA8, 16X16)
+[2019.02.26-01.58.05:027][203]LogTexture: Display: Building textures: Texture2D_58 (BGRA8, 16X16)
+[2019.02.26-01.58.05:028][203]LogTexture: Display: Building textures: Texture2D_59 (BGRA8, 16X16)
+[2019.02.26-01.58.05:039][203]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 16X16)
+[2019.02.26-01.58.05:045][203]LogTexture: Display: Building textures: Texture2D_60 (BGRA8, 16X16)
+[2019.02.26-01.58.05:050][203]LogTexture: Display: Building textures: Texture2D_61 (BGRA8, 16X16)
+[2019.02.26-01.58.05:051][203]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 16X16)
+[2019.02.26-01.58.05:055][203]LogTexture: Display: Building textures: Texture2D_65 (BGRA8, 16X16)
+[2019.02.26-01.58.05:056][203]LogTexture: Display: Building textures: Texture2D_66 (BGRA8, 16X16)
+[2019.02.26-01.58.05:057][203]LogTexture: Display: Building textures: Texture2D_67 (BGRA8, 16X16)
+[2019.02.26-01.58.05:061][203]LogTexture: Display: Building textures: Texture2D_69 (BGRA8, 16X16)
+[2019.02.26-01.58.05:381][203]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/PreAlpha_Auto20961AAA740E26900093CA889535C2670.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/PreAlpha_Auto2.umap'
+[2019.02.26-01.58.05:388][203]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldCompositionLevels/PreAlpha' took 0.549
+[2019.02.26-01.58.05:388][203]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.549
+[2019.02.26-01.59.55:523][672]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.59.56:905][680]LogSlate: Window 'Save Content' being destroyed
+[2019.02.26-01.59.56:921][680]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-01.59.57:284][680]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 16X16)
+[2019.02.26-01.59.57:284][680]LogTexture: Display: Building textures: Texture2D_29 (BGRA8, 16X16)
+[2019.02.26-01.59.57:285][680]LogTexture: Display: Building textures: Texture2D_35 (BGRA8, 16X16)
+[2019.02.26-01.59.57:285][680]LogTexture: Display: Building textures: Texture2D_36 (BGRA8, 16X16)
+[2019.02.26-01.59.57:286][680]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 16X16)
+[2019.02.26-01.59.57:597][680]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/PreAlpha25A67437495D20F7729C39A73A6A0DF7.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/WorldCompositionLevels/PreAlpha.umap'
+[2019.02.26-01.59.57:694][680]LogFileHelpers: Saving map 'PreAlpha' took 0.760
+[2019.02.26-01.59.58:552][680]LogSlate: Window 'My_GT_MI_Landscape' being destroyed
+[2019.02.26-01.59.58:809][680]LogSlate: Window 'Substance Source' being destroyed
+[2019.02.26-01.59.58:825][680]LogSlate: Window 'MarshMellow - Unreal Editor' being destroyed
+[2019.02.26-01.59.58:827][680]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.26-01.59.59:240][681]Cmd: QUIT_EDITOR
+[2019.02.26-02.00.00:251][681]LogExit: Preparing to exit.
