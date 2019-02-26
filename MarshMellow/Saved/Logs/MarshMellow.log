@@ -343,3 +343,946 @@ LogInit: Object subsystem initialized
 [2019.02.25-22.35.09:358][156]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 111.974ms to complete.
 [2019.02.25-22.35.09:358][156]LogFileHelpers: Loading map 'PreAlpha' took 0.306
 [2019.02.25-22.40.49:390][465]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-22.44.13:707][905]LogInit: XAudio2 using 'Headphones (2- SRS-XB10 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.25-22.44.14:032][906]LogInit: XAudio2 using 'Headphones (2- SRS-XB10 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.25-22.49.20:851][577]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-22.49.21:214][591]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2019.02.25-22.49.55:269][385]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2019.02.25-22.50.04:312][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-22.50.41:115][973]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 128X128)
+[2019.02.25-22.50.41:350][973]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/PreAlpha_Auto1B6FE910A42276B1EEED21C9AF9766723.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/PreAlpha_Auto1.umap'
+[2019.02.25-22.50.41:361][973]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldCompositionLevels/PreAlpha' took 0.343
+[2019.02.25-22.50.41:361][973]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.343
+[2019.02.25-22.54.02:275][428]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-22.54.31:085][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-22.54.31:226][832]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.25-22.54.31:251][832]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.25-22.54.31:264][832]PIE: New page: PIE session: PreAlpha (Feb 25, 2019, 12:54:31 PM)
+[2019.02.25-22.54.31:264][832]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha
+[2019.02.25-22.54.31:274][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009536s)
+[2019.02.25-22.54.31:275][832]LogAIModule: Creating AISystem for world PreAlpha
+[2019.02.25-22.54.31:275][832]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2019.02.25-22.54.31:275][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/PreAlpha.PreAlpha to /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha (0.010587s)
+[2019.02.25-22.54.31:342][832]LogInit: XAudio2 using 'Headphones (2- SRS-XB10 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.25-22.54.31:359][832]LogInit: FAudioDevice initialized.
+[2019.02.25-22.54.32:839][832]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.25-22.54.32:847][832]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha up for play (max tick rate 0) at 2019.02.25-17.54.32
+[2019.02.25-22.54.32:848][832]LogWorld: Bringing up level for play took: 0.005814
+[2019.02.25-22.54.32:871][832]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2019.02.25-22.54.32:873][832]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha 0.967
+[2019.02.25-22.54.57:012][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.25-22.54.57:046][216]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.25-22.54.57:090][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.25-22.54.57:156][217]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.02.25-22.55.00:772][601]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-22.55.43:621][702]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-22.55.43:772][720]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.25-22.55.43:798][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.25-22.55.43:798][720]PIE: New page: PIE session: PreAlpha (Feb 25, 2019, 12:55:43 PM)
+[2019.02.25-22.55.43:798][720]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha
+[2019.02.25-22.55.43:808][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010377s)
+[2019.02.25-22.55.43:809][720]LogAIModule: Creating AISystem for world PreAlpha
+[2019.02.25-22.55.43:809][720]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2019.02.25-22.55.43:809][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/PreAlpha.PreAlpha to /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha (0.011319s)
+[2019.02.25-22.55.43:879][720]LogInit: XAudio2 using 'Headphones (2- SRS-XB10 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.25-22.55.43:895][720]LogInit: FAudioDevice initialized.
+[2019.02.25-22.55.43:926][720]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.25-22.55.43:930][720]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha up for play (max tick rate 0) at 2019.02.25-17.55.43
+[2019.02.25-22.55.43:930][720]LogWorld: Bringing up level for play took: 0.003278
+[2019.02.25-22.55.43:943][720]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha 0.036
+[2019.02.25-22.55.56:607][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.25-22.55.56:642][216]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.25-22.55.56:672][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.25-22.55.56:710][219]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.02.25-22.56.01:457][768]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-22.56.11:554][934]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-22.56.32:297][174]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-22.56.48:779][914]Cmd: TRANSACTION UNDO
+[2019.02.25-22.56.48:780][914]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2019.02.25-22.56.48:795][914]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 128X128)
+[2019.02.25-22.57.25:346][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-22.57.25:439][928]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.25-22.57.25:477][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.25-22.57.25:477][928]PIE: New page: PIE session: PreAlpha (Feb 25, 2019, 12:57:25 PM)
+[2019.02.25-22.57.25:477][928]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha
+[2019.02.25-22.57.25:493][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015413s)
+[2019.02.25-22.57.25:494][928]LogAIModule: Creating AISystem for world PreAlpha
+[2019.02.25-22.57.25:494][928]LogPlayLevel: PIE: World Init took: (0.001174s)
+[2019.02.25-22.57.25:494][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/PreAlpha.PreAlpha to /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha (0.016807s)
+[2019.02.25-22.57.25:591][928]LogInit: XAudio2 using 'Headphones (2- SRS-XB10 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.25-22.57.25:616][928]LogInit: FAudioDevice initialized.
+[2019.02.25-22.57.25:652][928]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.25-22.57.25:661][928]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha up for play (max tick rate 0) at 2019.02.25-17.57.25
+[2019.02.25-22.57.25:661][928]LogWorld: Bringing up level for play took: 0.007496
+[2019.02.25-22.57.25:675][928]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha -0.231
+[2019.02.25-22.57.43:236][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.25-22.57.43:280][756]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.25-22.57.43:343][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.25-22.57.43:408][757]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.02.25-22.58.02:470][284]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-22.58.14:237][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-22.58.23:301][657]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-22.59.12:605][241]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-22.59.22:262][299]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-22.59.37:623][ 21]Cmd: SELECT NONE
+[2019.02.25-22.59.39:880][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.01.38:085][652]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 128X128)
+[2019.02.25-23.01.38:087][652]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 16X16)
+[2019.02.25-23.01.38:087][652]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 16X16)
+[2019.02.25-23.01.38:095][652]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 16X16)
+[2019.02.25-23.01.38:096][652]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 16X16)
+[2019.02.25-23.01.38:096][652]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 16X16)
+[2019.02.25-23.01.38:097][652]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 16X16)
+[2019.02.25-23.01.38:098][652]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 16X16)
+[2019.02.25-23.01.38:098][652]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 16X16)
+[2019.02.25-23.01.38:099][652]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 16X16)
+[2019.02.25-23.01.38:100][652]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 16X16)
+[2019.02.25-23.01.38:372][652]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/PreAlpha_Auto27B12D420448E5A8AB7AC5699F369B281.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/PreAlpha_Auto2.umap'
+[2019.02.25-23.01.38:380][652]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldCompositionLevels/PreAlpha' took 0.379
+[2019.02.25-23.01.38:380][652]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.379
+[2019.02.25-23.02.18:023][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.03.19:305][606]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/freeModels/lolipop.FBX)
+[2019.02.25-23.03.19:342][606]LogFbx: Loading FBX Scene from ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/freeModels/lolipop.FBX
+[2019.02.25-23.03.19:377][606]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.25-23.03.29:833][606]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.02.25-23.03.30:192][606]LogMaterial: Display: Missing cached shader map for material 13_-_Default, compiling. 
+[2019.02.25-23.03.30:252][606]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.02.25-23.03.30:252][606]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.25-23.03.30:252][606]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.25-23.03.30:265][606]LogStaticMesh: Building static mesh lolipop_Cylinder008...
+[2019.02.25-23.03.30:291][606]LogStaticMesh: Built static mesh [0.03s] /Game/FreeModels/lolipop_Cylinder008.lolipop_Cylinder008
+[2019.02.25-23.03.30:315][606]LogMaterial: Display: Missing cached shader map for material orange_dd, compiling. 
+[2019.02.25-23.03.30:339][606]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.02.25-23.03.30:449][606]LogStaticMesh: Building static mesh lolipop_Sphere007...
+[2019.02.25-23.03.30:826][606]LogStaticMesh: Built static mesh [0.38s] /Game/FreeModels/lolipop_Sphere007.lolipop_Sphere007
+[2019.02.25-23.03.30:871][606]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.02.25-23.03.31:112][610]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.25-23.03.34:991][821]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.25-23.03.37:952][956]LogSlate: Window 'Message Log' being destroyed
+[2019.02.25-23.03.37:972][956]LogSlate: Window 'Message Log' being destroyed
+[2019.02.25-23.03.47:467][569]LogSlate: Window 'Substance Plugin - Entitlement Check' being destroyed
+[2019.02.25-23.03.47:483][569]LogSubstanceSource: Loading Substance Source Database
+[2019.02.25-23.03.47:553][569]LogSlate: Took 0.016918 seconds to synchronously load lazily loaded font '../../../Engine/Plugins/Marketplace/Substance/Content/SourceFont/Gotham Book Regular.otf' (29K)
+[2019.02.25-23.04.32:173][583]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 1920X1080)
+[2019.02.25-23.04.32:421][586]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 1920X1080)
+[2019.02.25-23.04.51:646][536]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/FreeModels/lolipop_Sphere007.lolipop_Sphere007
+[2019.02.25-23.04.52:323][536]LogRenderer: Reallocating scene render targets to support 1144x748 Format 10 NumSamples 1 (Frame:1).
+[2019.02.25-23.04.52:323][536]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.25-23.05.08:035][480]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.06.07:828][532]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.06.15:090][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.07.37:968][557]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.07.38:082][565]MapCheck: New page: Map Check
+[2019.02.25-23.07.38:117][565]Cmd: MAP REBUILD ALLVISIBLE
+[2019.02.25-23.07.38:119][565]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.02.25-23.07.38:364][565]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2019.02.25-23.07.38:377][565]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.02.25-23.07.38:390][565]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.25-23.07.38:390][565]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2019.02.25-23.07.38:411][565]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.25-23.07.38:411][565]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2019.02.25-23.07.38:430][565]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.25-23.07.38:430][565]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2019.02.25-23.07.39:474][565]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.25-23.07.39:474][565]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.25-23.07.39:475][565]TextureStreamingBuild: Display: Compiling optional shaders took 1.120 seconds.
+[2019.02.25-23.07.39:488][565]LogLevel: Display: Export Material TexCoord Scales took 0.013 seconds.
+[2019.02.25-23.07.39:499][565]TextureStreamingBuild: Display: Build Texture Streaming took 0.010 seconds.
+[2019.02.25-23.07.39:540][565]LightingResults: New page: Lighting Build - Feb 25, 2019, 1:07:39 PM
+[2019.02.25-23.07.39:615][565]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.02.25-23.07.39:904][565]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.02.25-23.07.39:944][565]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.02.25-23.07.40:969][565]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.02.25-23.07.40:969][565]LogSwarmInterface: [TryOpenConnection] Local Process ID is 23672
+[2019.02.25-23.07.43:617][565]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.02.25-23.07.43:617][565]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.02.25-23.07.43:617][565]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.02.25-23.07.43:617][565]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.02.25-23.07.43:617][565]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.02.25-23.07.43:617][565]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.02.25-23.07.43:782][565]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.02.25-23.07.43:782][565]MapCheck: New page: PreAlpha - Feb 25, 2019, 1:07:43 PM
+[2019.02.25-23.07.43:782][565]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2019.02.25-23.07.43:989][565]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 205.991ms to complete.
+[2019.02.25-23.07.44:013][565]LogEditorBuildUtils: Build time 0:05
+[2019.02.25-23.07.59:672][808]Job is a success!
+[2019.02.25-23.08.00:593][809]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.486s
+[2019.02.25-23.08.00:593][809]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2019.02.25-23.08.00:593][809]LogVolumetricLightmapImport:      BrickData 1280x10x5 = 2.5Mb (trimmed 0.3Mb due to 0.010000 MinBrickError)
+[2019.02.25-23.08.00:593][809]LogVolumetricLightmapImport:      Bricks at Level
+[2019.02.25-23.08.00:593][809]LogVolumetricLightmapImport:          0: 2.4% covering 100.0% of volume
+[2019.02.25-23.08.00:594][809]LogVolumetricLightmapImport:          1: 8.2% covering 5.3% of volume
+[2019.02.25-23.08.00:594][809]LogVolumetricLightmapImport:          2: 89.4% covering 0.9% of volume
+[2019.02.25-23.08.01:515][809]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2019.02.25-23.08.01:515][809]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2019.02.25-23.08.01:516][809]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2019.02.25-23.08.01:691][809]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X128)
+[2019.02.25-23.08.01:837][809]Lightmass on JESSIES-LAPTOP: 16.4 sec total, 348 ms importing, 60 ms setup, 2.61 sec photons, 13.3 sec processing, 0 ms extra exporting [65/65 mappings]. Threads: 1:33 min total, 23.0 sec processing.
+[2019.02.25-23.08.02:001][809]LogStaticLightingSystem: Illumination: 22.2 sec (803 ms encoding lightmaps, 168 ms encoding shadowmaps)
+[2019.02.25-23.08.02:001][809]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.02.25-23.08.02:001][809]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.02.25-23.08.07:639][809]DumpUnbuiltLightIteractions
+[2019.02.25-23.08.07:639][809]Lights with unbuilt interactions: 0
+[2019.02.25-23.08.07:639][809]
+[2019.02.25-23.08.07:639][809]Primitives with unbuilt interactions: 0
+[2019.02.25-23.08.07:804][810]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.02.25-23.08.07:804][810]MapCheck: New page: PreAlpha - Feb 25, 2019, 1:08:07 PM
+[2019.02.25-23.08.08:018][810]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 213.236ms to complete.
+[2019.02.25-23.11.52:165][851]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 128X128)
+[2019.02.25-23.11.52:439][851]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/PreAlpha_Auto3DEEA3EB443846A0F1151CF959A73DFC3.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/PreAlpha_Auto3.umap'
+[2019.02.25-23.11.52:449][851]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldCompositionLevels/PreAlpha' took 0.355
+[2019.02.25-23.11.52:449][851]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.355
+[2019.02.25-23.11.52:452][851]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/WorldCompositionLevels/PreAlpha_BuiltData] ([1] browsable assets)...
+[2019.02.25-23.11.52:452][851]OBJ SavePackage: Finished generating thumbnails for package [/Game/WorldCompositionLevels/PreAlpha_BuiltData]
+[2019.02.25-23.11.52:500][851]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/PreAlpha_BuiltData_Auto30EB20C3E4E16D8A166ACBF8F3C789F2F.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/PreAlpha_BuiltData_Auto3.uasset'
+[2019.02.25-23.11.52:510][851]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FreeModels/lolipop_Cylinder008] ([1] browsable assets)...
+[2019.02.25-23.11.52:553][851]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FreeModels/lolipop_Cylinder008.lolipop_Cylinder008]
+[2019.02.25-23.11.52:553][851]OBJ SavePackage: Finished generating thumbnails for package [/Game/FreeModels/lolipop_Cylinder008]
+[2019.02.25-23.11.52:585][851]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/lolipop_Cylinder008_Auto327862DBC4A3B7A2DC7B8DD80D36BE00C.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/FreeModels/lolipop_Cylinder008_Auto3.uasset'
+[2019.02.25-23.11.52:591][851]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FreeModels/13_-_Default] ([1] browsable assets)...
+[2019.02.25-23.11.52:636][851]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FreeModels/13_-_Default.13_-_Default]
+[2019.02.25-23.11.52:637][851]OBJ SavePackage: Finished generating thumbnails for package [/Game/FreeModels/13_-_Default]
+[2019.02.25-23.11.52:670][851]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/13_-_Default_Auto3FC8457654770594A4A27EC9E563FC13B.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/FreeModels/13_-_Default_Auto3.uasset'
+[2019.02.25-23.11.52:674][851]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FreeModels/lolipop_Sphere007] ([1] browsable assets)...
+[2019.02.25-23.11.52:717][851]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FreeModels/lolipop_Sphere007.lolipop_Sphere007]
+[2019.02.25-23.11.52:717][851]OBJ SavePackage: Finished generating thumbnails for package [/Game/FreeModels/lolipop_Sphere007]
+[2019.02.25-23.11.52:741][851]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/lolipop_Sphere007_Auto3263725634EE3BFE606544FA87E61BAB5.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/FreeModels/lolipop_Sphere007_Auto3.uasset'
+[2019.02.25-23.11.52:760][851]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FreeModels/orange_dd] ([1] browsable assets)...
+[2019.02.25-23.11.52:798][851]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FreeModels/orange_dd.orange_dd]
+[2019.02.25-23.11.52:798][851]OBJ SavePackage: Finished generating thumbnails for package [/Game/FreeModels/orange_dd]
+[2019.02.25-23.11.52:823][851]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/orange_dd_Auto3022983284A8A2B24341BB59372B79093.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/FreeModels/orange_dd_Auto3.uasset'
+[2019.02.25-23.11.52:827][851]LogFileHelpers: Auto-saving content packages took 0.376
+[2019.02.25-23.12.41:465][ 90]LogSlate: Window 'Message Log' being destroyed
+[2019.02.25-23.12.41:489][ 90]LogSlate: Window 'Message Log' being destroyed
+[2019.02.25-23.15.04:504][605]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-23.16.18:547][551]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-23.17.56:483][658]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.22.13:995][992]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-23.22.14:120][992]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 128X128)
+[2019.02.25-23.22.14:403][992]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/PreAlpha_Auto4C5A9C166484D1E6CB89CB48BBD74248B.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/PreAlpha_Auto4.umap'
+[2019.02.25-23.22.14:411][992]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldCompositionLevels/PreAlpha' took 0.374
+[2019.02.25-23.22.14:411][992]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.374
+[2019.02.25-23.23.30:482][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.23.40:117][450]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/GT_Free2018/GT_SHADE/Materials/My_GT_MI_Landscape.My_GT_MI_Landscape
+[2019.02.25-23.24.03:596][912]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 1920X1080)
+[2019.02.25-23.24.04:407][943]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 1920X1080)
+[2019.02.25-23.24.13:728][515]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 1920X1080)
+[2019.02.25-23.24.14:363][534]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 1920X1080)
+[2019.02.25-23.24.53:643][430]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.27.26:279][257]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.27.35:371][519]LogRenderer: Reallocating scene render targets to support 1428x936 Format 10 NumSamples 1 (Frame:38649).
+[2019.02.25-23.31.56:704][747]LogSlate: Window 'Color Picker' being destroyed
+[2019.02.25-23.32.17:613][657]LogSlate: Window 'Color Picker' being destroyed
+[2019.02.25-23.32.24:879][ 15]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy My_GT_MI_Landscape, compiling. 
+[2019.02.25-23.32.25:713][ 15]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.25-23.32.25:716][ 15]TextureStreamingBuild: Display: Compiling optional shaders took 0.846 seconds.
+[2019.02.25-23.32.25:845][ 15]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/My_GT_MI_Landscape945CD9F446D6A9DDDE4495B10AA4BA65.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/GT_Free2018/GT_SHADE/Materials/My_GT_MI_Landscape.uasset'
+[2019.02.25-23.32.38:503][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.32.38:619][693]MapCheck: New page: Map Check
+[2019.02.25-23.32.38:672][693]Cmd: MAP REBUILD ALLVISIBLE
+[2019.02.25-23.32.38:672][693]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.02.25-23.32.38:912][693]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2019.02.25-23.32.38:924][693]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.25-23.32.38:924][693]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.02.25-23.32.38:939][693]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2019.02.25-23.32.38:960][693]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.25-23.32.38:960][693]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.25-23.32.38:960][693]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2019.02.25-23.32.38:983][693]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.25-23.32.38:983][693]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2019.02.25-23.32.40:206][693]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.25-23.32.40:207][693]TextureStreamingBuild: Display: Compiling optional shaders took 1.301 seconds.
+[2019.02.25-23.32.40:222][693]LogLevel: Display: Export Material TexCoord Scales took 0.015 seconds.
+[2019.02.25-23.32.40:237][693]TextureStreamingBuild: Display: Build Texture Streaming took 0.014 seconds.
+[2019.02.25-23.32.40:298][693]LightingResults: New page: Lighting Build - Feb 25, 2019, 1:32:40 PM
+[2019.02.25-23.32.40:326][693]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.02.25-23.32.40:335][693]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.02.25-23.32.40:336][693]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.02.25-23.32.40:337][693]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.02.25-23.32.40:337][693]LogSwarmInterface: [TryOpenConnection] Local Process ID is 23672
+[2019.02.25-23.32.44:863][693]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.02.25-23.32.44:864][693]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.02.25-23.32.44:864][693]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.02.25-23.32.44:864][693]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.02.25-23.32.44:864][693]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.02.25-23.32.44:864][693]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.02.25-23.32.45:027][693]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.02.25-23.32.45:028][693]MapCheck: New page: PreAlpha - Feb 25, 2019, 1:32:45 PM
+[2019.02.25-23.32.45:028][693]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2019.02.25-23.32.45:192][693]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 164.185ms to complete.
+[2019.02.25-23.32.45:216][693]LogEditorBuildUtils: Build time 0:06
+[2019.02.25-23.33.12:630][349]Job is a success!
+[2019.02.25-23.33.13:217][350]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.440s
+[2019.02.25-23.33.13:217][350]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2019.02.25-23.33.13:217][350]LogVolumetricLightmapImport:      BrickData 1280x10x5 = 2.5Mb (trimmed 0.4Mb due to 0.010000 MinBrickError)
+[2019.02.25-23.33.13:217][350]LogVolumetricLightmapImport:      Bricks at Level
+[2019.02.25-23.33.13:217][350]LogVolumetricLightmapImport:          0: 2.5% covering 100.0% of volume
+[2019.02.25-23.33.13:218][350]LogVolumetricLightmapImport:          1: 8.4% covering 5.3% of volume
+[2019.02.25-23.33.13:218][350]LogVolumetricLightmapImport:          2: 89.2% covering 0.9% of volume
+[2019.02.25-23.33.13:817][350]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2019.02.25-23.33.13:817][350]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2019.02.25-23.33.13:817][350]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2019.02.25-23.33.13:895][350]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X128)
+[2019.02.25-23.33.13:930][350]Lightmass on JESSIES-LAPTOP: 18.8 sec total, 1.26 sec importing, 262 ms setup, 3.40 sec photons, 13.9 sec processing, 0 ms extra exporting [65/65 mappings]. Threads: 1:37 min total, 28.3 sec processing.
+[2019.02.25-23.33.14:015][350]LogStaticLightingSystem: Illumination: 33.6 sec (511 ms encoding lightmaps, 74 ms encoding shadowmaps)
+[2019.02.25-23.33.14:015][350]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.02.25-23.33.14:015][350]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.02.25-23.33.14:886][350]DumpUnbuiltLightIteractions
+[2019.02.25-23.33.14:887][350]Lights with unbuilt interactions: 0
+[2019.02.25-23.33.14:887][350]
+[2019.02.25-23.33.14:887][350]Primitives with unbuilt interactions: 0
+[2019.02.25-23.33.14:965][351]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.02.25-23.33.14:965][351]MapCheck: New page: PreAlpha - Feb 25, 2019, 1:33:14 PM
+[2019.02.25-23.33.15:173][351]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 207.854ms to complete.
+[2019.02.25-23.33.17:596][489]LogSlate: Window 'Message Log' being destroyed
+[2019.02.25-23.33.17:623][489]LogSlate: Window 'Message Log' being destroyed
+[2019.02.25-23.33.20:661][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.33.20:798][671]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.25-23.33.20:852][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.25-23.33.20:852][671]PIE: New page: PIE session: PreAlpha (Feb 25, 2019, 1:33:20 PM)
+[2019.02.25-23.33.20:852][671]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha
+[2019.02.25-23.33.20:872][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019437s)
+[2019.02.25-23.33.20:873][671]LogAIModule: Creating AISystem for world PreAlpha
+[2019.02.25-23.33.20:874][671]LogPlayLevel: PIE: World Init took: (0.001635s)
+[2019.02.25-23.33.20:874][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/PreAlpha.PreAlpha to /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha (0.021426s)
+[2019.02.25-23.33.21:014][671]LogInit: XAudio2 using 'Headphones (2- SRS-XB10 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.25-23.33.21:043][671]LogInit: FAudioDevice initialized.
+[2019.02.25-23.33.21:076][671]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.25-23.33.21:083][671]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha up for play (max tick rate 0) at 2019.02.25-18.33.21
+[2019.02.25-23.33.21:083][671]LogWorld: Bringing up level for play took: 0.005366
+[2019.02.25-23.33.21:098][671]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha 1.192
+[2019.02.25-23.34.02:227][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.25-23.34.02:269][742]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.25-23.34.02:316][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.25-23.34.02:346][743]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.02.25-23.34.10:347][184]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-23.34.40:350][477]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-23.34.40:368][477]LogSlate: Window 'My_GT_MI_Landscape' being destroyed
+[2019.02.25-23.35.16:144][429]Cmd: TRANSACTION UNDO
+[2019.02.25-23.35.16:145][429]LogEditorTransaction: Undo Edit Base Color (Material A)
+[2019.02.25-23.35.50:741][967]LogSlate: Window 'Color Picker' being destroyed
+[2019.02.25-23.35.54:882][173]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy My_GT_MI_Landscape, compiling. 
+[2019.02.25-23.35.55:787][173]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.25-23.35.55:793][173]TextureStreamingBuild: Display: Compiling optional shaders took 0.918 seconds.
+[2019.02.25-23.35.55:915][173]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/My_GT_MI_LandscapeAC8FD52A427D5D2321FF428DF388A562.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/GT_Free2018/GT_SHADE/Materials/My_GT_MI_Landscape.uasset'
+[2019.02.25-23.35.57:732][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.36.00:250][355]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.36.03:100][499]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-23.36.16:665][499]LogSlate: Window 'Create New Landscape Layer Info Object' being destroyed
+[2019.02.25-23.36.16:711][499]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-23.36.20:200][640]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/PreAlpha_Auto56A7B046248B19975E591ED888DD52F20.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/PreAlpha_Auto5.umap'
+[2019.02.25-23.36.20:223][640]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldCompositionLevels/PreAlpha' took 0.406
+[2019.02.25-23.36.20:223][640]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.406
+[2019.02.25-23.36.20:225][640]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/WorldCompositionLevels/PreAlpha_BuiltData] ([1] browsable assets)...
+[2019.02.25-23.36.20:225][640]OBJ SavePackage: Finished generating thumbnails for package [/Game/WorldCompositionLevels/PreAlpha_BuiltData]
+[2019.02.25-23.36.20:265][640]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/PreAlpha_BuiltData_Auto55418B91C461FC2639AC7DEB14EE5CC7A.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/PreAlpha_BuiltData_Auto5.uasset'
+[2019.02.25-23.36.20:270][640]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LayerINFOS/Trail_LayerInfo] ([1] browsable assets)...
+[2019.02.25-23.36.20:270][640]OBJ SavePackage: Finished generating thumbnails for package [/Game/LayerINFOS/Trail_LayerInfo]
+[2019.02.25-23.36.20:280][640]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Trail_LayerInfo_Auto583B45B304BCBB8A16F697EB2D471F1A5.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/LayerINFOS/Trail_LayerInfo_Auto5.uasset'
+[2019.02.25-23.36.20:284][640]LogFileHelpers: Auto-saving content packages took 0.059
+[2019.02.25-23.36.28:297][859]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.36.39:589][223]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 16X16)
+[2019.02.25-23.36.39:632][223]LogMaterial: Display: Missing cached shader map for material M_GT_Landscape, compiling. 
+[2019.02.25-23.36.39:841][223]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.02.25-23.36.39:841][223]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.02.25-23.36.39:841][223]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.02.25-23.36.39:841][223]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.02.25-23.36.53:469][630]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.25-23.36.53:879][641]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.25-23.37.04:795][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-23.37.08:949][242]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-23.37.30:634][354]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.37.50:215][359]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.38.07:986][140]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 16X16)
+[2019.02.25-23.38.27:707][703]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.38.27:818][706]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.25-23.38.27:910][706]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.25-23.38.27:910][706]PIE: New page: PIE session: PreAlpha (Feb 25, 2019, 1:38:27 PM)
+[2019.02.25-23.38.27:911][706]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha
+[2019.02.25-23.38.27:953][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042637s)
+[2019.02.25-23.38.27:955][706]LogAIModule: Creating AISystem for world PreAlpha
+[2019.02.25-23.38.27:957][706]LogPlayLevel: PIE: World Init took: (0.002802s)
+[2019.02.25-23.38.27:957][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/PreAlpha.PreAlpha to /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha (0.046071s)
+[2019.02.25-23.38.28:222][706]LogInit: XAudio2 using 'Headphones (2- SRS-XB10 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.25-23.38.28:273][706]LogInit: FAudioDevice initialized.
+[2019.02.25-23.38.28:317][706]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.25-23.38.28:330][706]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha up for play (max tick rate 0) at 2019.02.25-18.38.28
+[2019.02.25-23.38.28:331][706]LogWorld: Bringing up level for play took: 0.010989
+[2019.02.25-23.38.28:348][706]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha 0.442
+[2019.02.25-23.38.56:281][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.25-23.38.56:331][  1]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.25-23.38.56:413][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.25-23.38.56:464][  2]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.02.25-23.39.20:086][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.39.26:091][670]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.02.25-23.39.26:109][670]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 16X16)
+[2019.02.25-23.39.26:113][670]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 16X16)
+[2019.02.25-23.39.26:115][670]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 16X16)
+[2019.02.25-23.39.26:115][670]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 16X16)
+[2019.02.25-23.39.29:159][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.39.48:719][902]Cmd: DELETE
+[2019.02.25-23.39.48:719][902]Cmd: ACTOR DELETE
+[2019.02.25-23.39.48:748][902]LogEditorActor: Deleted Actor: Brush
+[2019.02.25-23.39.48:807][902]LogEditorActor: Deleted 1 Actors (0.088 secs)
+[2019.02.25-23.39.49:991][969]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.39.51:816][ 55]LogActorFactory: Actor Factory created Cube
+[2019.02.25-23.39.52:724][101]LogActorFactory: Actor Factory created Cube
+[2019.02.25-23.39.53:975][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.40.08:910][846]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2019.02.25-23.40.08:973][846]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-23.40.12:225][989]Cmd: DUPLICATE
+[2019.02.25-23.40.12:225][989]Cmd: ACTOR DUPLICATE
+[2019.02.25-23.40.19:220][359]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube2)
+[2019.02.25-23.40.19:266][359]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-23.40.22:702][502]Cmd: DUPLICATE
+[2019.02.25-23.40.22:702][502]Cmd: ACTOR DUPLICATE
+[2019.02.25-23.40.55:593][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.41.05:153][774]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.41.16:148][ 96]Cmd: EDIT COPY
+[2019.02.25-23.41.20:305][255]Cmd: EDIT PASTE
+[2019.02.25-23.41.23:554][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.41.27:371][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.41.30:274][668]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.41.32:812][788]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.41.36:135][951]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.41.40:789][194]LogEditorViewport: Clicking on Actor (LMB): MyBPSkySphere_C (MyBPSkySphere)
+[2019.02.25-23.47.10:302][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.47.10:477][159]LogActorFactory: Actor Factory created Cylinder
+[2019.02.25-23.47.11:668][207]LogActorFactory: Actor Factory created Cylinder
+[2019.02.25-23.47.13:167][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.48.07:837][933]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cylinder)
+[2019.02.25-23.48.07:905][933]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-23.48.09:067][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2019.02.25-23.48.10:105][ 36]Cmd: EDIT COPY
+[2019.02.25-23.48.10:611][ 59]Cmd: EDIT PASTE
+[2019.02.25-23.48.39:236][898]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.25-23.48.39:640][898]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 16X16)
+[2019.02.25-23.48.39:643][898]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 16X16)
+[2019.02.25-23.48.40:574][898]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/PreAlpha_Auto6F82D31DA442753E4E83051B590123D9D.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/PreAlpha_Auto6.umap'
+[2019.02.25-23.48.40:605][898]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldCompositionLevels/PreAlpha' took 1.243
+[2019.02.25-23.48.40:605][898]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.243
+[2019.02.25-23.48.51:834][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.02.25-23.48.53:285][217]Cmd: EDIT COPY
+[2019.02.25-23.48.53:820][233]Cmd: EDIT PASTE
+[2019.02.25-23.49.05:938][645]Cmd: EDIT COPY
+[2019.02.25-23.49.06:603][673]Cmd: EDIT PASTE
+[2019.02.25-23.49.11:320][874]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.49.18:042][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.49.51:205][851]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.49.51:306][855]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.25-23.49.51:365][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.25-23.49.51:365][855]PIE: New page: PIE session: PreAlpha (Feb 25, 2019, 1:49:51 PM)
+[2019.02.25-23.49.51:365][855]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha
+[2019.02.25-23.49.51:389][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023986s)
+[2019.02.25-23.49.51:391][855]LogAIModule: Creating AISystem for world PreAlpha
+[2019.02.25-23.49.51:392][855]LogPlayLevel: PIE: World Init took: (0.002083s)
+[2019.02.25-23.49.51:392][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/PreAlpha.PreAlpha to /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha (0.026470s)
+[2019.02.25-23.49.51:529][855]LogInit: XAudio2 using 'Headphones (2- SRS-XB10 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.25-23.49.51:560][855]LogInit: FAudioDevice initialized.
+[2019.02.25-23.49.51:596][855]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.25-23.49.51:605][855]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha up for play (max tick rate 0) at 2019.02.25-18.49.51
+[2019.02.25-23.49.51:606][855]LogWorld: Bringing up level for play took: 0.008088
+[2019.02.25-23.49.51:621][855]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha -0.285
+[2019.02.25-23.50.59:063][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.25-23.50.59:114][862]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.25-23.50.59:185][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.25-23.50.59:231][863]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.02.25-23.53.49:488][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.58.37:695][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.25-23.59.59:448][584]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/PreAlpha_Auto70A44735F4BCEC02AD36D9CB0EC95225E.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/PreAlpha_Auto7.umap'
+[2019.02.25-23.59.59:456][584]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldCompositionLevels/PreAlpha' took 0.547
+[2019.02.25-23.59.59:456][584]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.547
+[2019.02.26-00.31.06:930][183]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{cd4d86a3-cba6-4ba7-a7dd-37cae573fd34} was removed. Shutting down audio device.
+[2019.02.26-00.31.07:169][183]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.26-00.31.07:953][184]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.26-00.31.08:668][185]LogHttp: Warning: 000001A52A870180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.26-00.31.08:668][185]LogHttp: Warning: 000001A52A870180: libcurl info message cache 0 (Connection 77 seems to be dead!)
+[2019.02.26-00.31.08:669][185]LogHttp: Warning: 000001A52A870180: libcurl info message cache 1 (Closing connection 77)
+[2019.02.26-00.31.08:669][185]LogHttp: Warning: 000001A52A870180: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.02.26-00.31.08:669][185]LogHttp: Warning: 000001A52A870180: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.26-00.31.08:669][185]LogHttp: Warning: 000001A52A870180: libcurl info message cache 4 (Closing connection 78)
+[2019.02.26-00.33.26:215][731]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.02.26-00.33.27:898][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.26-00.33.27:899][813]PIE: New page: SIE session: PreAlpha (Feb 25, 2019, 2:33:27 PM)
+[2019.02.26-00.33.27:900][813]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha
+[2019.02.26-00.33.27:933][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032537s)
+[2019.02.26-00.33.27:936][813]LogAIModule: Creating AISystem for world PreAlpha
+[2019.02.26-00.33.27:937][813]LogPlayLevel: PIE: World Init took: (0.004103s)
+[2019.02.26-00.33.27:937][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/PreAlpha.PreAlpha to /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha (0.037218s)
+[2019.02.26-00.33.28:028][813]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.26-00.33.28:091][813]LogInit: FAudioDevice initialized.
+[2019.02.26-00.33.28:111][813]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-00.33.28:147][813]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.26-00.33.28:168][813]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha up for play (max tick rate 60) at 2019.02.25-19.33.28
+[2019.02.26-00.33.28:169][813]LogWorld: Bringing up level for play took: 0.017942
+[2019.02.26-00.33.28:185][813]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.26-00.33.28:190][813]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha 0.761
+[2019.02.26-00.46.08:086][643]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-00.46.14:617][997]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-00.46.18:718][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-00.46.25:394][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-00.46.25:443][594]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.26-00.46.25:515][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-00.46.25:551][595]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.02.26-00.46.27:468][703]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.02.26-00.46.28:731][769]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2019.02.26-00.46.37:684][160]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-00.46.40:763][290]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2019.02.26-00.46.40:885][290]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-00.46.43:169][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.26-00.46.43:170][400]PIE: New page: PIE session: PreAlpha (Feb 25, 2019, 2:46:43 PM)
+[2019.02.26-00.46.43:170][400]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha
+[2019.02.26-00.46.43:192][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022044s)
+[2019.02.26-00.46.43:194][400]LogAIModule: Creating AISystem for world PreAlpha
+[2019.02.26-00.46.43:194][400]LogPlayLevel: PIE: World Init took: (0.001515s)
+[2019.02.26-00.46.43:194][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/PreAlpha.PreAlpha to /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha (0.023883s)
+[2019.02.26-00.46.43:282][400]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.26-00.46.43:351][400]LogInit: FAudioDevice initialized.
+[2019.02.26-00.46.43:351][400]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-00.46.43:383][400]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.26-00.46.43:393][400]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha up for play (max tick rate 60) at 2019.02.25-19.46.43
+[2019.02.26-00.46.43:393][400]LogWorld: Bringing up level for play took: 0.007965
+[2019.02.26-00.46.43:409][400]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha -0.019
+[2019.02.26-00.48.03:133][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-00.48.03:184][146]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.26-00.48.03:251][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-00.48.03:302][147]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.02.26-00.48.08:892][432]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2019.02.26-00.48.08:950][432]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-00.48.10:535][492]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.26-00.48.10:535][492]PIE: New page: PIE session: PreAlpha (Feb 25, 2019, 2:48:10 PM)
+[2019.02.26-00.48.10:536][492]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha
+[2019.02.26-00.48.10:553][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017252s)
+[2019.02.26-00.48.10:554][492]LogAIModule: Creating AISystem for world PreAlpha
+[2019.02.26-00.48.10:554][492]LogPlayLevel: PIE: World Init took: (0.001429s)
+[2019.02.26-00.48.10:554][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/PreAlpha.PreAlpha to /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha (0.018976s)
+[2019.02.26-00.48.10:618][492]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.26-00.48.10:682][492]LogInit: FAudioDevice initialized.
+[2019.02.26-00.48.10:682][492]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-00.48.10:720][492]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.26-00.48.10:732][492]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha up for play (max tick rate 60) at 2019.02.25-19.48.10
+[2019.02.26-00.48.10:733][492]LogWorld: Bringing up level for play took: 0.009261
+[2019.02.26-00.48.10:747][492]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha -0.681
+[2019.02.26-00.49.35:101][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-00.49.35:149][527]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.26-00.49.35:230][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-00.49.35:283][528]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.02.26-00.50.00:228][933]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-00.50.00:730][933]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/PreAlpha_Auto88BE3A16B4CABBE18671E1FAFF567B865.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/PreAlpha_Auto8.umap'
+[2019.02.26-00.50.00:739][933]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldCompositionLevels/PreAlpha' took 0.471
+[2019.02.26-00.50.00:739][933]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.471
+[2019.02.26-00.50.25:815][321]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-00.50.39:426][101]LogEditorViewport: Clicking on Actor (LMB): MyBPSkySphere_C (MyBPSkySphere)
+[2019.02.26-00.50.42:303][246]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-00.51.03:218][393]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-00.51.08:688][698]LogEditorViewport: Clicking on Actor (LMB): MyBPSkySphere_C (MyBPSkySphere)
+[2019.02.26-00.51.13:378][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-00.51.13:518][941]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyBPSkySphere.MyBPSkySphere
+[2019.02.26-00.51.14:877][941]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0045 seconds. Added 116 classes and 0 folders.
+[2019.02.26-00.51.17:066][941]LogSlate: Took 0.000431 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.26-00.52.03:766][702]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.00.00:981][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-01.00.02:350][ 67]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/PreAlpha_Auto9400779C743DCB2542F805F9E61470DFD.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/PreAlpha_Auto9.umap'
+[2019.02.26-01.00.02:378][ 67]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldCompositionLevels/PreAlpha' took 1.341
+[2019.02.26-01.00.02:378][ 67]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.341
+[2019.02.26-01.22.58:439][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.02.26-01.23.01:033][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.23.50:221][391]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-01.23.50:663][391]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/PreAlpha_Auto0EA0B6D764F6279A27E63408B08934BBA.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/PreAlpha_Auto0.umap'
+[2019.02.26-01.23.50:672][391]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldCompositionLevels/PreAlpha' took 0.426
+[2019.02.26-01.23.50:672][391]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.426
+[2019.02.26-01.25.49:792][715]LogEditorViewport: Clicking on Actor (LMB): MyBPSkySphere_C (MyBPSkySphere)
+[2019.02.26-01.30.05:970][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.36.29:946][844]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.36.30:054][848]LogActorFactory: Actor Factory created Cylinder
+[2019.02.26-01.36.30:961][901]LogActorFactory: Actor Factory created Cylinder
+[2019.02.26-01.36.33:494][ 54]Cmd: DELETE
+[2019.02.26-01.36.33:494][ 54]Cmd: ACTOR DELETE
+[2019.02.26-01.36.33:502][ 54]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.26-01.36.33:540][ 54]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2019.02.26-01.37.00:743][579]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-01.37.01:559][579]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/PreAlpha_Auto17347C3C048A2355654DAF3BA7ED8C05E.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/WorldCompositionLevels/PreAlpha_Auto1.umap'
+[2019.02.26-01.37.01:581][579]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldCompositionLevels/PreAlpha' took 0.733
+[2019.02.26-01.37.01:581][579]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.733
+[2019.02.26-01.39.34:939][577]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.40.58:888][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.41.10:693][874]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 16X16)
+[2019.02.26-01.41.10:829][876]LogTexture: Display: Building textures: Texture2D_20 (BGRA8, 16X16)
+[2019.02.26-01.41.32:849][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.41.46:866][120]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-01.41.49:678][267]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-01.42.36:696][990]LogTexture: Display: Building textures: Texture2D_21 (BGRA8, 16X16)
+[2019.02.26-01.42.44:098][403]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.42.45:400][479]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2019.02.26-01.42.45:456][479]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-01.42.46:888][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.26-01.42.46:889][553]PIE: New page: PIE session: PreAlpha (Feb 25, 2019, 3:42:46 PM)
+[2019.02.26-01.42.46:889][553]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha
+[2019.02.26-01.42.46:908][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018764s)
+[2019.02.26-01.42.46:910][553]LogAIModule: Creating AISystem for world PreAlpha
+[2019.02.26-01.42.46:911][553]LogPlayLevel: PIE: World Init took: (0.002264s)
+[2019.02.26-01.42.46:911][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/PreAlpha.PreAlpha to /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha (0.021520s)
+[2019.02.26-01.42.46:983][553]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.26-01.42.47:031][553]LogInit: FAudioDevice initialized.
+[2019.02.26-01.42.47:031][553]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-01.42.47:062][553]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.26-01.42.47:070][553]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha up for play (max tick rate 0) at 2019.02.25-20.42.47
+[2019.02.26-01.42.47:070][553]LogWorld: Bringing up level for play took: 0.006245
+[2019.02.26-01.42.47:086][553]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha -0.198
+[2019.02.26-01.43.19:884][ 81]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-01.43.19:968][ 81]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.26-01.43.20:032][ 81]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-01.43.20:108][ 82]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.02.26-01.43.29:714][639]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.43.36:477][ 19]LogTexture: Display: Building textures: Texture2D_22 (BGRA8, 16X16)
+[2019.02.26-01.43.36:486][ 19]LogTexture: Display: Building textures: Texture2D_22 (BGRA8, 16X16)
+[2019.02.26-01.43.36:489][ 19]LogTexture: Display: Building textures: Texture2D_23 (BGRA8, 16X16)
+[2019.02.26-01.43.36:497][ 19]LogTexture: Display: Building textures: Texture2D_23 (BGRA8, 16X16)
+[2019.02.26-01.43.36:499][ 19]LogTexture: Display: Building textures: Texture2D_24 (BGRA8, 16X16)
+[2019.02.26-01.43.36:506][ 19]LogTexture: Display: Building textures: Texture2D_24 (BGRA8, 16X16)
+[2019.02.26-01.43.36:508][ 19]LogTexture: Display: Building textures: Texture2D_25 (BGRA8, 16X16)
+[2019.02.26-01.43.36:516][ 19]LogTexture: Display: Building textures: Texture2D_25 (BGRA8, 16X16)
+[2019.02.26-01.43.36:517][ 19]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 16X16)
+[2019.02.26-01.43.36:524][ 19]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 16X16)
+[2019.02.26-01.43.36:526][ 19]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 16X16)
+[2019.02.26-01.43.36:535][ 19]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 16X16)
+[2019.02.26-01.43.36:537][ 19]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 16X16)
+[2019.02.26-01.43.36:547][ 19]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 16X16)
+[2019.02.26-01.43.36:549][ 19]LogTexture: Display: Building textures: Texture2D_29 (BGRA8, 16X16)
+[2019.02.26-01.43.36:557][ 19]LogTexture: Display: Building textures: Texture2D_29 (BGRA8, 16X16)
+[2019.02.26-01.43.36:558][ 19]LogTexture: Display: Building textures: Texture2D_30 (BGRA8, 16X16)
+[2019.02.26-01.43.36:566][ 19]LogTexture: Display: Building textures: Texture2D_30 (BGRA8, 16X16)
+[2019.02.26-01.43.36:568][ 19]LogTexture: Display: Building textures: Texture2D_31 (BGRA8, 16X16)
+[2019.02.26-01.43.36:576][ 19]LogTexture: Display: Building textures: Texture2D_31 (BGRA8, 16X16)
+[2019.02.26-01.43.36:578][ 19]LogTexture: Display: Building textures: Texture2D_32 (BGRA8, 16X16)
+[2019.02.26-01.43.36:585][ 19]LogTexture: Display: Building textures: Texture2D_32 (BGRA8, 16X16)
+[2019.02.26-01.43.36:588][ 19]LogTexture: Display: Building textures: Texture2D_33 (BGRA8, 16X16)
+[2019.02.26-01.43.36:595][ 19]LogTexture: Display: Building textures: Texture2D_33 (BGRA8, 16X16)
+[2019.02.26-01.43.36:597][ 19]LogTexture: Display: Building textures: Texture2D_34 (BGRA8, 16X16)
+[2019.02.26-01.43.36:604][ 19]LogTexture: Display: Building textures: Texture2D_34 (BGRA8, 16X16)
+[2019.02.26-01.43.36:606][ 19]LogTexture: Display: Building textures: Texture2D_35 (BGRA8, 16X16)
+[2019.02.26-01.43.36:614][ 19]LogTexture: Display: Building textures: Texture2D_35 (BGRA8, 16X16)
+[2019.02.26-01.43.36:616][ 19]LogTexture: Display: Building textures: Texture2D_36 (BGRA8, 16X16)
+[2019.02.26-01.43.36:623][ 19]LogTexture: Display: Building textures: Texture2D_36 (BGRA8, 16X16)
+[2019.02.26-01.43.36:626][ 19]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 16X16)
+[2019.02.26-01.43.36:633][ 19]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 16X16)
+[2019.02.26-01.43.36:635][ 19]LogTexture: Display: Building textures: Texture2D_38 (BGRA8, 16X16)
+[2019.02.26-01.43.36:642][ 19]LogTexture: Display: Building textures: Texture2D_38 (BGRA8, 16X16)
+[2019.02.26-01.43.36:644][ 19]LogTexture: Display: Building textures: Texture2D_39 (BGRA8, 16X16)
+[2019.02.26-01.43.36:652][ 19]LogTexture: Display: Building textures: Texture2D_39 (BGRA8, 16X16)
+[2019.02.26-01.43.36:653][ 19]LogTexture: Display: Building textures: Texture2D_40 (BGRA8, 16X16)
+[2019.02.26-01.43.36:660][ 19]LogTexture: Display: Building textures: Texture2D_40 (BGRA8, 16X16)
+[2019.02.26-01.43.36:662][ 19]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 16X16)
+[2019.02.26-01.43.36:669][ 19]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 16X16)
+[2019.02.26-01.43.36:671][ 19]LogTexture: Display: Building textures: Texture2D_42 (BGRA8, 16X16)
+[2019.02.26-01.43.36:679][ 19]LogTexture: Display: Building textures: Texture2D_42 (BGRA8, 16X16)
+[2019.02.26-01.43.36:681][ 19]LogTexture: Display: Building textures: Texture2D_43 (BGRA8, 16X16)
+[2019.02.26-01.43.36:688][ 19]LogTexture: Display: Building textures: Texture2D_43 (BGRA8, 16X16)
+[2019.02.26-01.43.36:690][ 19]LogTexture: Display: Building textures: Texture2D_44 (BGRA8, 16X16)
+[2019.02.26-01.43.36:699][ 19]LogTexture: Display: Building textures: Texture2D_44 (BGRA8, 16X16)
+[2019.02.26-01.43.36:701][ 19]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 16X16)
+[2019.02.26-01.43.36:708][ 19]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 16X16)
+[2019.02.26-01.43.36:710][ 19]LogTexture: Display: Building textures: Texture2D_46 (BGRA8, 16X16)
+[2019.02.26-01.43.36:719][ 19]LogTexture: Display: Building textures: Texture2D_46 (BGRA8, 16X16)
+[2019.02.26-01.43.36:721][ 19]LogTexture: Display: Building textures: Texture2D_47 (BGRA8, 16X16)
+[2019.02.26-01.43.36:730][ 19]LogTexture: Display: Building textures: Texture2D_47 (BGRA8, 16X16)
+[2019.02.26-01.43.36:732][ 19]LogTexture: Display: Building textures: Texture2D_48 (BGRA8, 16X16)
+[2019.02.26-01.43.36:742][ 19]LogTexture: Display: Building textures: Texture2D_48 (BGRA8, 16X16)
+[2019.02.26-01.43.36:744][ 19]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 16X16)
+[2019.02.26-01.43.36:752][ 19]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 16X16)
+[2019.02.26-01.43.36:754][ 19]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 16X16)
+[2019.02.26-01.43.36:763][ 19]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 16X16)
+[2019.02.26-01.43.36:765][ 19]LogTexture: Display: Building textures: Texture2D_51 (BGRA8, 16X16)
+[2019.02.26-01.43.36:774][ 19]LogTexture: Display: Building textures: Texture2D_51 (BGRA8, 16X16)
+[2019.02.26-01.43.36:776][ 19]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 16X16)
+[2019.02.26-01.43.36:784][ 19]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 16X16)
+[2019.02.26-01.43.36:786][ 19]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 16X16)
+[2019.02.26-01.43.36:795][ 19]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 16X16)
+[2019.02.26-01.43.36:797][ 19]LogTexture: Display: Building textures: Texture2D_54 (BGRA8, 16X16)
+[2019.02.26-01.43.36:806][ 19]LogTexture: Display: Building textures: Texture2D_54 (BGRA8, 16X16)
+[2019.02.26-01.43.36:808][ 19]LogTexture: Display: Building textures: Texture2D_55 (BGRA8, 16X16)
+[2019.02.26-01.43.36:816][ 19]LogTexture: Display: Building textures: Texture2D_55 (BGRA8, 16X16)
+[2019.02.26-01.43.36:819][ 19]LogTexture: Display: Building textures: Texture2D_56 (BGRA8, 16X16)
+[2019.02.26-01.43.36:827][ 19]LogTexture: Display: Building textures: Texture2D_56 (BGRA8, 16X16)
+[2019.02.26-01.43.36:829][ 19]LogTexture: Display: Building textures: Texture2D_57 (BGRA8, 16X16)
+[2019.02.26-01.43.36:839][ 19]LogTexture: Display: Building textures: Texture2D_57 (BGRA8, 16X16)
+[2019.02.26-01.43.36:841][ 19]LogTexture: Display: Building textures: Texture2D_58 (BGRA8, 16X16)
+[2019.02.26-01.43.36:849][ 19]LogTexture: Display: Building textures: Texture2D_58 (BGRA8, 16X16)
+[2019.02.26-01.43.36:851][ 19]LogTexture: Display: Building textures: Texture2D_59 (BGRA8, 16X16)
+[2019.02.26-01.43.36:860][ 19]LogTexture: Display: Building textures: Texture2D_59 (BGRA8, 16X16)
+[2019.02.26-01.43.36:862][ 19]LogTexture: Display: Building textures: Texture2D_60 (BGRA8, 16X16)
+[2019.02.26-01.43.36:873][ 19]LogTexture: Display: Building textures: Texture2D_60 (BGRA8, 16X16)
+[2019.02.26-01.43.36:875][ 19]LogTexture: Display: Building textures: Texture2D_61 (BGRA8, 16X16)
+[2019.02.26-01.43.36:884][ 19]LogTexture: Display: Building textures: Texture2D_61 (BGRA8, 16X16)
+[2019.02.26-01.43.36:886][ 19]LogTexture: Display: Building textures: Texture2D_62 (BGRA8, 16X16)
+[2019.02.26-01.43.36:895][ 19]LogTexture: Display: Building textures: Texture2D_62 (BGRA8, 16X16)
+[2019.02.26-01.43.36:897][ 19]LogTexture: Display: Building textures: Texture2D_63 (BGRA8, 16X16)
+[2019.02.26-01.43.36:906][ 19]LogTexture: Display: Building textures: Texture2D_63 (BGRA8, 16X16)
+[2019.02.26-01.43.36:907][ 19]LogTexture: Display: Building textures: Texture2D_64 (BGRA8, 16X16)
+[2019.02.26-01.43.36:916][ 19]LogTexture: Display: Building textures: Texture2D_64 (BGRA8, 16X16)
+[2019.02.26-01.43.36:918][ 19]LogTexture: Display: Building textures: Texture2D_65 (BGRA8, 16X16)
+[2019.02.26-01.43.36:927][ 19]LogTexture: Display: Building textures: Texture2D_65 (BGRA8, 16X16)
+[2019.02.26-01.43.36:928][ 19]LogTexture: Display: Building textures: Texture2D_66 (BGRA8, 16X16)
+[2019.02.26-01.43.36:938][ 19]LogTexture: Display: Building textures: Texture2D_66 (BGRA8, 16X16)
+[2019.02.26-01.43.36:940][ 19]LogTexture: Display: Building textures: Texture2D_67 (BGRA8, 16X16)
+[2019.02.26-01.43.36:950][ 19]LogTexture: Display: Building textures: Texture2D_67 (BGRA8, 16X16)
+[2019.02.26-01.43.36:951][ 19]LogTexture: Display: Building textures: Texture2D_68 (BGRA8, 16X16)
+[2019.02.26-01.43.36:962][ 19]LogTexture: Display: Building textures: Texture2D_68 (BGRA8, 16X16)
+[2019.02.26-01.43.36:964][ 19]LogTexture: Display: Building textures: Texture2D_69 (BGRA8, 16X16)
+[2019.02.26-01.43.36:972][ 19]LogTexture: Display: Building textures: Texture2D_69 (BGRA8, 16X16)
+[2019.02.26-01.43.36:975][ 19]LogTexture: Display: Building textures: Texture2D_70 (BGRA8, 16X16)
+[2019.02.26-01.43.36:986][ 19]LogTexture: Display: Building textures: Texture2D_70 (BGRA8, 16X16)
+[2019.02.26-01.43.36:989][ 19]LogTexture: Display: Building textures: Texture2D_71 (BGRA8, 16X16)
+[2019.02.26-01.43.37:000][ 19]LogTexture: Display: Building textures: Texture2D_71 (BGRA8, 16X16)
+[2019.02.26-01.43.37:003][ 19]LogTexture: Display: Building textures: Texture2D_72 (BGRA8, 16X16)
+[2019.02.26-01.43.37:016][ 19]LogTexture: Display: Building textures: Texture2D_72 (BGRA8, 16X16)
+[2019.02.26-01.43.37:018][ 19]LogTexture: Display: Building textures: Texture2D_73 (BGRA8, 16X16)
+[2019.02.26-01.43.37:029][ 19]LogTexture: Display: Building textures: Texture2D_73 (BGRA8, 16X16)
+[2019.02.26-01.43.37:032][ 19]LogTexture: Display: Building textures: Texture2D_74 (BGRA8, 16X16)
+[2019.02.26-01.43.37:042][ 19]LogTexture: Display: Building textures: Texture2D_74 (BGRA8, 16X16)
+[2019.02.26-01.43.37:045][ 19]LogTexture: Display: Building textures: Texture2D_75 (BGRA8, 16X16)
+[2019.02.26-01.43.37:056][ 19]LogTexture: Display: Building textures: Texture2D_75 (BGRA8, 16X16)
+[2019.02.26-01.43.37:058][ 19]LogTexture: Display: Building textures: Texture2D_76 (BGRA8, 16X16)
+[2019.02.26-01.43.37:069][ 19]LogTexture: Display: Building textures: Texture2D_76 (BGRA8, 16X16)
+[2019.02.26-01.43.37:071][ 19]LogTexture: Display: Building textures: Texture2D_77 (BGRA8, 16X16)
+[2019.02.26-01.43.37:079][ 19]LogTexture: Display: Building textures: Texture2D_77 (BGRA8, 16X16)
+[2019.02.26-01.43.37:080][ 19]LogTexture: Display: Building textures: Texture2D_78 (BGRA8, 16X16)
+[2019.02.26-01.43.37:089][ 19]LogTexture: Display: Building textures: Texture2D_78 (BGRA8, 16X16)
+[2019.02.26-01.43.37:092][ 19]LogTexture: Display: Building textures: Texture2D_79 (BGRA8, 16X16)
+[2019.02.26-01.43.37:099][ 19]LogTexture: Display: Building textures: Texture2D_79 (BGRA8, 16X16)
+[2019.02.26-01.43.37:101][ 19]LogTexture: Display: Building textures: Texture2D_80 (BGRA8, 16X16)
+[2019.02.26-01.43.37:110][ 19]LogTexture: Display: Building textures: Texture2D_80 (BGRA8, 16X16)
+[2019.02.26-01.43.37:111][ 19]LogTexture: Display: Building textures: Texture2D_81 (BGRA8, 16X16)
+[2019.02.26-01.43.37:121][ 19]LogTexture: Display: Building textures: Texture2D_81 (BGRA8, 16X16)
+[2019.02.26-01.43.37:122][ 19]LogTexture: Display: Building textures: Texture2D_82 (BGRA8, 16X16)
+[2019.02.26-01.43.37:131][ 19]LogTexture: Display: Building textures: Texture2D_82 (BGRA8, 16X16)
+[2019.02.26-01.43.37:133][ 19]LogTexture: Display: Building textures: Texture2D_83 (BGRA8, 16X16)
+[2019.02.26-01.43.37:141][ 19]LogTexture: Display: Building textures: Texture2D_83 (BGRA8, 16X16)
+[2019.02.26-01.43.37:143][ 19]LogTexture: Display: Building textures: Texture2D_84 (BGRA8, 16X16)
+[2019.02.26-01.43.37:152][ 19]LogTexture: Display: Building textures: Texture2D_84 (BGRA8, 16X16)
+[2019.02.26-01.43.37:154][ 19]LogTexture: Display: Building textures: Texture2D_85 (BGRA8, 16X16)
+[2019.02.26-01.43.37:162][ 19]LogTexture: Display: Building textures: Texture2D_85 (BGRA8, 16X16)
+[2019.02.26-01.43.38:844][110]LogTexture: Display: Building textures: Texture2D_86 (BGRA8, 16X16)
+[2019.02.26-01.43.38:861][110]LogTexture: Display: Building textures: Texture2D_86 (BGRA8, 16X16)
+[2019.02.26-01.43.39:798][165]LogTexture: Display: Building textures: Texture2D_87 (BGRA8, 16X16)
+[2019.02.26-01.43.39:815][165]LogTexture: Display: Building textures: Texture2D_87 (BGRA8, 16X16)
+[2019.02.26-01.43.40:469][203]LogTexture: Display: Building textures: Texture2D_88 (BGRA8, 16X16)
+[2019.02.26-01.43.40:479][203]LogTexture: Display: Building textures: Texture2D_88 (BGRA8, 16X16)
+[2019.02.26-01.43.40:974][232]LogTexture: Display: Building textures: Texture2D_89 (BGRA8, 16X16)
+[2019.02.26-01.43.40:989][232]LogTexture: Display: Building textures: Texture2D_89 (BGRA8, 16X16)
+[2019.02.26-01.43.41:557][265]LogTexture: Display: Building textures: Texture2D_90 (BGRA8, 16X16)
+[2019.02.26-01.43.41:573][265]LogTexture: Display: Building textures: Texture2D_90 (BGRA8, 16X16)
+[2019.02.26-01.43.42:458][317]LogTexture: Display: Building textures: Texture2D_91 (BGRA8, 16X16)
+[2019.02.26-01.43.42:470][317]LogTexture: Display: Building textures: Texture2D_91 (BGRA8, 16X16)
+[2019.02.26-01.43.43:150][357]LogTexture: Display: Building textures: Texture2D_92 (BGRA8, 16X16)
+[2019.02.26-01.43.43:165][357]LogTexture: Display: Building textures: Texture2D_92 (BGRA8, 16X16)
+[2019.02.26-01.43.44:510][436]LogTexture: Display: Building textures: Texture2D_93 (BGRA8, 16X16)
+[2019.02.26-01.43.44:519][436]LogTexture: Display: Building textures: Texture2D_93 (BGRA8, 16X16)
+[2019.02.26-01.43.45:145][473]LogTexture: Display: Building textures: Texture2D_94 (BGRA8, 16X16)
+[2019.02.26-01.43.45:160][473]LogTexture: Display: Building textures: Texture2D_94 (BGRA8, 16X16)
+[2019.02.26-01.43.46:910][577]LogTexture: Display: Building textures: Texture2D_95 (BGRA8, 16X16)
+[2019.02.26-01.43.46:924][577]LogTexture: Display: Building textures: Texture2D_95 (BGRA8, 16X16)
+[2019.02.26-01.43.52:594][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.43.59:039][245]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2019.02.26-01.43.59:109][245]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-01.44.00:374][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.26-01.44.00:375][301]PIE: New page: PIE session: PreAlpha (Feb 25, 2019, 3:44:00 PM)
+[2019.02.26-01.44.00:375][301]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha
+[2019.02.26-01.44.00:393][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017515s)
+[2019.02.26-01.44.00:394][301]LogAIModule: Creating AISystem for world PreAlpha
+[2019.02.26-01.44.00:394][301]LogPlayLevel: PIE: World Init took: (0.001284s)
+[2019.02.26-01.44.00:394][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/PreAlpha.PreAlpha to /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha (0.019078s)
+[2019.02.26-01.44.00:466][301]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.26-01.44.00:505][301]LogInit: FAudioDevice initialized.
+[2019.02.26-01.44.00:505][301]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-01.44.00:537][301]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.26-01.44.00:543][301]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha up for play (max tick rate 0) at 2019.02.25-20.44.00
+[2019.02.26-01.44.00:543][301]LogWorld: Bringing up level for play took: 0.003577
+[2019.02.26-01.44.00:555][301]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha -0.728
+[2019.02.26-01.44.47:994][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-01.44.48:058][839]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.26-01.44.48:155][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-01.44.48:237][840]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.02.26-01.44.54:232][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2019.02.26-01.44.55:622][250]Cmd: DELETE
+[2019.02.26-01.44.55:622][250]Cmd: ACTOR DELETE
+[2019.02.26-01.44.55:636][250]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.26-01.44.55:705][250]LogEditorActor: Deleted 1 Actors (0.082 secs)
+[2019.02.26-01.44.56:921][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2019.02.26-01.44.57:746][366]Cmd: DELETE
+[2019.02.26-01.44.57:746][366]Cmd: ACTOR DELETE
+[2019.02.26-01.44.57:763][366]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.26-01.44.57:843][366]LogEditorActor: Deleted 1 Actors (0.097 secs)
+[2019.02.26-01.45.14:666][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.45.20:868][620]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 16X16)
+[2019.02.26-01.45.20:869][620]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 16X16)
+[2019.02.26-01.45.20:870][620]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 16X16)
+[2019.02.26-01.45.20:870][620]LogTexture: Display: Building textures: Texture2D_29 (BGRA8, 16X16)
+[2019.02.26-01.45.20:871][620]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 16X16)
+[2019.02.26-01.45.20:872][620]LogTexture: Display: Building textures: Texture2D_35 (BGRA8, 16X16)
+[2019.02.26-01.45.20:873][620]LogTexture: Display: Building textures: Texture2D_36 (BGRA8, 16X16)
+[2019.02.26-01.45.20:873][620]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 16X16)
+[2019.02.26-01.45.20:874][620]LogTexture: Display: Building textures: Texture2D_38 (BGRA8, 16X16)
+[2019.02.26-01.45.20:875][620]LogTexture: Display: Building textures: Texture2D_39 (BGRA8, 16X16)
+[2019.02.26-01.45.20:876][620]LogTexture: Display: Building textures: Texture2D_40 (BGRA8, 16X16)
+[2019.02.26-01.45.20:876][620]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 16X16)
+[2019.02.26-01.45.20:877][620]LogTexture: Display: Building textures: Texture2D_42 (BGRA8, 16X16)
+[2019.02.26-01.45.20:878][620]LogTexture: Display: Building textures: Texture2D_43 (BGRA8, 16X16)
+[2019.02.26-01.45.20:878][620]LogTexture: Display: Building textures: Texture2D_44 (BGRA8, 16X16)
+[2019.02.26-01.45.20:879][620]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 16X16)
+[2019.02.26-01.45.20:879][620]LogTexture: Display: Building textures: Texture2D_46 (BGRA8, 16X16)
+[2019.02.26-01.45.20:880][620]LogTexture: Display: Building textures: Texture2D_47 (BGRA8, 16X16)
+[2019.02.26-01.45.20:881][620]LogTexture: Display: Building textures: Texture2D_48 (BGRA8, 16X16)
+[2019.02.26-01.45.20:881][620]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 16X16)
+[2019.02.26-01.45.20:882][620]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 16X16)
+[2019.02.26-01.45.20:883][620]LogTexture: Display: Building textures: Texture2D_51 (BGRA8, 16X16)
+[2019.02.26-01.45.20:884][620]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 16X16)
+[2019.02.26-01.45.20:884][620]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 16X16)
+[2019.02.26-01.45.20:885][620]LogTexture: Display: Building textures: Texture2D_54 (BGRA8, 16X16)
+[2019.02.26-01.45.20:886][620]LogTexture: Display: Building textures: Texture2D_55 (BGRA8, 16X16)
+[2019.02.26-01.45.20:887][620]LogTexture: Display: Building textures: Texture2D_56 (BGRA8, 16X16)
+[2019.02.26-01.45.20:887][620]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 16X16)
+[2019.02.26-01.45.20:888][620]LogTexture: Display: Building textures: Texture2D_57 (BGRA8, 16X16)
+[2019.02.26-01.45.20:889][620]LogTexture: Display: Building textures: Texture2D_58 (BGRA8, 16X16)
+[2019.02.26-01.45.20:889][620]LogTexture: Display: Building textures: Texture2D_59 (BGRA8, 16X16)
+[2019.02.26-01.45.20:890][620]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 16X16)
+[2019.02.26-01.45.20:891][620]LogTexture: Display: Building textures: Texture2D_60 (BGRA8, 16X16)
+[2019.02.26-01.45.20:892][620]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 16X16)
+[2019.02.26-01.45.20:893][620]LogTexture: Display: Building textures: Texture2D_61 (BGRA8, 16X16)
+[2019.02.26-01.45.20:894][620]LogTexture: Display: Building textures: Texture2D_62 (BGRA8, 16X16)
+[2019.02.26-01.45.20:895][620]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 16X16)
+[2019.02.26-01.45.20:895][620]LogTexture: Display: Building textures: Texture2D_63 (BGRA8, 16X16)
+[2019.02.26-01.45.20:896][620]LogTexture: Display: Building textures: Texture2D_64 (BGRA8, 16X16)
+[2019.02.26-01.45.20:897][620]LogTexture: Display: Building textures: Texture2D_65 (BGRA8, 16X16)
+[2019.02.26-01.45.20:897][620]LogTexture: Display: Building textures: Texture2D_66 (BGRA8, 16X16)
+[2019.02.26-01.45.20:899][620]LogTexture: Display: Building textures: Texture2D_67 (BGRA8, 16X16)
+[2019.02.26-01.45.20:899][620]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 16X16)
+[2019.02.26-01.45.20:900][620]LogTexture: Display: Building textures: Texture2D_68 (BGRA8, 16X16)
+[2019.02.26-01.45.20:901][620]LogTexture: Display: Building textures: Texture2D_69 (BGRA8, 16X16)
+[2019.02.26-01.45.20:902][620]LogTexture: Display: Building textures: Texture2D_70 (BGRA8, 16X16)
+[2019.02.26-01.45.20:903][620]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 16X16)
+[2019.02.26-01.45.20:903][620]LogTexture: Display: Building textures: Texture2D_71 (BGRA8, 16X16)
+[2019.02.26-01.45.20:904][620]LogTexture: Display: Building textures: Texture2D_72 (BGRA8, 16X16)
+[2019.02.26-01.45.20:905][620]LogTexture: Display: Building textures: Texture2D_73 (BGRA8, 16X16)
+[2019.02.26-01.45.20:906][620]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 16X16)
+[2019.02.26-01.45.20:907][620]LogTexture: Display: Building textures: Texture2D_74 (BGRA8, 16X16)
+[2019.02.26-01.45.20:907][620]LogTexture: Display: Building textures: Texture2D_75 (BGRA8, 16X16)
+[2019.02.26-01.45.20:908][620]LogTexture: Display: Building textures: Texture2D_76 (BGRA8, 16X16)
+[2019.02.26-01.45.20:909][620]LogTexture: Display: Building textures: Texture2D_77 (BGRA8, 16X16)
+[2019.02.26-01.45.20:909][620]LogTexture: Display: Building textures: Texture2D_78 (BGRA8, 16X16)
+[2019.02.26-01.45.20:910][620]LogTexture: Display: Building textures: Texture2D_79 (BGRA8, 16X16)
+[2019.02.26-01.45.20:911][620]LogTexture: Display: Building textures: Texture2D_80 (BGRA8, 16X16)
+[2019.02.26-01.45.20:911][620]LogTexture: Display: Building textures: Texture2D_81 (BGRA8, 16X16)
+[2019.02.26-01.45.20:912][620]LogTexture: Display: Building textures: Texture2D_20 (BGRA8, 16X16)
+[2019.02.26-01.45.20:913][620]LogTexture: Display: Building textures: Texture2D_82 (BGRA8, 16X16)
+[2019.02.26-01.45.20:913][620]LogTexture: Display: Building textures: Texture2D_83 (BGRA8, 16X16)
+[2019.02.26-01.45.20:914][620]LogTexture: Display: Building textures: Texture2D_84 (BGRA8, 16X16)
+[2019.02.26-01.45.21:357][620]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/PreAlpha96C7DE6541FE236BE6BCDBA0D92B8FA4.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/WorldCompositionLevels/PreAlpha.umap'
+[2019.02.26-01.45.21:604][620]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/PreAlpha_BuiltData5FBD961343DD2C661B5A1AA051493109.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/WorldCompositionLevels/PreAlpha_BuiltData.uasset'
+[2019.02.26-01.45.34:322][289]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.45.48:678][ 15]LogAIModule: Creating AISystem for world Example_3
+[2019.02.26-01.45.48:683][ 15]LogAssetEditorManager: Opening Asset editor for World /Game/Space_Skybox_Collection_1/Maps/Example_3.Example_3
+[2019.02.26-01.45.50:839][ 15]LogSlate: Window 'Save Content' being destroyed
+[2019.02.26-01.45.50:872][ 15]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/13_-_Default221C44F2470116ED2021959A9046E405.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/FreeModels/13_-_Default.uasset'
+[2019.02.26-01.45.50:918][ 15]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/lolipop_Cylinder00878414BC143BDE1633F02728DF6B7B5BC.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/FreeModels/lolipop_Cylinder008.uasset'
+[2019.02.26-01.45.50:971][ 15]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/lolipop_Sphere00763802F21449B7E365E18DD9E4A172E75.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/FreeModels/lolipop_Sphere007.uasset'
+[2019.02.26-01.45.51:002][ 15]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/orange_ddD31CF76244824A74C3FD17BB6C568B17.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/FreeModels/orange_dd.uasset'
+[2019.02.26-01.45.51:032][ 15]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Saved/Trail_LayerInfoA5E608AF4BB4E0D7078FF487A01E7EC8.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/MARSHMALLOWS-WOOO/MarshMellow/Content/LayerINFOS/Trail_LayerInfo.uasset'
+[2019.02.26-01.45.51:049][ 15]LightingResults: New page: Lighting Build
+[2019.02.26-01.45.51:050][ 15]LoadErrors: New page: Loading map: Example_3.umap
+[2019.02.26-01.45.51:056][ 15]MapCheck: New page: Map Check
+[2019.02.26-01.45.51:056][ 15]LightingResults: New page: Lighting Build
+[2019.02.26-01.45.51:278][ 15]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.26-01.45.51:392][ 15]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.26-01.45.51:739][ 15]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 346.472ms to complete.
+[2019.02.26-01.45.51:742][ 15]LogFileHelpers: Loading map 'Example_3' took 0.698
+[2019.02.26-01.45.58:872][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.45.59:996][455]LogAIModule: Creating AISystem for world Example_4
+[2019.02.26-01.46.00:087][455]LogAssetEditorManager: Opening Asset editor for World /Game/Space_Skybox_Collection_1/Maps/Example_4.Example_4
+[2019.02.26-01.46.00:173][455]LightingResults: New page: Lighting Build
+[2019.02.26-01.46.00:174][455]LoadErrors: New page: Loading map: Example_4.umap
+[2019.02.26-01.46.00:176][455]MapCheck: New page: Map Check
+[2019.02.26-01.46.00:176][455]LightingResults: New page: Lighting Build
+[2019.02.26-01.46.00:389][455]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.26-01.46.00:559][455]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.26-01.46.00:929][455]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 370.427ms to complete.
+[2019.02.26-01.46.00:931][455]LogFileHelpers: Loading map 'Example_4' took 0.760
+[2019.02.26-01.46.05:480][717]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.46.06:564][728]LogAIModule: Creating AISystem for world Example_1
+[2019.02.26-01.46.06:616][728]LogAssetEditorManager: Opening Asset editor for World /Game/Space_Skybox_Collection_1/Maps/Example_1.Example_1
+[2019.02.26-01.46.06:687][728]LightingResults: New page: Lighting Build
+[2019.02.26-01.46.06:687][728]LoadErrors: New page: Loading map: Example_1.umap
+[2019.02.26-01.46.06:689][728]MapCheck: New page: Map Check
+[2019.02.26-01.46.06:689][728]LightingResults: New page: Lighting Build
+[2019.02.26-01.46.06:857][728]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.26-01.46.06:995][728]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.26-01.46.07:291][728]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 295.547ms to complete.
+[2019.02.26-01.46.07:294][728]LogFileHelpers: Loading map 'Example_1' took 0.608
+[2019.02.26-01.46.12:221][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.46.21:504][523]LogAIModule: Creating AISystem for world PreAlpha
+[2019.02.26-01.46.21:536][523]LogAssetEditorManager: Opening Asset editor for World /Game/WorldCompositionLevels/PreAlpha.PreAlpha
+[2019.02.26-01.46.21:611][523]LightingResults: New page: Lighting Build
+[2019.02.26-01.46.21:612][523]LoadErrors: New page: Loading map: PreAlpha.umap
+[2019.02.26-01.46.21:614][523]MapCheck: New page: Map Check
+[2019.02.26-01.46.21:614][523]LightingResults: New page: Lighting Build
+[2019.02.26-01.46.21:912][523]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.26-01.46.22:052][523]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.26-01.46.22:435][523]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 383.03ms to complete.
+[2019.02.26-01.46.22:437][523]LogFileHelpers: Loading map 'PreAlpha' took 0.828
+[2019.02.26-01.46.25:276][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.46.25:486][683]LogTexture: Display: Building textures: Texture2D_9 (G8, 128X128)
+[2019.02.26-01.46.36:099][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.46.55:986][394]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2019.02.26-01.46.56:057][394]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-01.46.56:998][435]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.26-01.46.56:998][435]PIE: New page: PIE session: PreAlpha (Feb 25, 2019, 3:46:56 PM)
+[2019.02.26-01.46.56:999][435]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha
+[2019.02.26-01.46.57:027][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028259s)
+[2019.02.26-01.46.57:029][435]LogAIModule: Creating AISystem for world PreAlpha
+[2019.02.26-01.46.57:029][435]LogPlayLevel: PIE: World Init took: (0.001833s)
+[2019.02.26-01.46.57:029][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/PreAlpha.PreAlpha to /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha (0.030595s)
+[2019.02.26-01.46.57:113][435]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.26-01.46.57:175][435]LogInit: FAudioDevice initialized.
+[2019.02.26-01.46.57:176][435]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-01.46.57:208][435]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.26-01.46.57:216][435]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha up for play (max tick rate 0) at 2019.02.25-20.46.57
+[2019.02.26-01.46.57:217][435]LogWorld: Bringing up level for play took: 0.006621
+[2019.02.26-01.46.57:233][435]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha -0.051
+[2019.02.26-01.47.14:352][196]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-01.47.14:415][196]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.26-01.47.14:535][196]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-01.47.14:637][197]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.02.26-01.47.27:506][621]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.47.36:493][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.47.42:592][261]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 16X16)
+[2019.02.26-01.47.42:609][261]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 16X16)
+[2019.02.26-01.47.43:257][292]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 16X16)
+[2019.02.26-01.47.43:272][292]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 16X16)
+[2019.02.26-01.47.43:800][318]LogTexture: Display: Building textures: Texture2D_21 (BGRA8, 16X16)
+[2019.02.26-01.47.43:816][318]LogTexture: Display: Building textures: Texture2D_21 (BGRA8, 16X16)
+[2019.02.26-01.47.44:304][344]LogTexture: Display: Building textures: Texture2D_22 (BGRA8, 16X16)
+[2019.02.26-01.47.44:322][344]LogTexture: Display: Building textures: Texture2D_22 (BGRA8, 16X16)
+[2019.02.26-01.47.44:848][371]LogTexture: Display: Building textures: Texture2D_23 (BGRA8, 16X16)
+[2019.02.26-01.47.44:867][371]LogTexture: Display: Building textures: Texture2D_23 (BGRA8, 16X16)
+[2019.02.26-01.47.47:048][488]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-01.48.26:795][772]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2019.02.26-01.48.26:876][772]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-01.48.28:380][836]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.26-01.48.28:381][836]PIE: New page: PIE session: PreAlpha (Feb 25, 2019, 3:48:28 PM)
+[2019.02.26-01.48.28:381][836]LogPlayLevel: Creating play world package: /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha
+[2019.02.26-01.48.28:395][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013256s)
+[2019.02.26-01.48.28:395][836]LogAIModule: Creating AISystem for world PreAlpha
+[2019.02.26-01.48.28:395][836]LogPlayLevel: PIE: World Init took: (0.001174s)
+[2019.02.26-01.48.28:395][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WorldCompositionLevels/PreAlpha.PreAlpha to /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha (0.014666s)
+[2019.02.26-01.48.28:459][836]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.26-01.48.28:511][836]LogInit: FAudioDevice initialized.
+[2019.02.26-01.48.28:511][836]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-01.48.28:544][836]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.26-01.48.28:551][836]LogWorld: Bringing World /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha.PreAlpha up for play (max tick rate 0) at 2019.02.25-20.48.28
+[2019.02.26-01.48.28:552][836]LogWorld: Bringing up level for play took: 0.005978
+[2019.02.26-01.48.28:566][836]PIE: Play in editor start time for /Game/WorldCompositionLevels/UEDPIE_0_PreAlpha -0.717
+[2019.02.26-01.49.54:245][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-01.49.54:293][772]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.26-01.49.54:354][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-01.49.54:429][773]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.02.26-01.50.40:571][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
