@@ -1,0 +1,1818 @@
+﻿Log file open, 03/10/19 14:11:02
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MarshMellow
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.270102
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.086s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA TITAN X (Pascal)
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.10-18.11.02:298][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.10-18.11.02:298][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.10-18.11.02:331][  0]LogHAL: Display: Platform has ~ 16 GB [17120710656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.10-18.11.02:331][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.10-18.11.02:331][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.10-18.11.02:331][  0]LogInit: Computer: DESKTOP-I0Q4SH2
+[2019.03.10-18.11.02:331][  0]LogInit: User: LohasKevin
+[2019.03.10-18.11.02:331][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.10-18.11.02:331][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.10-18.11.02:332][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.10-18.11.02:332][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.10-18.11.02:332][  0]LogMemory: Process Physical Memory: 101.65 MB used, 101.66 MB peak
+[2019.03.10-18.11.02:332][  0]LogMemory: Process Virtual Memory: 93.52 MB used, 93.52 MB peak
+[2019.03.10-18.11.02:332][  0]LogMemory: Physical Memory: 6961.01 MB used,  9366.57 MB free, 16327.58 MB total
+[2019.03.10-18.11.02:332][  0]LogMemory: Virtual Memory: 4645.47 MB used,  9366.57 MB free, 134217728.00 MB total
+[2019.03.10-18.11.02:368][  0]LogInit: Using OS detected language (en-US).
+[2019.03.10-18.11.02:368][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.10-18.11.02:369][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.10-18.11.02:674][  0]LogStreaming: Display: Took  0.306s to InitEngineTextLocalization.
+[2019.03.10-18.11.02:674][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.10-18.11.02:710][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.10-18.11.02:710][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.10-18.11.02:875][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.10-18.11.02:875][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.10-18.11.02:922][  0]LogD3D11RHI:    0. 'NVIDIA TITAN X (Pascal)' (Feature Level 11_0)
+[2019.03.10-18.11.02:922][  0]LogD3D11RHI:       12147/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.10-18.11.02:923][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.10-18.11.02:924][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.10-18.11.02:924][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.10-18.11.02:930][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.10-18.11.02:930][  0]LogD3D11RHI:     GPU DeviceId: 0x1b00 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.10-18.11.02:930][  0]LogWindows: EnumDisplayDevices:
+[2019.03.10-18.11.02:930][  0]LogWindows:    0. 'NVIDIA TITAN X (Pascal)' (P:1 D:1)
+[2019.03.10-18.11.02:930][  0]LogWindows:    1. 'NVIDIA TITAN X (Pascal)' (P:0 D:0)
+[2019.03.10-18.11.02:931][  0]LogWindows:    2. 'NVIDIA TITAN X (Pascal)' (P:0 D:0)
+[2019.03.10-18.11.02:931][  0]LogWindows:    3. 'NVIDIA TITAN X (Pascal)' (P:0 D:0)
+[2019.03.10-18.11.02:931][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.10-18.11.02:931][  0]LogD3D11RHI:     Adapter Name: NVIDIA TITAN X (Pascal)
+[2019.03.10-18.11.02:931][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.03.10-18.11.02:931][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.03.10-18.11.02:931][  0]LogRHI: Texture pool is 8502 MB (70% of 12147 MB)
+[2019.03.10-18.11.02:964][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.10-18.11.02:984][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.10-18.11.03:028][  0]LogShaderCompilers: Guid format shader working directory is 20 characters bigger than the processId version (E:/MARSHMALLOWS-WOOO/MarshMellow/Intermediate/Shaders/WorkingDirectory/1700/).
+[2019.03.10-18.11.03:028][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Lohas_Kevin/AppData/Local/Temp/UnrealShaderWorkingDir/8A80E34B4651D2A08850139D0AAB0214/'.
+[2019.03.10-18.11.03:249][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.10-18.11.03:260][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.10-18.11.03:271][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.10-18.11.03:282][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.10-18.11.03:293][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.10-18.11.03:303][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.10-18.11.03:314][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.10-18.11.03:324][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.10-18.11.03:330][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.10-18.11.03:388][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.10-18.11.03:388][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.10-18.11.03:388][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.10-18.11.03:388][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.10-18.11.03:388][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.10-18.11.03:388][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.10-18.11.03:388][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.10-18.11.03:388][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.10-18.11.03:388][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.10-18.11.03:388][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.10-18.11.03:388][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.10-18.11.03:388][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.10-18.11.03:388][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.10-18.11.03:388][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.10-18.11.03:388][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.10-18.11.03:388][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.10-18.11.03:388][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.10-18.11.03:388][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.10-18.11.03:389][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.10-18.11.03:444][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.10-18.11.03:444][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.10-18.11.03:461][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.10-18.11.03:461][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.10-18.11.03:471][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.10-18.11.03:480][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.10-18.11.03:490][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.10-18.11.03:500][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.10-18.11.03:507][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.10-18.11.03:507][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.10-18.11.03:555][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.10-18.11.03:555][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.10-18.11.03:555][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.10-18.11.04:158][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.10-18.11.04:209][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Lohas_Kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.10-18.11.04:210][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Lohas_Kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.10-18.11.04:210][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/MARSHMALLOWS-WOOO/MarshMellow/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.10-18.11.04:210][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.10-18.11.04:210][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/MARSHMALLOWS-WOOO/MarshMellow/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.10-18.11.04:210][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.10-18.11.04:220][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.10-18.11.04:232][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Lohas_Kevin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.10-18.11.04:232][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.10-18.11.04:232][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.10-18.11.04:250][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.10-18.11.04:251][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.10-18.11.04:252][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.10-18.11.04:315][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2019.03.10-18.11.04:563][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.10-18.11.04:670][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.10-18.11.04:672][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.10-18.11.04:672][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.10-18.11.04:673][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.10-18.11.04:673][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.10-18.11.04:683][  0]LogNetVersion: MarshMellow 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3750370364)
+[2019.03.10-18.11.05:089][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.086747 seconds
+[2019.03.10-18.11.05:096][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.10-18.11.05:096][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.03.10-18.11.05:096][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.10-18.11.05:766][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.10-18.11.05:778][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.10-18.11.05:919][  0]SourceControl: Source control is disabled
+[2019.03.10-18.11.05:920][  0]SourceControl: Source control is disabled
+[2019.03.10-18.11.05:920][  0]SourceControl: Source control is disabled
+[2019.03.10-18.11.05:921][  0]SourceControl: Source control is disabled
+[2019.03.10-18.11.06:081][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.10-18.11.06:154][  0]LogOcInput: OculusInput pre-init called
+[2019.03.10-18.11.06:204][  0]LogEngine: Initializing Engine...
+[2019.03.10-18.11.06:205][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.10-18.11.06:206][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.10-18.11.06:206][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.10-18.11.06:206][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.10-18.11.06:206][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.10-18.11.06:375][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.10-18.11.06:387][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.10-18.11.06:400][  0]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.10-18.11.06:420][  0]LogInit: FAudioDevice initialized.
+[2019.03.10-18.11.06:421][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.10-18.11.06:469][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/Lohas_Kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.10-18.11.06:472][  0]LogInit: Texture streaming: Enabled
+[2019.03.10-18.11.06:487][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.10-18.11.06:499][  0]LogInit: Transaction tracking system initialized
+[2019.03.10-18.11.06:517][  0]BlueprintLog: New page: Editor Load
+[2019.03.10-18.11.06:580][  0]LocalizationService: Localization service is disabled
+[2019.03.10-18.11.06:834][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.10-18.11.06:834][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.10-18.11.06:834][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.10-18.11.06:834][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.10-18.11.06:834][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.10-18.11.06:834][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.10-18.11.06:834][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.10-18.11.06:951][  0]LogFileCache: Scanning file cache for directory 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/' took 0.03s
+[2019.03.10-18.11.06:951][  0]SourceControl: Source control is disabled
+[2019.03.10-18.11.06:952][  0]Cmd: MAP LOAD FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.10-18.11.06:955][  0]LightingResults: New page: Lighting Build
+[2019.03.10-18.11.06:958][  0]MapCheck: New page: Map Check
+[2019.03.10-18.11.06:958][  0]LightingResults: New page: Lighting Build
+[2019.03.10-18.11.07:050][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.03.10-18.11.07:050][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading E:/MARSHMALLOWS-WOOO/MarshMellow/Content/StarterContent/Maps/Minimal_Default.umap.
+[2019.03.10-18.11.07:050][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2019.03.10-18.11.07:077][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.03.10-18.11.07:077][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading E:/MARSHMALLOWS-WOOO/MarshMellow/Content/StarterContent/Maps/Minimal_Default.umap.
+[2019.03.10-18.11.07:077][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2019.03.10-18.11.07:103][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.03.10-18.11.07:103][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2019.03.10-18.11.07:103][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.03.10-18.11.07:103][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2019.03.10-18.11.07:116][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.03.10-18.11.07:116][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2019.03.10-18.11.07:116][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2019.03.10-18.11.07:116][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2019.03.10-18.11.07:243][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.10-18.11.07:249][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.10-18.11.07:267][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.10-18.11.07:328][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.506ms to complete.
+[2019.03.10-18.11.07:328][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.377
+[2019.03.10-18.11.07:425][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.11.07:430][  0]LogCollectionManager: Loaded 0 collections in 0.001612 seconds
+[2019.03.10-18.11.07:471][  0]LogFileCache: Scanning file cache for directory 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/Collections/' took 0.01s
+[2019.03.10-18.11.07:471][  0]LogFileCache: Scanning file cache for directory 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/Developers/LohasKevin/Collections/' took 0.01s
+[2019.03.10-18.11.07:471][  0]LogFileCache: Scanning file cache for directory 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/Collections/' took 0.01s
+[2019.03.10-18.11.07:471][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.10-18.11.07:479][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2572 classes and 603 folders.
+[2019.03.10-18.11.07:485][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.10-18.11.07:526][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.10-18.11.07:530][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.03.10-18.11.07:570][  0]LogSlate: Took 0.000336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.10-18.11.07:572][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.10-18.11.07:576][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.10-18.11.07:635][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.03.10-18.11.07:762][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.10-18.11.07:762][  0]LogLoad: (Engine Initialization) Total time: 7.11 seconds
+[2019.03.10-18.11.07:762][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.10-18.11.07:792][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.10-18.11.07:796][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.10-18.11.07:862][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.10-18.11.07:907][  1]LogAssetRegistry: Asset discovery search completed in 3.6143 seconds
+[2019.03.10-18.11.07:908][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.10-18.11.07:908][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2019.03.10-18.11.08:849][ 28]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.10-18.11.09:602][ 43]LogSlate: Window 'Message Log' being destroyed
+[2019.03.10-18.11.09:657][ 43]LogSlate: Window 'Message Log' being destroyed
+[2019.03.10-18.11.10:871][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.11.12:202][ 84]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ParagonRevenant/Characters/Heroes/Revenant/RevenantPlayerCharacter.RevenantPlayerCharacter
+[2019.03.10-18.11.12:658][ 84]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2019.03.10-18.11.13:336][ 84]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Receiver_Blueprint.Receiver_Blueprint
+[2019.03.10-18.11.13:596][ 84]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BluePrints/BackPack.BackPack
+[2019.03.10-18.11.13:876][ 84]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/PickUpController.PickUpController
+[2019.03.10-18.11.14:144][ 84]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/PickUpInterface.PickUpInterface
+[2019.03.10-18.11.14:395][ 84]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BluePrints/Button.Button
+[2019.03.10-18.11.14:679][ 84]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.11.14:698][ 84]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.10-18.11.17:096][140]LogSlate: Took 0.003126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.10-18.12.12:767][436]BlueprintLog: New page: Compile BackPack
+[2019.03.10-18.12.12:858][436]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.12.12:860][436]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.12.12:870][436]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.12.12:872][436]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.12.12:892][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BackPack" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset" SILENT=true
+[2019.03.10-18.12.12:932][436]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/BackPack2819BF654AAD967AEA64F288357D1F1A.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset'
+[2019.03.10-18.12.14:922][484]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.14.02:666][131]BlueprintLog: New page: Compile BackPack
+[2019.03.10-18.14.02:689][131]LogBlueprint: Error: [Compiler BackPack] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2019.03.10-18.14.02:689][131]LogBlueprint: Error: [Compiler BackPack] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2019.03.10-18.14.02:689][131]LogBlueprint: Error: [Compiler BackPack] Variable node  Set bShowMouseCursor  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.03.10-18.14.02:689][131]LogBlueprint: Error: [Compiler BackPack] Variable node  Set bShowMouseCursor  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.03.10-18.14.02:736][131]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.14.02:737][131]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.14.02:748][131]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.14.02:750][131]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.14.02:774][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BackPack" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset" SILENT=true
+[2019.03.10-18.14.02:810][131]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/BackPackA5F6D8F349864606BB92E19D06BAA81A.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset'
+[2019.03.10-18.14.02:824][131]LogBlueprint: Warning: [Compiler BackPack] [0182.17] Compile of BackPack failed. 4 Fatal Issue(s) 0 Warning(s) [in 158 ms] (/Game/BluePrints/BackPack.BackPack)
+[2019.03.10-18.14.04:971][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.14.06:413][209]BlueprintLog: New page: Compile BackPack
+[2019.03.10-18.14.06:436][209]LogBlueprint: Error: [Compiler BackPack] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2019.03.10-18.14.06:436][209]LogBlueprint: Error: [Compiler BackPack] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2019.03.10-18.14.06:436][209]LogBlueprint: Error: [Compiler BackPack] Variable node  Set bShowMouseCursor  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.03.10-18.14.06:437][209]LogBlueprint: Error: [Compiler BackPack] Variable node  Set bShowMouseCursor  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.03.10-18.14.06:484][209]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.14.06:485][209]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.14.06:496][209]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.14.06:497][209]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.14.06:514][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BackPack" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset" SILENT=true
+[2019.03.10-18.14.06:547][209]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/BackPack718AD25A4240BFB0279CD6984619B9B5.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset'
+[2019.03.10-18.14.06:554][209]LogBlueprint: Warning: [Compiler BackPack] [0185.90] Compile of BackPack failed. 4 Fatal Issue(s) 0 Warning(s) [in 141 ms] (/Game/BluePrints/BackPack.BackPack)
+[2019.03.10-18.14.06:557][209]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.10-18.14.16:490][415]BlueprintLog: New page: Compile BackPack
+[2019.03.10-18.14.16:560][415]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.14.16:561][415]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.14.16:572][415]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.14.16:574][415]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.14.16:591][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BackPack" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset" SILENT=true
+[2019.03.10-18.14.16:624][415]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/BackPack2B8BA3BF43A6F08F846C28822A759ACA.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset'
+[2019.03.10-18.14.21:012][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.14.22:764][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.14.25:197][768]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.10-18.14.25:205][768]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/MovementTest.MovementTest
+[2019.03.10-18.14.25:237][768]Cmd: MAP LOAD FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/Levels/MovementTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.10-18.14.25:237][768]LightingResults: New page: Lighting Build
+[2019.03.10-18.14.25:238][768]LoadErrors: New page: Loading map: MovementTest.umap
+[2019.03.10-18.14.25:239][768]MapCheck: New page: Map Check
+[2019.03.10-18.14.25:239][768]LightingResults: New page: Lighting Build
+[2019.03.10-18.14.25:364][768]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.10-18.14.25:420][768]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.10-18.14.25:528][768]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 107.691ms to complete.
+[2019.03.10-18.14.25:528][768]LogFileHelpers: Loading map 'MovementTest' took 0.291
+[2019.03.10-18.14.26:821][829]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.10-18.14.26:855][829]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.14.26:855][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.10-18.14.26:867][829]PIE: New page: PIE session: MovementTest (Mar 10, 2019, 10:14:26 AM)
+[2019.03.10-18.14.26:867][829]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.10-18.14.26:869][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001455s)
+[2019.03.10-18.14.26:869][829]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.10-18.14.26:869][829]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2019.03.10-18.14.26:869][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002064s)
+[2019.03.10-18.14.26:906][829]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.10-18.14.26:913][829]LogInit: FAudioDevice initialized.
+[2019.03.10-18.14.26:957][829]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.10-18.14.26:959][829]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.10-14.14.26
+[2019.03.10-18.14.26:959][829]LogWorld: Bringing up level for play took: 0.000671
+[2019.03.10-18.14.26:978][829]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.03.10-18.14.26:979][829]LogScript: Warning: Script Msg: Divide by zero detected: 71.223625 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.14.26:988][829]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 0.593
+[2019.03.10-18.14.26:988][829]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.14.29:703][968]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_1
+[2019.03.10-18.14.29:885][979]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.14.29:886][979]LogBlueprintUserMessages: [KeyItem_1] Hello
+[2019.03.10-18.14.31:254][ 60]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_2
+[2019.03.10-18.14.31:574][ 79]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.14.31:574][ 79]LogBlueprintUserMessages: [KeyItem_2] Hello
+[2019.03.10-18.14.36:153][351]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.14.39:830][569]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.14.44:594][852]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.14.50:087][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.14.50:899][226]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.14.50:899][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.14.50:948][226]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.10-18.14.50:949][226]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.14.50:998][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.14.51:019][227]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.03.10-18.14.51:533][254]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.10-18.21.45:313][663]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.10-18.21.56:455][912]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.21.56:459][912]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.21.59:746][983]BlueprintLog: New page: Compile RevenantPlayerCharacter
+[2019.03.10-18.21.59:827][983]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.21.59:828][983]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.21.59:967][983]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.21.59:969][983]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.21.59:990][983]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.21.59:991][983]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.22.00:026][983]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.22.00:207][983]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/RevenantPlayerCharacter931444944BE62899CEB96883218FE2C6.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/ParagonRevenant/Characters/Heroes/Revenant/RevenantPlayerCharacter.uasset'
+[2019.03.10-18.22.00:529][987]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.22.23:950][585]BlueprintLog: New page: Compile BackPack
+[2019.03.10-18.22.24:042][585]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.22.24:043][585]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.22.24:044][585]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.22.24:045][585]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.22.24:057][585]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.22.24:058][585]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.22.24:060][585]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.22.24:060][585]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.22.24:077][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BackPack" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset" SILENT=true
+[2019.03.10-18.22.24:113][585]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/BackPackEAE1064B47C65E6A2E60E2B6D51E9FE3.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset'
+[2019.03.10-18.22.25:389][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.22.26:673][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.22.26:755][653]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.10-18.22.26:781][653]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.22.26:781][653]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.10-18.22.26:782][653]PIE: New page: PIE session: MovementTest (Mar 10, 2019, 10:22:26 AM)
+[2019.03.10-18.22.26:782][653]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.10-18.22.26:783][653]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001439s)
+[2019.03.10-18.22.26:784][653]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.10-18.22.26:784][653]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2019.03.10-18.22.26:784][653]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002090s)
+[2019.03.10-18.22.26:822][653]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.10-18.22.26:829][653]LogInit: FAudioDevice initialized.
+[2019.03.10-18.22.26:859][653]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.10-18.22.26:860][653]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.10-14.22.26
+[2019.03.10-18.22.26:860][653]LogWorld: Bringing up level for play took: 0.000628
+[2019.03.10-18.22.26:873][653]LogScript: Warning: Script Msg: Divide by zero detected: 51.386860 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.22.26:883][653]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-586.262 Y=387.624 Z=177.563] for [RevenantPlayerCharacter_C]
+[2019.03.10-18.22.26:883][653]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type RevenantPlayerCharacter_C at Rotation: Pitch 0.000000 Yaw -51.386845 Roll 0.000000
+Translation: -585.381653 388.594635 151.595108
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.03.10-18.22.26:884][653]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 0.489
+[2019.03.10-18.22.26:884][653]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.22.29:243][769]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.22.29:243][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.22.29:294][769]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.10-18.22.29:294][769]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.22.29:327][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.22.29:351][770]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.03.10-18.22.40:161][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.22.40:256][412]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.10-18.22.40:285][412]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.22.40:285][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.10-18.22.40:285][412]PIE: New page: PIE session: MovementTest (Mar 10, 2019, 10:22:40 AM)
+[2019.03.10-18.22.40:285][412]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.10-18.22.40:287][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001499s)
+[2019.03.10-18.22.40:287][412]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.10-18.22.40:287][412]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2019.03.10-18.22.40:287][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002124s)
+[2019.03.10-18.22.40:325][412]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.10-18.22.40:332][412]LogInit: FAudioDevice initialized.
+[2019.03.10-18.22.40:362][412]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.10-18.22.40:363][412]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.10-14.22.40
+[2019.03.10-18.22.40:363][412]LogWorld: Bringing up level for play took: 0.000687
+[2019.03.10-18.22.40:376][412]LogScript: Warning: Script Msg: Divide by zero detected: -111.213257 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.22.40:385][412]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest -0.01
+[2019.03.10-18.22.40:385][412]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.22.42:334][531]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_2
+[2019.03.10-18.22.42:722][554]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.22.42:722][554]LogBlueprintUserMessages: [KeyItem_2] Hello
+[2019.03.10-18.22.43:768][616]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_1
+[2019.03.10-18.22.44:087][635]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.22.44:087][635]LogBlueprintUserMessages: [KeyItem_1] Hello
+[2019.03.10-18.22.47:658][847]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.22.47:758][853]LogBlueprintUserMessages: [BackPack_C_0] I am clicked
+[2019.03.10-18.22.56:370][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.22.57:263][417]LogBlueprintUserMessages: [Button_C_0] Hello
+[2019.03.10-18.22.58:730][504]LogBlueprintUserMessages: [Button_C_1] Hello
+[2019.03.10-18.22.59:220][533]LogBlueprintUserMessages: [Button_C_1] Hello
+[2019.03.10-18.22.59:423][545]LogBlueprintUserMessages: [Button_C_1] Hello
+[2019.03.10-18.22.59:592][555]LogBlueprintUserMessages: [Button_C_1] Hello
+[2019.03.10-18.22.59:794][567]LogBlueprintUserMessages: [Button_C_1] Hello
+[2019.03.10-18.22.59:947][576]LogBlueprintUserMessages: [Button_C_1] Hello
+[2019.03.10-18.23.00:690][620]LogBlueprintUserMessages: [Button_C_0] Hello
+[2019.03.10-18.23.00:909][633]LogBlueprintUserMessages: [Button_C_0] Hello
+[2019.03.10-18.23.01:213][651]LogBlueprintUserMessages: [Button_C_0] Hello
+[2019.03.10-18.23.01:466][666]LogBlueprintUserMessages: [Button_C_0] Hello
+[2019.03.10-18.23.01:685][679]LogBlueprintUserMessages: [Button_C_0] Hello
+[2019.03.10-18.23.01:837][688]LogBlueprintUserMessages: [Button_C_0] Hello
+[2019.03.10-18.23.02:011][698]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.23.02:011][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.23.02:067][698]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.10-18.23.02:068][698]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.23.02:121][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.23.02:144][699]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.03.10-18.23.02:160][699]LogSlate: Took 0.005149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.03.10-18.23.17:860][271]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.10-18.23.17:885][271]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.23.17:885][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.10-18.23.17:886][271]PIE: New page: PIE session: MovementTest (Mar 10, 2019, 10:23:17 AM)
+[2019.03.10-18.23.17:886][271]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.10-18.23.17:887][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001428s)
+[2019.03.10-18.23.17:887][271]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.10-18.23.17:888][271]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2019.03.10-18.23.17:888][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002043s)
+[2019.03.10-18.23.17:927][271]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.10-18.23.17:934][271]LogInit: FAudioDevice initialized.
+[2019.03.10-18.23.17:961][271]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.10-18.23.17:962][271]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.10-14.23.17
+[2019.03.10-18.23.17:962][271]LogWorld: Bringing up level for play took: 0.000638
+[2019.03.10-18.23.17:975][271]LogScript: Warning: Script Msg: Divide by zero detected: -77.912567 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.23.17:983][271]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest -0.412
+[2019.03.10-18.23.17:983][271]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.23.21:944][508]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.23.22:079][516]LogBlueprintUserMessages: [BackPack_C_0] I am clicked
+[2019.03.10-18.23.23:748][615]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.23.23:748][615]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.23.23:797][615]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.10-18.23.23:798][615]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.23.23:847][615]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.23.23:868][616]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.03.10-18.23.46:015][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.23.46:115][995]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.10-18.23.46:143][995]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.23.46:144][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.10-18.23.46:144][995]PIE: New page: PIE session: MovementTest (Mar 10, 2019, 10:23:46 AM)
+[2019.03.10-18.23.46:144][995]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.10-18.23.46:146][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001995s)
+[2019.03.10-18.23.46:146][995]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.10-18.23.46:147][995]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2019.03.10-18.23.46:147][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002868s)
+[2019.03.10-18.23.46:187][995]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.10-18.23.46:193][995]LogInit: FAudioDevice initialized.
+[2019.03.10-18.23.46:220][995]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.10-18.23.46:221][995]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.10-14.23.46
+[2019.03.10-18.23.46:222][995]LogWorld: Bringing up level for play took: 0.000681
+[2019.03.10-18.23.46:234][995]LogScript: Warning: Script Msg: Divide by zero detected: 110.857048 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.23.46:243][995]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest -0.152
+[2019.03.10-18.23.46:243][995]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.23.47:475][ 44]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_1
+[2019.03.10-18.23.47:767][ 60]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.23.47:767][ 60]LogBlueprintUserMessages: [KeyItem_1] Hello
+[2019.03.10-18.23.49:037][136]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_2
+[2019.03.10-18.23.49:407][158]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.23.49:407][158]LogBlueprintUserMessages: [KeyItem_2] Hello
+[2019.03.10-18.23.53:460][399]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.23.53:562][405]LogBlueprintUserMessages: [Button_C_0] Hello
+[2019.03.10-18.23.54:909][485]LogBlueprintUserMessages: [BackPack_C_0] I am clicked
+[2019.03.10-18.23.55:302][508]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.23.55:302][508]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.23.55:346][508]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.10-18.23.55:347][508]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.23.55:380][508]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.23.55:409][510]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.03.10-18.25.28:288][276]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.10-18.25.28:349][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MovementTest" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/Levels/MovementTest_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.03.10-18.25.28:491][276]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/MovementTest_Auto1A0CAF1824035892544078998F7CBB79D.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/Levels/MovementTest_Auto1.umap'
+[2019.03.10-18.25.28:494][276]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MovementTest' took 0.189
+[2019.03.10-18.25.28:494][276]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.189
+[2019.03.10-18.25.42:723][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.25.51:981][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.25.58:448][216]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.10-18.26.04:479][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.03.10-18.26.08:046][803]LogEditorViewport: Clicking on Actor (LMB): KeyItem_Blueprint_C (KeyItem_3)
+[2019.03.10-18.26.11:477][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.26.16:811][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.26.27:829][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.03.10-18.26.29:203][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.26.29:323][958]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.10-18.26.29:350][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.26.29:350][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.10-18.26.29:350][958]PIE: New page: PIE session: MovementTest (Mar 10, 2019, 10:26:29 AM)
+[2019.03.10-18.26.29:350][958]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.10-18.26.29:352][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001495s)
+[2019.03.10-18.26.29:352][958]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.10-18.26.29:352][958]LogPlayLevel: PIE: World Init took: (0.000543s)
+[2019.03.10-18.26.29:352][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002124s)
+[2019.03.10-18.26.29:395][958]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.10-18.26.29:402][958]LogInit: FAudioDevice initialized.
+[2019.03.10-18.26.29:431][958]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.10-18.26.29:432][958]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.10-14.26.29
+[2019.03.10-18.26.29:432][958]LogWorld: Bringing up level for play took: 0.000745
+[2019.03.10-18.26.29:445][958]LogScript: Warning: Script Msg: Divide by zero detected: 126.755356 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.26.29:454][958]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 1.06
+[2019.03.10-18.26.29:454][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.26.32:983][147]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_1
+[2019.03.10-18.26.33:387][171]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.26.33:387][171]LogBlueprintUserMessages: [KeyItem_1] Hello
+[2019.03.10-18.26.34:619][244]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_2
+[2019.03.10-18.26.34:943][263]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.26.34:943][263]LogBlueprintUserMessages: [KeyItem_2] Hello
+[2019.03.10-18.26.36:452][353]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_3
+[2019.03.10-18.26.36:721][369]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.26.36:721][369]LogBlueprintUserMessages: [KeyItem_3] Hello
+[2019.03.10-18.26.37:717][428]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_4
+[2019.03.10-18.26.37:903][439]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.26.37:903][439]LogBlueprintUserMessages: [KeyItem_4] Hello
+[2019.03.10-18.26.40:765][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.26.40:867][615]LogBlueprintUserMessages: [Button_C_0] Hello
+[2019.03.10-18.26.41:390][646]LogBlueprintUserMessages: [Button_C_1] Hello
+[2019.03.10-18.26.41:997][682]LogBlueprintUserMessages: [Button_C_2] Hello
+[2019.03.10-18.26.42:672][722]LogBlueprintUserMessages: [Button_C_3] Hello
+[2019.03.10-18.26.44:949][857]LogBlueprintUserMessages: [BackPack_C_0] I am clicked
+[2019.03.10-18.26.47:851][ 29]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.26.47:851][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.26.47:902][ 29]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.10-18.26.47:902][ 29]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.26.47:928][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.26.47:960][ 31]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.03.10-18.26.48:588][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.10-18.27.00:371][331]BlueprintLog: New page: Compile BackPack
+[2019.03.10-18.27.00:442][331]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.27.00:444][331]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.27.00:445][331]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.27.00:446][331]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.27.00:457][331]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.27.00:458][331]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.27.00:460][331]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.27.00:461][331]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.27.00:480][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BackPack" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset" SILENT=true
+[2019.03.10-18.27.00:515][331]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/BackPack233BA153463F53B77060D185681F1F7A.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset'
+[2019.03.10-18.27.20:374][787]BlueprintLog: New page: Compile Button
+[2019.03.10-18.27.20:527][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Button" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset" SILENT=true
+[2019.03.10-18.27.20:560][787]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/Button1C92D9884C8723E3101AB2B81964F0C8.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset'
+[2019.03.10-18.27.25:074][928]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.10-18.27.25:100][928]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.27.25:100][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.10-18.27.25:100][928]PIE: New page: PIE session: MovementTest (Mar 10, 2019, 10:27:25 AM)
+[2019.03.10-18.27.25:100][928]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.10-18.27.25:102][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001595s)
+[2019.03.10-18.27.25:102][928]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.10-18.27.25:102][928]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2019.03.10-18.27.25:102][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002271s)
+[2019.03.10-18.27.25:141][928]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.10-18.27.25:147][928]LogInit: FAudioDevice initialized.
+[2019.03.10-18.27.25:177][928]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.10-18.27.25:178][928]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.10-14.27.25
+[2019.03.10-18.27.25:179][928]LogWorld: Bringing up level for play took: 0.000742
+[2019.03.10-18.27.25:191][928]LogScript: Warning: Script Msg: Divide by zero detected: -90.866425 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.27.25:200][928]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 0.805
+[2019.03.10-18.27.25:200][928]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.27.27:386][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.27.27:487][ 67]LogBlueprintUserMessages: [BackPack_C_0] I am clicked
+[2019.03.10-18.27.29:021][158]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_1
+[2019.03.10-18.27.29:291][174]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.27.29:291][174]LogBlueprintUserMessages: [KeyItem_1] Hello
+[2019.03.10-18.27.30:552][249]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_2
+[2019.03.10-18.27.30:975][274]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.27.30:975][274]LogBlueprintUserMessages: [KeyItem_2] Hello
+[2019.03.10-18.27.34:459][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.27.39:739][794]LogBlueprintUserMessages: [BackPack_C_0] I am clicked
+[2019.03.10-18.27.39:893][803]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.27.39:893][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.27.39:944][803]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.10-18.27.39:944][803]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.27.39:976][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.27.39:995][804]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.03.10-18.27.41:713][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.27.48:065][  5]BlueprintLog: New page: Compile Button
+[2019.03.10-18.27.48:215][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Button" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset" SILENT=true
+[2019.03.10-18.27.48:243][  5]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/Button6F86FFF84776C049234F229A20F2A9B4.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset'
+[2019.03.10-18.27.50:458][ 49]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.10-18.27.50:485][ 49]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.27.50:486][ 49]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.10-18.27.50:486][ 49]PIE: New page: PIE session: MovementTest (Mar 10, 2019, 10:27:50 AM)
+[2019.03.10-18.27.50:486][ 49]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.10-18.27.50:487][ 49]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001526s)
+[2019.03.10-18.27.50:488][ 49]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.10-18.27.50:488][ 49]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2019.03.10-18.27.50:488][ 49]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002175s)
+[2019.03.10-18.27.50:526][ 49]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.10-18.27.50:533][ 49]LogInit: FAudioDevice initialized.
+[2019.03.10-18.27.50:561][ 49]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.10-18.27.50:562][ 49]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.10-14.27.50
+[2019.03.10-18.27.50:562][ 49]LogWorld: Bringing up level for play took: 0.000703
+[2019.03.10-18.27.50:575][ 49]LogScript: Warning: Script Msg: Divide by zero detected: -96.726959 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.27.50:583][ 49]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 0.188
+[2019.03.10-18.27.50:583][ 49]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.27.52:417][157]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_1
+[2019.03.10-18.27.52:687][173]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.27.52:687][173]LogBlueprintUserMessages: [KeyItem_1] Hello
+[2019.03.10-18.27.55:246][325]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.27.55:365][332]LogBlueprintUserMessages: [Button_C_0] Hello
+[2019.03.10-18.27.56:158][379]LogBlueprintUserMessages: [Button_C_0] Hello
+[2019.03.10-18.27.56:344][390]LogBlueprintUserMessages: [Button_C_0] Hello
+[2019.03.10-18.27.56:513][400]LogBlueprintUserMessages: [Button_C_0] Hello
+[2019.03.10-18.27.56:664][409]LogBlueprintUserMessages: [Button_C_0] Hello
+[2019.03.10-18.27.56:800][417]LogBlueprintUserMessages: [Button_C_0] Hello
+[2019.03.10-18.27.56:936][425]LogBlueprintUserMessages: [Button_C_0] Hello
+[2019.03.10-18.27.57:071][433]LogBlueprintUserMessages: [Button_C_0] Hello
+[2019.03.10-18.27.58:100][494]LogBlueprintUserMessages: [BackPack_C_0] I am clicked
+[2019.03.10-18.27.58:356][509]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.27.58:357][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.27.58:402][509]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.10-18.27.58:402][509]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.27.58:436][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.27.58:457][510]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.03.10-18.27.59:099][541]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.10-18.31.28:511][136]BlueprintLog: New page: Compile Button
+[2019.03.10-18.31.28:662][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Button" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset" SILENT=true
+[2019.03.10-18.31.28:711][136]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/ButtonEB065AD94E4517CE66B14BA57BD65942.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset'
+[2019.03.10-18.31.30:791][207]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.10-18.31.30:818][207]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.31.30:818][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.10-18.31.30:818][207]PIE: New page: PIE session: MovementTest (Mar 10, 2019, 10:31:30 AM)
+[2019.03.10-18.31.30:818][207]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.10-18.31.30:820][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001601s)
+[2019.03.10-18.31.30:820][207]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.10-18.31.30:820][207]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2019.03.10-18.31.30:820][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002260s)
+[2019.03.10-18.31.30:857][207]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.10-18.31.30:864][207]LogInit: FAudioDevice initialized.
+[2019.03.10-18.31.30:895][207]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.10-18.31.30:896][207]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.10-14.31.30
+[2019.03.10-18.31.30:897][207]LogWorld: Bringing up level for play took: 0.000797
+[2019.03.10-18.31.30:910][207]LogScript: Warning: Script Msg: Divide by zero detected: -57.687805 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.31.30:919][207]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 0.525
+[2019.03.10-18.31.30:919][207]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.31.32:436][300]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_1
+[2019.03.10-18.31.33:382][356]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.31.33:382][356]LogBlueprintUserMessages: [KeyItem_1] Hello
+[2019.03.10-18.31.35:838][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.31.35:940][508]LogBlueprintUserMessages: [Button_C_0] InventorySlideBox
+[2019.03.10-18.31.39:195][701]LogBlueprintUserMessages: [Button_C_0] InventorySlideBox
+[2019.03.10-18.31.42:008][868]LogBlueprintUserMessages: [Button_C_0] InventorySlideBox
+[2019.03.10-18.31.44:353][  7]LogBlueprintUserMessages: [Button_C_0] InventorySlideBox
+[2019.03.10-18.31.47:687][205]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.31.47:687][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.31.47:736][205]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.10-18.31.47:736][205]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.31.47:769][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.31.47:790][206]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.03.10-18.32.23:362][956]BlueprintLog: New page: Compile Button
+[2019.03.10-18.32.23:514][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Button" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset" SILENT=true
+[2019.03.10-18.32.23:547][956]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/Button4735E0DE409630A22F2E8DB6C9C5F3F3.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset'
+[2019.03.10-18.32.25:601][ 27]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.10-18.32.25:627][ 27]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.32.25:627][ 27]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.10-18.32.25:627][ 27]PIE: New page: PIE session: MovementTest (Mar 10, 2019, 10:32:25 AM)
+[2019.03.10-18.32.25:627][ 27]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.10-18.32.25:629][ 27]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001549s)
+[2019.03.10-18.32.25:629][ 27]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.10-18.32.25:629][ 27]LogPlayLevel: PIE: World Init took: (0.000529s)
+[2019.03.10-18.32.25:629][ 27]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002164s)
+[2019.03.10-18.32.25:665][ 27]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.10-18.32.25:672][ 27]LogInit: FAudioDevice initialized.
+[2019.03.10-18.32.25:702][ 27]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.10-18.32.25:704][ 27]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.10-14.32.25
+[2019.03.10-18.32.25:704][ 27]LogWorld: Bringing up level for play took: 0.000744
+[2019.03.10-18.32.25:716][ 27]LogScript: Warning: Script Msg: Divide by zero detected: -96.021942 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.32.25:725][ 27]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest -0.67
+[2019.03.10-18.32.25:725][ 27]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.32.27:890][157]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_1
+[2019.03.10-18.32.28:257][179]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.32.28:257][179]LogBlueprintUserMessages: [KeyItem_1] Hello
+[2019.03.10-18.32.29:784][270]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_4
+[2019.03.10-18.32.31:905][396]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.32.32:006][402]LogBlueprintUserMessages: [Button_C_0] CanvasPanel_0
+[2019.03.10-18.32.34:719][563]LogBlueprintUserMessages: [Button_C_0] CanvasPanel_0
+[2019.03.10-18.32.37:300][716]LogBlueprintUserMessages: [Button_C_0] CanvasPanel_0
+[2019.03.10-18.32.38:684][798]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.32.38:685][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.32.38:735][798]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.10-18.32.38:735][798]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.32.38:780][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.32.38:796][799]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.03.10-18.33.25:890][993]BlueprintLog: New page: Compile Button
+[2019.03.10-18.33.26:045][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Button" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset" SILENT=true
+[2019.03.10-18.33.26:075][993]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/Button2D5631B744BA7CD5571C51A2C2A13353.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset'
+[2019.03.10-18.33.28:876][ 47]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.10-18.33.28:912][ 47]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.33.28:912][ 47]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.10-18.33.28:913][ 47]PIE: New page: PIE session: MovementTest (Mar 10, 2019, 10:33:28 AM)
+[2019.03.10-18.33.28:913][ 47]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.10-18.33.28:914][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001558s)
+[2019.03.10-18.33.28:915][ 47]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.10-18.33.28:915][ 47]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2019.03.10-18.33.28:915][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002338s)
+[2019.03.10-18.33.28:955][ 47]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.10-18.33.28:962][ 47]LogInit: FAudioDevice initialized.
+[2019.03.10-18.33.28:990][ 47]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.10-18.33.28:992][ 47]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.10-14.33.28
+[2019.03.10-18.33.28:992][ 47]LogWorld: Bringing up level for play took: 0.000788
+[2019.03.10-18.33.29:004][ 47]LogScript: Warning: Script Msg: Divide by zero detected: -153.198303 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.33.29:013][ 47]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 0.618
+[2019.03.10-18.33.29:013][ 47]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.33.30:682][122]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_4
+[2019.03.10-18.33.30:982][140]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.33.30:982][140]LogBlueprintUserMessages: [KeyItem_4] Hello
+[2019.03.10-18.33.34:027][322]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.33.34:147][329]LogBlueprintUserMessages: [Button_C_0] None
+[2019.03.10-18.33.35:207][392]LogBlueprintUserMessages: [Button_C_0] None
+[2019.03.10-18.33.36:215][452]LogBlueprintUserMessages: [Button_C_0] None
+[2019.03.10-18.33.37:697][540]LogBlueprintUserMessages: [Button_C_0] None
+[2019.03.10-18.33.40:548][709]LogBlueprintUserMessages: [BackPack_C_0] I am clicked
+[2019.03.10-18.33.41:727][770]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.10-18.33.46:273][872]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.33.46:273][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.33.46:341][872]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.10-18.33.46:341][872]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.33.46:381][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.33.46:398][873]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.03.10-18.34.40:558][ 36]BlueprintLog: New page: Compile BackPack
+[2019.03.10-18.34.40:632][ 36]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.34.40:633][ 36]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.34.40:634][ 36]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.34.40:635][ 36]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.34.40:646][ 36]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.34.40:647][ 36]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.34.40:649][ 36]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.34.40:650][ 36]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.34.40:669][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BackPack" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset" SILENT=true
+[2019.03.10-18.34.40:709][ 36]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/BackPackA0D7FF1B4FC72276140C75A5D7E30F6A.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset'
+[2019.03.10-18.34.57:583][478]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.10-18.34.57:610][478]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.34.57:610][478]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.10-18.34.57:622][478]LogPlayLevel: [PlayLevel] Compiling Button before play...
+[2019.03.10-18.34.57:752][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Button" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset" SILENT=true
+[2019.03.10-18.34.57:780][478]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/ButtonD75620114397E3D6F8CE9A86C069A835.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset'
+[2019.03.10-18.34.57:820][478]LogPlayLevel: PlayLevel: Blueprint regeneration took 209 ms (1 blueprints)
+[2019.03.10-18.34.57:820][478]PIE: New page: PIE session: MovementTest (Mar 10, 2019, 10:34:57 AM)
+[2019.03.10-18.34.57:820][478]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.10-18.34.57:822][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001628s)
+[2019.03.10-18.34.57:822][478]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.10-18.34.57:822][478]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2019.03.10-18.34.57:822][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002350s)
+[2019.03.10-18.34.57:858][478]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.10-18.34.57:865][478]LogInit: FAudioDevice initialized.
+[2019.03.10-18.34.57:895][478]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.10-18.34.57:897][478]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.10-14.34.57
+[2019.03.10-18.34.57:897][478]LogWorld: Bringing up level for play took: 0.000733
+[2019.03.10-18.34.57:909][478]LogScript: Warning: Script Msg: Divide by zero detected: -105.555344 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.34.57:918][478]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest -0.477
+[2019.03.10-18.34.57:918][478]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.34.59:920][599]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_1
+[2019.03.10-18.35.00:393][627]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.35.00:393][627]LogBlueprintUserMessages: [KeyItem_1] Hello
+[2019.03.10-18.35.02:111][729]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_4
+[2019.03.10-18.35.04:538][873]LogBlueprintUserMessages: [BackPack_C_0] BackPack_C_0
+[2019.03.10-18.35.09:255][153]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.35.09:339][158]LogBlueprintUserMessages: [BackPack_C_0] I am clicked
+[2019.03.10-18.35.09:648][176]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.35.09:648][176]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.35.09:696][176]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.10-18.35.09:696][176]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.35.09:724][176]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.35.09:746][177]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.03.10-18.35.13:699][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.35.55:481][466]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/WidgetInterface.WidgetInterface
+[2019.03.10-18.36.05:407][684]LogSlate: Took 0.004065 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.03.10-18.36.15:284][847]BlueprintLog: New page: Compile WidgetInterface
+[2019.03.10-18.36.15:487][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/WidgetInterface" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/WidgetInterface.uasset" SILENT=true
+[2019.03.10-18.36.15:507][847]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/WidgetInterface117892C64AB7997BEB21EC86DDEC86CD.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/WidgetInterface.uasset'
+[2019.03.10-18.36.15:515][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BackPack" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset" SILENT=true
+[2019.03.10-18.36.15:550][847]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/BackPack315EA40D4F67E05CC2A4F4A953E3C475.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset'
+[2019.03.10-18.36.15:559][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Button" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset" SILENT=true
+[2019.03.10-18.36.15:587][847]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/ButtonCBED723646D972ACB7D3AC9F2F6CD8B8.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset'
+[2019.03.10-18.36.31:822][173]BlueprintLog: New page: Compile BackPack
+[2019.03.10-18.36.32:001][173]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.36.32:003][173]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.36.32:004][173]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.36.32:005][173]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.36.32:019][173]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.36.32:020][173]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.36.32:022][173]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.36.32:023][173]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.36.32:040][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BackPack" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset" SILENT=true
+[2019.03.10-18.36.32:075][173]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/BackPackCBDC59564E2F225978027888FA8850F0.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset'
+[2019.03.10-18.37.20:283][143]BlueprintLog: New page: Compile Button
+[2019.03.10-18.37.20:471][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Button" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset" SILENT=true
+[2019.03.10-18.37.20:500][143]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/Button39C7C5C14CA2D5F51E308FA81BC0658E.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset'
+[2019.03.10-18.37.44:106][673]BlueprintLog: New page: Compile Button
+[2019.03.10-18.37.44:275][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Button" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset" SILENT=true
+[2019.03.10-18.37.44:311][673]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/Button95A16E714607976ED077CF9E1C0A37FF.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset'
+[2019.03.10-18.37.46:572][721]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.10-18.37.46:599][721]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.37.46:599][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.10-18.37.46:599][721]PIE: New page: PIE session: MovementTest (Mar 10, 2019, 10:37:46 AM)
+[2019.03.10-18.37.46:599][721]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.10-18.37.46:601][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001520s)
+[2019.03.10-18.37.46:601][721]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.10-18.37.46:601][721]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2019.03.10-18.37.46:601][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002171s)
+[2019.03.10-18.37.46:639][721]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.10-18.37.46:646][721]LogInit: FAudioDevice initialized.
+[2019.03.10-18.37.46:675][721]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.10-18.37.46:676][721]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.10-14.37.46
+[2019.03.10-18.37.46:677][721]LogWorld: Bringing up level for play took: 0.000778
+[2019.03.10-18.37.46:689][721]LogScript: Warning: Script Msg: Divide by zero detected: -123.510834 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.37.46:698][721]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 0.303
+[2019.03.10-18.37.46:698][721]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.37.48:971][833]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_3
+[2019.03.10-18.37.49:368][856]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.37.49:368][856]LogBlueprintUserMessages: [KeyItem_3] Hello
+[2019.03.10-18.37.51:760][999]LogBlueprintUserMessages: [BackPack_C_0] BackPack_C_0
+[2019.03.10-18.37.54:423][157]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.37.54:557][165]LogBlueprintUserMessages: [Button_C_0] ERROR: cannot get the parent of button object
+[2019.03.10-18.37.57:710][352]LogBlueprintUserMessages: [Button_C_0] ERROR: cannot get the parent of button object
+[2019.03.10-18.37.59:930][484]LogBlueprintUserMessages: [BackPack_C_0] I am clicked
+[2019.03.10-18.38.00:221][501]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.38.00:222][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.38.00:273][501]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.10-18.38.00:273][501]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.38.00:314][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.38.00:335][502]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.03.10-18.38.00:703][520]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.10-18.38.33:710][226]BlueprintLog: New page: Compile Button
+[2019.03.10-18.38.33:888][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Button" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset" SILENT=true
+[2019.03.10-18.38.33:918][226]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/Button8A5A537347B29042B4C314BA7D9546D8.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset'
+[2019.03.10-18.38.44:506][478]BlueprintLog: New page: Compile BackPack
+[2019.03.10-18.38.44:686][478]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.38.44:687][478]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.38.44:689][478]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.38.44:690][478]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.38.44:704][478]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.38.44:705][478]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.38.44:706][478]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.38.44:707][478]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.38.44:725][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BackPack" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset" SILENT=true
+[2019.03.10-18.38.44:759][478]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/BackPack947A9B294D71ED757927459A961BC12B.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset'
+[2019.03.10-18.38.47:160][532]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.10-18.38.47:188][532]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.38.47:188][532]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.10-18.38.47:188][532]PIE: New page: PIE session: MovementTest (Mar 10, 2019, 10:38:47 AM)
+[2019.03.10-18.38.47:189][532]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.10-18.38.47:190][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001512s)
+[2019.03.10-18.38.47:191][532]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.10-18.38.47:191][532]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2019.03.10-18.38.47:191][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002217s)
+[2019.03.10-18.38.47:232][532]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.10-18.38.47:239][532]LogInit: FAudioDevice initialized.
+[2019.03.10-18.38.47:265][532]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.10-18.38.47:266][532]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.10-14.38.47
+[2019.03.10-18.38.47:266][532]LogWorld: Bringing up level for play took: 0.000809
+[2019.03.10-18.38.47:279][532]LogScript: Warning: Script Msg: Divide by zero detected: -70.675781 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.38.47:288][532]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 0.893
+[2019.03.10-18.38.47:288][532]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.38.49:020][638]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_4
+[2019.03.10-18.38.49:408][661]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.38.49:408][661]LogBlueprintUserMessages: [KeyItem_4] Hello
+[2019.03.10-18.38.51:988][814]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.38.54:443][960]LogBlueprintUserMessages: [BackPack_C_0] I am clicked
+[2019.03.10-18.38.55:423][ 18]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.38.55:424][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.38.55:472][ 18]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.10-18.38.55:472][ 18]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.38.55:501][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.38.55:538][ 20]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.03.10-18.39.04:854][204]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.39.28:276][781]BlueprintLog: New page: Compile BackPack
+[2019.03.10-18.39.28:463][781]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.39.28:464][781]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.39.28:466][781]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.39.28:466][781]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.39.28:479][781]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.39.28:481][781]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.39.28:482][781]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.39.28:483][781]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.39.28:500][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BackPack" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset" SILENT=true
+[2019.03.10-18.39.28:534][781]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/BackPack496D8F8D4B5E05832E51DC9A616BAFBB.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset'
+[2019.03.10-18.39.29:513][807]Cmd: TRANSACTION UNDO
+[2019.03.10-18.39.29:513][807]LogEditorTransaction: Undo Delete current selection
+[2019.03.10-18.39.33:197][866]BlueprintLog: New page: Compile BackPack
+[2019.03.10-18.39.33:389][866]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.39.33:390][866]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.39.33:391][866]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.39.33:392][866]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.39.33:408][866]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.39.33:409][866]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.39.33:411][866]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.39.33:412][866]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.39.33:430][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BackPack" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset" SILENT=true
+[2019.03.10-18.39.33:466][866]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/BackPack783736514059E4CBF646238599B85902.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/BackPack.uasset'
+[2019.03.10-18.39.37:598][961]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.10-18.39.37:627][961]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.39.37:627][961]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.10-18.39.37:627][961]PIE: New page: PIE session: MovementTest (Mar 10, 2019, 10:39:37 AM)
+[2019.03.10-18.39.37:627][961]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.10-18.39.37:629][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001580s)
+[2019.03.10-18.39.37:630][961]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.10-18.39.37:630][961]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2019.03.10-18.39.37:630][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002223s)
+[2019.03.10-18.39.37:672][961]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.10-18.39.37:678][961]LogInit: FAudioDevice initialized.
+[2019.03.10-18.39.37:706][961]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.10-18.39.37:707][961]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.10-14.39.37
+[2019.03.10-18.39.37:707][961]LogWorld: Bringing up level for play took: 0.000736
+[2019.03.10-18.39.37:720][961]LogScript: Warning: Script Msg: Divide by zero detected: 24.764566 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.39.37:729][961]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest -0.666
+[2019.03.10-18.39.37:729][961]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.39.39:540][ 71]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_4
+[2019.03.10-18.39.39:776][ 85]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.39.39:776][ 85]LogBlueprintUserMessages: [KeyItem_4] Hello
+[2019.03.10-18.39.42:334][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.39.42:449][244]LogBlueprintUserMessages: [BackPack_C_0] KeyItem_4
+[2019.03.10-18.39.43:126][284]LogBlueprintUserMessages: [BackPack_C_0] KeyItem_4
+[2019.03.10-18.39.43:328][296]LogBlueprintUserMessages: [BackPack_C_0] KeyItem_4
+[2019.03.10-18.39.43:464][304]LogBlueprintUserMessages: [BackPack_C_0] KeyItem_4
+[2019.03.10-18.39.43:616][313]LogBlueprintUserMessages: [BackPack_C_0] KeyItem_4
+[2019.03.10-18.39.43:751][321]LogBlueprintUserMessages: [BackPack_C_0] KeyItem_4
+[2019.03.10-18.39.43:886][329]LogBlueprintUserMessages: [BackPack_C_0] KeyItem_4
+[2019.03.10-18.39.44:088][341]LogBlueprintUserMessages: [BackPack_C_0] KeyItem_4
+[2019.03.10-18.39.44:947][392]LogBlueprintUserMessages: [BackPack_C_0] I am clicked
+[2019.03.10-18.39.45:406][419]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.39.45:406][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.39.45:456][419]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.10-18.39.45:456][419]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.39.45:498][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.39.45:518][420]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.03.10-18.40.10:426][ 28]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.10-18.40.10:472][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MovementTest" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/Levels/MovementTest_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.03.10-18.40.10:620][ 28]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/MovementTest_Auto2A3CEACA8401C15E04676A9A954A8C1B1.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/Levels/MovementTest_Auto2.umap'
+[2019.03.10-18.40.10:623][ 28]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MovementTest' took 0.186
+[2019.03.10-18.40.10:623][ 28]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.186
+[2019.03.10-18.44.41:635][ 83]BlueprintLog: New page: Compile Button
+[2019.03.10-18.44.41:823][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Button" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset" SILENT=true
+[2019.03.10-18.44.41:856][ 83]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/Button453BBBD042B0827231FBB281A47042D8.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Button.uasset'
+[2019.03.10-18.44.46:567][230]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.10-18.44.46:599][230]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.44.46:599][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.10-18.44.46:599][230]PIE: New page: PIE session: MovementTest (Mar 10, 2019, 10:44:46 AM)
+[2019.03.10-18.44.46:599][230]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.10-18.44.46:601][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001946s)
+[2019.03.10-18.44.46:602][230]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.10-18.44.46:602][230]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2019.03.10-18.44.46:602][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002645s)
+[2019.03.10-18.44.46:640][230]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.10-18.44.46:647][230]LogInit: FAudioDevice initialized.
+[2019.03.10-18.44.46:675][230]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.10-18.44.46:677][230]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.10-14.44.46
+[2019.03.10-18.44.46:677][230]LogWorld: Bringing up level for play took: 0.000761
+[2019.03.10-18.44.46:689][230]LogScript: Warning: Script Msg: Divide by zero detected: -123.244507 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.10-18.44.46:698][230]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 0.303
+[2019.03.10-18.44.46:698][230]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.44.48:364][309]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_4
+[2019.03.10-18.44.49:072][351]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] Picked Up
+[2019.03.10-18.44.49:073][351]LogBlueprintUserMessages: [KeyItem_4] Hello
+[2019.03.10-18.44.51:701][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-18.44.51:801][513]LogBlueprintUserMessages: [BackPack_C_0] KeyItem_4
+[2019.03.10-18.44.54:126][651]LogBlueprintUserMessages: [BackPack_C_0] I am clicked
+[2019.03.10-18.44.55:124][710]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.44.55:124][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.44.55:176][710]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.10-18.44.55:176][710]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.10-18.44.55:215][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.44.55:235][711]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.03.10-18.44.55:893][747]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.10-19.17.17:881][540]LogSlate: Window 'Button' being destroyed
+[2019.03.10-19.17.17:914][540]LogSlate: Window 'Button' being destroyed
+[2019.03.10-19.17.18:005][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.10-19.17.18:179][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.10-19.17.21:550][621]LogSlate: Window 'Save Content' being destroyed
+[2019.03.10-19.17.21:677][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MovementTest" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/Levels/MovementTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.10-19.17.21:841][621]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/MovementTestEA462965438256A3DB237E88F3FCA3EB.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/Levels/MovementTest.umap'
+[2019.03.10-19.17.21:870][621]LogFileHelpers: Saving map 'MovementTest' took 0.297
+[2019.03.10-19.17.21:908][621]LogSlate: Window 'MarshMellow - Unreal Editor' being destroyed
+[2019.03.10-19.17.21:909][621]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.10-19.17.22:012][622]Cmd: QUIT_EDITOR
+[2019.03.10-19.17.22:711][622]LogExit: Preparing to exit.
+[2019.03.10-19.17.23:849][622]LogExit: Editor shut down
+[2019.03.10-19.17.23:850][622]LogExit: Transaction tracking system shut down
+[2019.03.10-19.17.24:373][622]LogExit: Object subsystem successfully closed.
+[2019.03.10-19.17.24:390][622]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.10-19.17.24:397][622]LogD3D11RHI: Shutdown
+[2019.03.10-19.17.24:397][622]LogD3D11RHI: CleanupD3DDevice
+[2019.03.10-19.17.24:400][622]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.10-19.17.24:419][622]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (618)
+[2019.03.10-19.17.24:419][622]LogModuleManager: Shutting down and abandoning module Voice (616)
+[2019.03.10-19.17.24:419][622]LogModuleManager: Shutting down and abandoning module SequencerWidgets (614)
+[2019.03.10-19.17.24:419][622]LogModuleManager: Shutting down and abandoning module BlueprintGraph (612)
+[2019.03.10-19.17.24:419][622]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2019.03.10-19.17.24:419][622]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2019.03.10-19.17.24:419][622]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2019.03.10-19.17.24:421][622]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2019.03.10-19.17.24:421][622]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2019.03.10-19.17.24:421][622]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2019.03.10-19.17.24:421][622]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.03.10-19.17.24:421][622]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.03.10-19.17.24:421][622]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.03.10-19.17.24:421][622]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.03.10-19.17.24:421][622]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.03.10-19.17.24:421][622]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.03.10-19.17.24:421][622]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.03.10-19.17.24:421][622]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.03.10-19.17.24:421][622]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.03.10-19.17.24:421][622]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.03.10-19.17.24:421][622]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.03.10-19.17.24:421][622]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.03.10-19.17.24:421][622]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.03.10-19.17.24:421][622]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.03.10-19.17.24:421][622]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.03.10-19.17.24:422][622]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.03.10-19.17.24:787][622]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.03.10-19.17.24:787][622]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.03.10-19.17.24:787][622]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.03.10-19.17.24:787][622]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.03.10-19.17.24:787][622]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.03.10-19.17.24:787][622]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.03.10-19.17.24:787][622]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.03.10-19.17.24:787][622]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.03.10-19.17.24:787][622]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.03.10-19.17.24:787][622]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.03.10-19.17.24:787][622]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.03.10-19.17.24:787][622]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.03.10-19.17.24:787][622]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.03.10-19.17.24:787][622]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.03.10-19.17.24:787][622]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.03.10-19.17.24:788][622]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.03.10-19.17.24:788][622]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.03.10-19.17.24:788][622]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.03.10-19.17.24:788][622]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.03.10-19.17.24:788][622]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.03.10-19.17.24:788][622]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.03.10-19.17.24:788][622]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.03.10-19.17.24:843][622]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.03.10-19.17.24:843][622]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.03.10-19.17.24:843][622]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.03.10-19.17.24:843][622]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.03.10-19.17.24:843][622]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.03.10-19.17.24:843][622]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.03.10-19.17.24:843][622]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.03.10-19.17.24:843][622]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.03.10-19.17.24:843][622]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.03.10-19.17.24:843][622]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.03.10-19.17.24:849][622]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.03.10-19.17.24:849][622]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.03.10-19.17.24:850][622]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.03.10-19.17.24:850][622]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.03.10-19.17.24:850][622]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.03.10-19.17.24:850][622]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.03.10-19.17.24:850][622]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.03.10-19.17.24:850][622]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.03.10-19.17.24:851][622]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.03.10-19.17.24:851][622]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.03.10-19.17.24:851][622]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.03.10-19.17.24:851][622]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.03.10-19.17.24:851][622]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.03.10-19.17.24:851][622]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.03.10-19.17.24:851][622]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.03.10-19.17.24:851][622]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.03.10-19.17.24:851][622]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.03.10-19.17.24:851][622]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.03.10-19.17.24:852][622]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.03.10-19.17.24:852][622]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.03.10-19.17.24:852][622]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.03.10-19.17.24:852][622]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.03.10-19.17.24:897][622]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.03.10-19.17.24:897][622]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.03.10-19.17.24:897][622]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.03.10-19.17.24:897][622]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.03.10-19.17.24:897][622]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.03.10-19.17.24:897][622]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.03.10-19.17.24:897][622]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.03.10-19.17.24:897][622]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.03.10-19.17.24:897][622]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.03.10-19.17.24:897][622]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.03.10-19.17.24:897][622]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.03.10-19.17.24:897][622]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.03.10-19.17.24:897][622]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.03.10-19.17.24:897][622]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.03.10-19.17.24:897][622]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.03.10-19.17.24:897][622]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.03.10-19.17.24:897][622]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.03.10-19.17.24:897][622]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.03.10-19.17.24:900][622]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.03.10-19.17.24:900][622]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.03.10-19.17.24:900][622]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.03.10-19.17.24:900][622]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.03.10-19.17.24:900][622]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.03.10-19.17.24:900][622]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.03.10-19.17.24:900][622]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.03.10-19.17.24:900][622]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.03.10-19.17.24:900][622]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.03.10-19.17.24:900][622]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.03.10-19.17.24:900][622]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.03.10-19.17.24:900][622]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.03.10-19.17.24:901][622]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.03.10-19.17.25:002][622]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.03.10-19.17.25:103][622]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.03.10-19.17.25:103][622]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.03.10-19.17.25:103][622]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.03.10-19.17.25:103][622]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.03.10-19.17.25:103][622]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.03.10-19.17.25:103][622]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.03.10-19.17.25:103][622]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.03.10-19.17.25:104][622]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.03.10-19.17.25:104][622]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.03.10-19.17.25:104][622]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.03.10-19.17.25:104][622]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.03.10-19.17.25:104][622]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.03.10-19.17.25:105][622]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.03.10-19.17.25:105][622]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.03.10-19.17.25:105][622]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.03.10-19.17.25:105][622]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.03.10-19.17.25:105][622]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.03.10-19.17.25:105][622]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.03.10-19.17.25:106][622]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.03.10-19.17.25:112][622]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.03.10-19.17.25:114][622]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.03.10-19.17.25:114][622]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.03.10-19.17.25:114][622]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.03.10-19.17.25:114][622]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.03.10-19.17.25:114][622]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.03.10-19.17.25:114][622]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.03.10-19.17.25:114][622]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.03.10-19.17.25:114][622]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.03.10-19.17.25:114][622]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.03.10-19.17.25:114][622]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.03.10-19.17.25:114][622]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.03.10-19.17.25:114][622]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.03.10-19.17.25:114][622]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.03.10-19.17.25:114][622]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.03.10-19.17.25:114][622]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.03.10-19.17.25:114][622]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.03.10-19.17.25:114][622]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.03.10-19.17.25:114][622]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.03.10-19.17.25:200][622]LogDerivedDataCache: Shutdown
+[2019.03.10-19.17.25:200][622]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.03.10-19.17.25:201][622]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.03.10-19.17.25:202][622]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.03.10-19.17.25:202][622]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.03.10-19.17.25:202][622]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.03.10-19.17.25:202][622]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.03.10-19.17.25:202][622]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.03.10-19.17.25:202][622]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.03.10-19.17.25:203][622]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.03.10-19.17.25:203][622]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.03.10-19.17.25:203][622]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.03.10-19.17.25:203][622]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.03.10-19.17.25:203][622]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.03.10-19.17.25:203][622]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.03.10-19.17.25:204][622]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.03.10-19.17.25:204][622]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.03.10-19.17.25:204][622]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.03.10-19.17.25:204][622]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.03.10-19.17.25:204][622]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.03.10-19.17.25:204][622]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.03.10-19.17.25:204][622]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.03.10-19.17.25:204][622]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.03.10-19.17.25:204][622]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.03.10-19.17.25:232][622]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.03.10-19.17.25:232][622]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.03.10-19.17.25:244][622]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.03.10-19.17.25:244][622]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.03.10-19.17.25:293][622]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.03.10-19.17.25:293][622]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.03.10-19.17.25:293][622]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.03.10-19.17.25:293][622]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.03.10-19.17.25:293][622]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.03.10-19.17.25:293][622]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.03.10-19.17.25:293][622]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.03.10-19.17.25:293][622]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.03.10-19.17.25:293][622]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.03.10-19.17.25:293][622]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.03.10-19.17.25:293][622]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.03.10-19.17.25:293][622]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.03.10-19.17.25:293][622]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.03.10-19.17.25:293][622]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.03.10-19.17.25:293][622]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.03.10-19.17.25:293][622]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.03.10-19.17.25:293][622]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.03.10-19.17.25:293][622]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.03.10-19.17.25:294][622]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.03.10-19.17.25:294][622]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.03.10-19.17.25:318][622]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.03.10-19.17.25:318][622]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.03.10-19.17.25:318][622]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD50C9092-48E4-2031-6BF2-87A4A8A30A23%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=157e2509421257fb9f3bbdbff5f08b03%7C20079c831a694bbd86d6153fd97feacd%7C3235aa97-86b4-44ca-943f-07a230d6e786&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.10-19.17.25:336][622]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.03.10-19.17.25:337][622]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.03.10-19.17.25:337][622]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.03.10-19.17.25:337][622]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.03.10-19.17.25:337][622]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.03.10-19.17.25:337][622]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.03.10-19.17.25:337][622]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.03.10-19.17.25:337][622]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.03.10-19.17.25:337][622]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.03.10-19.17.25:337][622]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.03.10-19.17.25:337][622]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.10-19.17.25:338][622]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.03.10-19.17.25:338][622]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.10-19.17.25:338][622]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.10-19.17.25:338][622]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.10-19.17.25:338][622]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.10-19.17.25:338][622]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.10-19.17.25:338][622]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.10-19.17.25:338][622]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.10-19.17.25:339][622]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.10-19.17.25:339][622]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.10-19.17.25:339][622]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.10-19.17.25:339][622]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.10-19.17.25:339][622]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.10-19.17.25:339][622]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.10-19.17.25:339][622]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.10-19.17.25:339][622]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.10-19.17.25:339][622]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.10-19.17.25:339][622]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.10-19.17.25:339][622]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.10-19.17.25:344][622]LogExit: Exiting.
+[2019.03.10-19.17.25:349][622]Log file closed, 03/10/19 15:17:25
