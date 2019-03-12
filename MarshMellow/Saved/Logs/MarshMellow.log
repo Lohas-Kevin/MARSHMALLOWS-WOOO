@@ -352,3 +352,19 @@ LogInit: Object subsystem initialized
 [2019.03.12-13.29.45:602][809]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Saved/NPCTalks2FFB5C314808D4A2766A44A1D433837F.tmp' to '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/NPCTalks.uasset'
 [2019.03.12-13.29.47:164][902]LogSlate: Window 'NPCTalks' being destroyed
 [2019.03.12-13.29.47:171][902]LogSlate: Window 'NPCTalks' being destroyed
+[2019.03.12-13.39.11:487][675]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Saved/Minimal_Default_Auto16A8F9C43457C4007D144378C1272B7A4.tmp' to '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2019.03.12-13.39.11:493][675]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.246
+[2019.03.12-13.39.11:494][675]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.246
+[2019.03.12-13.48.52:970][640]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/NPCTalks.NPCTalks
+[2019.03.12-13.49.09:884][548]LogSlate: Took 0.004972 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.03.12-14.03.31:896][280]BlueprintLog: New page: Compile NPCTalks
+[2019.03.12-14.03.36:547][323]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Saved/NPCTalks7BCA304242E536A32EBA349BB9017C80.tmp' to '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/NPCTalks.uasset'
+[2019.03.12-14.04.02:002][419]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Saved/Minimal_Default_Auto2D902E3594756F9165D6FB5813C1F2D89.tmp' to '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2019.03.12-14.04.02:016][419]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.643
+[2019.03.12-14.04.02:016][419]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.643
+[2019.03.12-14.04.02:030][419]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/TextBox] ([1] browsable assets)...
+[2019.03.12-14.04.02:030][419]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/TextBox]
+[2019.03.12-14.04.02:268][419]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Saved/TextBox_Auto2E049A4CC4C5EA766C47F0C81E78B5473.tmp' to '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/TextBox_Auto2.uasset'
+[2019.03.12-14.04.02:274][419]LogFileHelpers: Auto-saving content packages took 0.251
+[2019.03.12-14.05.12:521][656]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Saved/NPCTalks04414AF64ABA7DD13EF631BF2D6F4D78.tmp' to '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/NPCTalks.uasset'
+[2019.03.12-14.05.15:538][731]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Saved/Minimal_Default5FEB723843D8F1545C8090B5FD9D197A.tmp' to '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/StarterContent/Maps/Minimal_Default.umap'
