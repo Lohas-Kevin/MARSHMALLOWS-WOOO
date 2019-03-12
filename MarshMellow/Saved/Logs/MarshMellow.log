@@ -1,4 +1,4 @@
-﻿Log file open, 03/11/19 19:42:19
+﻿Log file open, 03/12/19 09:15:21
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MarshMellow
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.790666
+LogStats: Stats thread started at 0.727243
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.178s to configure plugins.
+LogStreaming: Display: Took  0.157s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,303 +147,210 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.004s to delete old logs.
+LogStreaming: Display: Took  0.005s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.03.11-23.42.20:793][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.11-23.42.20:794][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.03.11-23.42.20:823][  0]LogHAL: Display: Platform has ~ 16 GB [16919941120 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.03.11-23.42.20:823][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.03.11-23.42.20:824][  0]LogInit: Going up to parent DeviceProfile []
-[2019.03.11-23.42.20:831][  0]LogInit: Computer: DESKTOP-06E64QA
-[2019.03.11-23.42.20:831][  0]LogInit: User: thompz
-[2019.03.11-23.42.20:831][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.03.11-23.42.20:831][  0]LogInit: High frequency timer resolution =2.531246 MHz
-[2019.03.11-23.42.20:831][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2019.03.11-23.42.20:831][  0]LogMemory: Platform Memory Stats for Windows
-[2019.03.11-23.42.20:831][  0]LogMemory: Process Physical Memory: 102.01 MB used, 102.01 MB peak
-[2019.03.11-23.42.20:831][  0]LogMemory: Process Virtual Memory: 98.25 MB used, 98.25 MB peak
-[2019.03.11-23.42.20:831][  0]LogMemory: Physical Memory: 6669.94 MB used,  9466.18 MB free, 16136.11 MB total
-[2019.03.11-23.42.20:831][  0]LogMemory: Virtual Memory: 4647.50 MB used,  9466.18 MB free, 134217728.00 MB total
-[2019.03.11-23.42.21:084][  0]LogInit: Using OS detected language (en-US).
-[2019.03.11-23.42.21:084][  0]LogInit: Using OS detected locale (en-US).
-[2019.03.11-23.42.21:087][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.03.11-23.42.21:748][  0]LogStreaming: Display: Took  0.664s to InitEngineTextLocalization.
-[2019.03.11-23.42.21:748][  0]LogInit: Setting process to per monitor DPI aware
-[2019.03.11-23.42.21:860][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.03.11-23.42.21:860][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.03.11-23.42.25:205][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.11-23.42.25:205][  0]LogD3D11RHI: D3D11 adapters:
-[2019.03.11-23.42.25:304][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2019.03.11-23.42.25:304][  0]LogD3D11RHI:       2010/0/8068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.03.11-23.42.25:320][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2019.03.11-23.42.25:320][  0]LogD3D11RHI:       128/0/8068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.03.11-23.42.25:322][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.03.11-23.42.25:322][  0]LogD3D11RHI:       0/0/8068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.03.11-23.42.25:322][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.03.11-23.42.25:366][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.03.11-23.42.25:366][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2019.03.11-23.42.25:366][  0]LogWindows: EnumDisplayDevices:
-[2019.03.11-23.42.25:366][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2019.03.11-23.42.25:366][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2019.03.11-23.42.25:367][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2019.03.11-23.42.25:367][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.03.11-23.42.25:367][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2019.03.11-23.42.25:367][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.03.11-23.42.25:367][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.03.11-23.42.25:367][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
-[2019.03.11-23.42.25:417][  0]LogD3D11RHI: Async texture creation enabled
-[2019.03.11-23.42.25:461][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.03.11-23.42.25:464][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Intermediate/Shaders/WorkingDirectory/12344/).
-[2019.03.11-23.42.25:464][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/thompz/AppData/Local/Temp/UnrealShaderWorkingDir/458017E94CD7F08FCF8258949C66558B/'.
-[2019.03.11-23.42.25:975][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.03.11-23.42.25:992][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.03.11-23.42.26:008][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.03.11-23.42.26:026][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.03.11-23.42.26:050][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.03.11-23.42.26:068][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.03.11-23.42.26:109][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.03.11-23.42.26:128][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.03.11-23.42.26:139][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.03.11-23.42.26:278][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-23.42.26:278][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-23.42.26:278][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-23.42.26:278][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-23.42.26:278][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-23.42.26:278][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-23.42.26:278][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-23.42.26:278][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-23.42.26:278][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-23.42.26:278][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-23.42.26:278][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-23.42.26:278][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-23.42.26:278][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-23.42.26:278][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-23.42.26:278][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-23.42.26:278][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-23.42.26:278][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-23.42.26:278][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-23.42.26:283][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.03.11-23.42.26:370][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.11-23.42.26:370][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.11-23.42.26:403][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.11-23.42.26:403][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.11-23.42.26:421][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.03.11-23.42.26:438][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.03.11-23.42.26:455][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.03.11-23.42.26:482][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.03.11-23.42.26:495][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.03.11-23.42.26:495][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.03.11-23.42.26:653][  0]LogXGEController: Cleaning working directory: C:/Users/thompz/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.03.11-23.42.26:653][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.03.11-23.42.26:653][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.03.11-23.42.26:653][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.03.11-23.42.29:440][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.03.11-23.42.29:713][  0]LogDerivedDataCache: Loaded boot cache 0.27s 71MB C:/Users/thompz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.03.11-23.42.29:713][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/thompz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.03.11-23.42.29:714][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.03.11-23.42.29:714][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.03.11-23.42.29:714][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.11-23.42.29:714][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.03.11-23.42.29:743][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.03.11-23.42.29:757][  0]LogDerivedDataCache: Using Local data cache path C:/Users/thompz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.03.11-23.42.29:757][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.03.11-23.42.29:757][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.03.11-23.42.29:782][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.03.11-23.42.29:788][  0]LogSlate: Using FreeType 2.6.0
-[2019.03.11-23.42.29:813][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.03.11-23.42.30:185][  0]LogAssetRegistry: FAssetRegistry took 0.0305 seconds to start up
-[2019.03.11-23.42.30:853][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.11-23.42.31:260][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.03.11-23.42.31:279][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.03.11-23.42.31:279][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.03.11-23.42.31:280][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.03.11-23.42.31:280][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.03.11-23.42.31:359][  0]LogNetVersion: MarshMellow 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3750370364)
-[2019.03.11-23.42.33:060][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.175440 seconds
-[2019.03.11-23.42.33:070][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.03.11-23.42.33:070][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.03.11-23.42.33:070][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.03.11-23.42.37:963][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.03.11-23.42.37:982][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.03.11-23.42.38:359][  0]SourceControl: Source control is disabled
-[2019.03.11-23.42.38:359][  0]SourceControl: Source control is disabled
-[2019.03.11-23.42.38:369][  0]SourceControl: Source control is disabled
-[2019.03.11-23.42.38:373][  0]SourceControl: Source control is disabled
-[2019.03.11-23.42.38:689][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.03.11-23.42.38:835][  0]LogOcInput: OculusInput pre-init called
-[2019.03.11-23.42.38:990][  0]LogEngine: Initializing Engine...
-[2019.03.11-23.42.38:995][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.11-23.42.38:999][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.11-23.42.38:999][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.11-23.42.39:000][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.11-23.42.39:000][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.11-23.42.39:563][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.03.11-23.42.39:632][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.03.11-23.42.39:682][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.03.11-23.42.39:711][  0]LogInit: FAudioDevice initialized.
-[2019.03.11-23.42.39:712][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.03.11-23.42.39:771][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/thompz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.03.11-23.42.39:778][  0]LogInit: Texture streaming: Enabled
-[2019.03.11-23.42.39:812][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.03.11-23.42.40:497][  0]LogInit: Transaction tracking system initialized
-[2019.03.11-23.42.40:563][  0]BlueprintLog: New page: Editor Load
-[2019.03.11-23.42.40:857][  0]LocalizationService: Localization service is disabled
-[2019.03.11-23.42.40:983][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2019.03.11-23.42.40:983][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2019.03.11-23.42.40:983][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
-[2019.03.11-23.42.41:827][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.03.11-23.42.41:827][  0]LogCook: Display: Mobile HDR setting 1
-[2019.03.11-23.42.41:828][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.03.11-23.42.41:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.11-23.42.41:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.11-23.42.41:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.11-23.42.41:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.11-23.42.42:203][  0]LogFileCache: Scanning file cache for directory 'C:/Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/' took 0.05s
-[2019.03.11-23.42.42:203][  0]SourceControl: Source control is disabled
-[2019.03.11-23.42.42:204][  0]Cmd: MAP LOAD FILE="../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.11-23.42.42:205][  0]LightingResults: New page: Lighting Build
-[2019.03.11-23.42.42:220][  0]MapCheck: New page: Map Check
-[2019.03.11-23.42.42:220][  0]LightingResults: New page: Lighting Build
-[2019.03.11-23.42.43:036][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2019.03.11-23.42.43:101][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.11-23.42.43:145][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.11-23.42.43:255][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 111.054ms to complete.
-[2019.03.11-23.42.43:256][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.053
-[2019.03.11-23.42.43:484][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.11-23.42.43:511][  0]LogCollectionManager: Loaded 0 collections in 0.002287 seconds
-[2019.03.11-23.42.43:573][  0]LogFileCache: Scanning file cache for directory 'C:/Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Saved/Collections/' took 0.01s
-[2019.03.11-23.42.43:573][  0]LogFileCache: Scanning file cache for directory 'C:/Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/Developers/thompz/Collections/' took 0.01s
-[2019.03.11-23.42.43:573][  0]LogFileCache: Scanning file cache for directory 'C:/Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/Collections/' took 0.01s
-[2019.03.11-23.42.43:573][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.03.11-23.42.43:592][  0]LogContentBrowser: Native class hierarchy populated in 0.0179 seconds. Added 2572 classes and 603 folders.
-[2019.03.11-23.42.43:615][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.03.11-23.42.44:163][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.03.11-23.42.44:174][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.03.11-23.42.44:359][  0]LogSlate: Took 0.009233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.03.11-23.42.44:371][  0]LogSlate: Took 0.007313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.03.11-23.42.44:388][  0]LogSlate: Took 0.007700 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.03.11-23.42.44:585][  0]LogRenderer: Reallocating scene render targets to support 796x480 Format 10 NumSamples 1 (Frame:1).
-[2019.03.11-23.42.44:811][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.03.11-23.42.44:812][  0]LogLoad: (Engine Initialization) Total time: 29.48 seconds
-[2019.03.11-23.42.44:812][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.03.11-23.42.44:870][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.03.11-23.42.45:206][  4]LogAssetRegistry: Asset discovery search completed in 15.0448 seconds
-[2019.03.11-23.42.45:211][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.03.11-23.42.45:211][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000110 seconds (updated 0 objects)
-[2019.03.11-23.42.49:347][ 76]LogSlate: Took 0.007656 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.11-23.43.53:390][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.11-23.43.53:957][400]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/kisspng-mother-3-video-game-dialog-box-text-box-dialogue-textbox-5abe637fcb2695_9569141615224267518321'
-[2019.03.11-23.43.53:957][400]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/kisspng-mother-3-video-game-dialog-box-text-box-dialogue-textbox-5abe637fcb2695_9569141615224267518321' while loading ../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
-[2019.03.11-23.43.53:957][400]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/ThirdPersonBP/kisspng-mother-3-video-game-dialog-box-text-box-dialogue-textbox-5abe637fcb2695_9569141615224267518321
-[2019.03.11-23.43.53:957][400]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/kisspng-mother-3-video-game-dialog-box-text-box-dialogue-textbox-5abe637fcb2695_9569141615224267518321'
-[2019.03.11-23.43.53:957][400]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/kisspng-mother-3-video-game-dialog-box-text-box-dialogue-textbox-5abe637fcb2695_9569141615224267518321' while loading ../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
-[2019.03.11-23.43.53:959][400]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/kisspng-mother-3-video-game-dialog-box-text-box-dialogue-textbox-5abe637fcb2695_9569141615224267518321'
-[2019.03.11-23.43.53:959][400]LoadErrors: Failed to load /Game/ThirdPersonBP/kisspng-mother-3-video-game-dialog-box-text-box-dialogue-textbox-5abe637fcb2695_9569141615224267518321.kisspng-mother-3-video-game-dialog-box-text-box-dialogue-textbox-5abe637fcb2695_9569141615224267518321 Referenced by Image_1
-[2019.03.11-23.43.53:959][400]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/kisspng-mother-3-video-game-dialog-box-text-box-dialogue-textbox-5abe637fcb2695_9569141615224267518321' while loading ../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
-[2019.03.11-23.43.54:048][400]LogBlueprint: Error: [Compiler ThirdPersonCharacter] COMPILER ERROR: failed building connection with 'Array of Object References is not compatible with Array of NPCTalks Object References.' at  Get (a copy)
-[2019.03.11-23.43.54:049][400]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  <Unnamed>  no longer exists on node  Start Dialogue . Please refresh node or break links to remove pin.
-[2019.03.11-23.43.54:049][400]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  <Unnamed>  no longer exists on node  Start Dialogue . Please refresh node or break links to remove pin.
-[2019.03.11-23.43.54:049][400]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  Target  no longer exists on node  Start Dialogue . Please refresh node or break links to remove pin.
-[2019.03.11-23.43.54:049][400]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Could not find a function named "Start Dialogue" in 'ThirdPersonCharacter'.
-Make sure 'ThirdPersonCharacter' has been compiled for  Start Dialogue
-[2019.03.11-23.43.54:050][400]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Out Actors  and  Target Array : Array of NPCTalks Object References is not compatible with Array of Object References.
-[2019.03.11-23.43.54:050][400]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
-[2019.03.11-23.43.54:051][400]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Target Array  and  Out Actors : Array of Object References is not compatible with Array of NPCTalks Object References.
-[2019.03.11-23.43.54:053][400]LogBlueprint: Error: [Compiler ThirdPersonCharacter] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
-[2019.03.11-23.43.54:077][400]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [0098.74] Compile of ThirdPersonCharacter failed. 9 Fatal Issue(s) 0 Warning(s) [in 94 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2019.03.11-23.43.54:089][400]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/kisspng-mother-3-video-game-dialog-box-text-box-dialogue-textbox-5abe637fcb2695_9569141615224267518321'
-[2019.03.11-23.43.54:089][400]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/kisspng-mother-3-video-game-dialog-box-text-box-dialogue-textbox-5abe637fcb2695_9569141615224267518321' while loading ../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/TextBox.uasset.
-[2019.03.11-23.43.54:089][400]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/TextBox : Can't find file for asset. /Game/ThirdPersonBP/kisspng-mother-3-video-game-dialog-box-text-box-dialogue-textbox-5abe637fcb2695_9569141615224267518321
-[2019.03.11-23.43.54:090][400]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/kisspng-mother-3-video-game-dialog-box-text-box-dialogue-textbox-5abe637fcb2695_9569141615224267518321'
-[2019.03.11-23.43.54:090][400]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/kisspng-mother-3-video-game-dialog-box-text-box-dialogue-textbox-5abe637fcb2695_9569141615224267518321' while loading ../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/TextBox.uasset.
-[2019.03.11-23.43.54:329][400]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.11-23.43.54:347][400]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/TextBox.TextBox
-[2019.03.11-23.43.55:218][400]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
-[2019.03.11-23.43.56:395][400]LogSlate: Took 0.005411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.03.11-23.43.58:179][498]BlueprintLog: New page: Compile TextBox
-[2019.03.11-23.44.25:961][922]BlueprintLog: New page: Compile TextBox
-[2019.03.11-23.44.27:165][970]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Saved/TextBox178FB526481103F4441468BCD356E1F8.tmp' to '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/TextBox.uasset'
-[2019.03.11-23.44.59:357][598]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/NPCTalks.NPCTalks
-[2019.03.11-23.45.04:466][599]LogSlate: Took 0.017290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.03.11-23.45.11:317][701]BlueprintLog: New page: Compile NPCTalks
-[2019.03.11-23.45.43:094][ 80]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2019.03.11-23.46.36:044][636]BlueprintLog: New page: Compile NPCTalks
-[2019.03.11-23.46.40:770][653]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Saved/NPCTalks8F1E27744FA0C8A5804736828FAC707C.tmp' to '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/NPCTalks.uasset'
-[2019.03.11-23.46.56:421][990]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
-
-[2019.03.11-23.46.58:206][ 12]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ParagonRevenant/Characters/Heroes/Revenant/RevenantPlayerCharacter.RevenantPlayerCharacter
-[2019.03.11-23.46.59:964][ 12]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
-
-[2019.03.11-23.47.03:668][ 56]BlueprintLog: New page: Compile RevenantPlayerCharacter
-[2019.03.11-23.47.04:239][ 56]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
-
-[2019.03.11-23.47.04:248][ 56]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
-
-[2019.03.11-23.47.04:253][ 56]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
-
-[2019.03.11-23.47.04:263][ 56]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
-
-[2019.03.11-23.47.04:987][ 56]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
-
-[2019.03.11-23.47.04:993][ 56]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
-
-[2019.03.11-23.47.04:999][ 56]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
-
-[2019.03.11-23.47.05:004][ 56]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
-
-[2019.03.11-23.47.05:010][ 56]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
-
-[2019.03.11-23.47.05:102][ 56]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
-
-[2019.03.11-23.47.05:108][ 56]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
-
-[2019.03.11-23.47.05:114][ 56]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
-
-[2019.03.11-23.47.05:119][ 56]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
-	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
-
+[2019.03.12-13.15.22:503][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.12-13.15.22:504][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.12-13.15.22:530][  0]LogHAL: Display: Platform has ~ 16 GB [16919941120 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.12-13.15.22:530][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.12-13.15.22:531][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.12-13.15.22:539][  0]LogInit: Computer: DESKTOP-06E64QA
+[2019.03.12-13.15.22:539][  0]LogInit: User: thompz
+[2019.03.12-13.15.22:539][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.12-13.15.22:539][  0]LogInit: High frequency timer resolution =2.531246 MHz
+[2019.03.12-13.15.22:539][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.03.12-13.15.22:539][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.12-13.15.22:539][  0]LogMemory: Process Physical Memory: 101.72 MB used, 101.72 MB peak
+[2019.03.12-13.15.22:539][  0]LogMemory: Process Virtual Memory: 89.30 MB used, 89.30 MB peak
+[2019.03.12-13.15.22:539][  0]LogMemory: Physical Memory: 5138.61 MB used,  10997.50 MB free, 16136.11 MB total
+[2019.03.12-13.15.22:539][  0]LogMemory: Virtual Memory: 4638.87 MB used,  10997.50 MB free, 134217728.00 MB total
+[2019.03.12-13.15.22:771][  0]LogInit: Using OS detected language (en-US).
+[2019.03.12-13.15.22:771][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.12-13.15.22:772][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.12-13.15.23:346][  0]LogStreaming: Display: Took  0.575s to InitEngineTextLocalization.
+[2019.03.12-13.15.23:346][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.12-13.15.23:437][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.12-13.15.23:437][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.12-13.15.27:369][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.12-13.15.27:369][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.12-13.15.27:455][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.03.12-13.15.27:455][  0]LogD3D11RHI:       2010/0/8068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.12-13.15.27:475][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.03.12-13.15.27:475][  0]LogD3D11RHI:       128/0/8068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.12-13.15.27:477][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.12-13.15.27:477][  0]LogD3D11RHI:       0/0/8068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.12-13.15.27:477][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.12-13.15.27:529][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.12-13.15.27:529][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.03.12-13.15.27:530][  0]LogWindows: EnumDisplayDevices:
+[2019.03.12-13.15.27:530][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.03.12-13.15.27:530][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.03.12-13.15.27:530][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.03.12-13.15.27:531][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.12-13.15.27:531][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.03.12-13.15.27:531][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.12-13.15.27:531][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.12-13.15.27:531][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.03.12-13.15.27:589][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.12-13.15.27:637][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.12-13.15.27:641][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Intermediate/Shaders/WorkingDirectory/15884/).
+[2019.03.12-13.15.27:641][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/thompz/AppData/Local/Temp/UnrealShaderWorkingDir/5AB92A5C4187577197907CA155922379/'.
+[2019.03.12-13.15.28:184][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.12-13.15.28:201][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.12-13.15.28:219][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.12-13.15.28:239][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.12-13.15.28:266][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.12-13.15.28:285][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.12-13.15.28:303][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.12-13.15.28:321][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.12-13.15.28:332][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.12-13.15.28:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-13.15.28:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-13.15.28:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-13.15.28:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-13.15.28:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-13.15.28:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-13.15.28:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-13.15.28:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-13.15.28:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-13.15.28:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-13.15.28:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-13.15.28:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-13.15.28:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-13.15.28:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-13.15.28:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-13.15.28:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-13.15.28:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-13.15.28:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-13.15.28:471][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.12-13.15.28:569][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.12-13.15.28:569][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.12-13.15.28:609][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.12-13.15.28:609][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.12-13.15.28:629][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.12-13.15.28:653][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.12-13.15.28:675][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.12-13.15.28:708][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.12-13.15.28:723][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.12-13.15.28:723][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.12-13.15.28:903][  0]LogXGEController: Cleaning working directory: C:/Users/thompz/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.12-13.15.28:903][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.12-13.15.28:903][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.12-13.15.28:903][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.12-13.15.31:500][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.12-13.15.31:763][  0]LogDerivedDataCache: Loaded boot cache 0.26s 71MB C:/Users/thompz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.12-13.15.31:764][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/thompz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.12-13.15.31:764][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.12-13.15.31:764][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.12-13.15.31:764][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.12-13.15.31:764][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.12-13.15.31:795][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.12-13.15.31:808][  0]LogDerivedDataCache: Using Local data cache path C:/Users/thompz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.12-13.15.31:808][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.12-13.15.31:808][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.12-13.15.31:839][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.12-13.15.31:844][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.12-13.15.31:878][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.12-13.15.32:358][  0]LogAssetRegistry: FAssetRegistry took 0.0305 seconds to start up
+[2019.03.12-13.15.32:796][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.12-13.15.33:170][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.12-13.15.33:188][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.12-13.15.33:188][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.12-13.15.33:189][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.12-13.15.33:189][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.12-13.15.33:249][  0]LogNetVersion: MarshMellow 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3750370364)
+[2019.03.12-13.15.34:796][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.126437 seconds
+[2019.03.12-13.15.34:804][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.12-13.15.34:804][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.03.12-13.15.34:804][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.12-13.15.39:150][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.12-13.15.39:166][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.12-13.15.39:554][  0]SourceControl: Source control is disabled
+[2019.03.12-13.15.39:554][  0]SourceControl: Source control is disabled
+[2019.03.12-13.15.39:566][  0]SourceControl: Source control is disabled
+[2019.03.12-13.15.39:571][  0]SourceControl: Source control is disabled
+[2019.03.12-13.15.39:889][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.12-13.15.40:012][  0]LogOcInput: OculusInput pre-init called
+[2019.03.12-13.15.40:145][  0]LogEngine: Initializing Engine...
+[2019.03.12-13.15.40:146][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.12-13.15.40:149][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.12-13.15.40:149][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.12-13.15.40:149][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.12-13.15.40:149][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.12-13.15.40:629][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.12-13.15.40:672][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.12-13.15.40:701][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.12-13.15.40:726][  0]LogInit: FAudioDevice initialized.
+[2019.03.12-13.15.40:727][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.12-13.15.40:779][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/thompz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.12-13.15.40:790][  0]LogInit: Texture streaming: Enabled
+[2019.03.12-13.15.40:819][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.12-13.15.40:819][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={98888A8C-4DC6-ED61-CC14-78955B1C3836}
+[2019.03.12-13.15.40:819][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={760839C3-4127-1BF2-0832-FD84AADA9B5F}
+[2019.03.12-13.15.41:464][  0]LogInit: Transaction tracking system initialized
+[2019.03.12-13.15.41:520][  0]BlueprintLog: New page: Editor Load
+[2019.03.12-13.15.41:720][  0]LocalizationService: Localization service is disabled
+[2019.03.12-13.15.41:837][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2019.03.12-13.15.41:837][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2019.03.12-13.15.41:837][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2019.03.12-13.15.42:610][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.12-13.15.42:611][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.12-13.15.42:611][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.12-13.15.42:611][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.12-13.15.42:611][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.12-13.15.42:611][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.12-13.15.42:611][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.12-13.15.42:703][  0]LogFileCache: Scanning file cache for directory 'C:/Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/' took 0.05s
+[2019.03.12-13.15.42:953][  0]SourceControl: Source control is disabled
+[2019.03.12-13.15.43:058][  0]LogSlate: Took 0.007769 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.12-13.15.56:868][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2019.03.12-13.15.56:869][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.12-13.15.56:888][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.12-13.15.58:344][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2019.03.12-13.15.58:344][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.12-13.15.58:377][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.12-13.15.58:379][  0]Cmd: MAP LOAD FILE="../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.12-13.15.58:380][  0]LightingResults: New page: Lighting Build
+[2019.03.12-13.15.58:389][  0]MapCheck: New page: Map Check
+[2019.03.12-13.15.58:389][  0]LightingResults: New page: Lighting Build
+[2019.03.12-13.16.03:070][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.12-13.16.03:102][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.12-13.16.03:137][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.12-13.16.03:296][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 158.836ms to complete.
+[2019.03.12-13.16.03:296][  0]LogFileHelpers: Loading map 'Minimal_Default' took 4.918
+[2019.03.12-13.16.03:395][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.12-13.16.03:415][  0]LogCollectionManager: Loaded 0 collections in 0.001851 seconds
+[2019.03.12-13.16.03:473][  0]LogFileCache: Scanning file cache for directory 'C:/Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Saved/Collections/' took 0.01s
+[2019.03.12-13.16.03:473][  0]LogFileCache: Scanning file cache for directory 'C:/Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/Developers/thompz/Collections/' took 0.01s
+[2019.03.12-13.16.03:473][  0]LogFileCache: Scanning file cache for directory 'C:/Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/Collections/' took 0.01s
+[2019.03.12-13.16.03:473][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.12-13.16.03:487][  0]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2572 classes and 603 folders.
+[2019.03.12-13.16.03:505][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.12-13.16.04:031][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.12-13.16.04:042][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.03.12-13.16.04:187][  0]LogSlate: Took 0.008015 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.12-13.16.04:203][  0]LogSlate: Took 0.007840 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.12-13.16.04:337][  0]LogRenderer: Reallocating scene render targets to support 796x480 Format 10 NumSamples 1 (Frame:1).
+[2019.03.12-13.16.04:578][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.12-13.16.04:578][  0]LogLoad: (Engine Initialization) Total time: 46.51 seconds
+[2019.03.12-13.16.04:578][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.12-13.16.04:627][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.12-13.16.04:690][  0]LogSlate: Took 0.007617 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.12-13.16.05:100][  4]LogAssetRegistry: Asset discovery search completed in 32.7655 seconds
+[2019.03.12-13.16.05:104][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.12-13.16.05:104][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000116 seconds (updated 0 objects)
+[2019.03.12-13.16.06:076][  7]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.12-13.16.11:999][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.12-13.16.12:198][371]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/NPCTalks.NPCTalks
+[2019.03.12-13.16.12:954][371]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.03.12-13.16.13:984][371]LogSlate: Took 0.005013 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.12-13.16.14:592][372]LogSlate: Took 0.007460 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.12-13.17.15:976][349]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\thompz\Downloads\547_-_Dialogue_Click.wav)
+[2019.03.12-13.17.18:554][362]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\thompz\Downloads\548_-_Dialogue_Close.wav)
+[2019.03.12-13.17.20:694][377]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\thompz\Downloads\1061_-_Dialogue_Open.wav)
+[2019.03.12-13.17.34:567][ 10]BlueprintLog: New page: Compile NPCTalks
+[2019.03.12-13.18.05:796][799]BlueprintLog: New page: Compile NPCTalks
+[2019.03.12-13.18.07:380][836]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Saved/NPCTalks5D48B17040ABBD522CD83E9D90F43BD1.tmp' to '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/NPCTalks.uasset'
+[2019.03.12-13.18.25:522][566]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Saved/Minimal_DefaultA3A15D1E4F1BEA959BB842B798B40B38.tmp' to '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.12-13.18.27:583][662]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Saved/NPCTalksFDB239EB49938AAEF2DDEBA5C91D366F.tmp' to '../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/NPCTalks.uasset'
