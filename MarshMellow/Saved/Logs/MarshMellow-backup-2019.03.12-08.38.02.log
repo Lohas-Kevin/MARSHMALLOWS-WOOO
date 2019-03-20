@@ -1,0 +1,1720 @@
+﻿Log file open, 03/12/19 06:25:04
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MarshMellow
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.266769
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.097s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA TITAN X (Pascal)
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.12-10.25.04:558][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.12-10.25.04:558][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.12-10.25.04:568][  0]LogHAL: Display: Platform has ~ 16 GB [17120710656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.12-10.25.04:568][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.12-10.25.04:568][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.12-10.25.04:568][  0]LogInit: Computer: DESKTOP-I0Q4SH2
+[2019.03.12-10.25.04:568][  0]LogInit: User: LohasKevin
+[2019.03.12-10.25.04:568][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.12-10.25.04:568][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.12-10.25.04:569][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.12-10.25.04:569][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.12-10.25.04:569][  0]LogMemory: Process Physical Memory: 102.17 MB used, 102.18 MB peak
+[2019.03.12-10.25.04:569][  0]LogMemory: Process Virtual Memory: 96.46 MB used, 96.46 MB peak
+[2019.03.12-10.25.04:569][  0]LogMemory: Physical Memory: 6816.93 MB used,  9510.65 MB free, 16327.58 MB total
+[2019.03.12-10.25.04:569][  0]LogMemory: Virtual Memory: 4648.53 MB used,  9510.65 MB free, 134217728.00 MB total
+[2019.03.12-10.25.04:584][  0]LogInit: Using OS detected language (en-US).
+[2019.03.12-10.25.04:584][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.12-10.25.04:584][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.12-10.25.04:867][  0]LogStreaming: Display: Took  0.284s to InitEngineTextLocalization.
+[2019.03.12-10.25.04:868][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.12-10.25.04:890][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.12-10.25.04:890][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.12-10.25.05:053][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.12-10.25.05:053][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.12-10.25.05:112][  0]LogD3D11RHI:    0. 'NVIDIA TITAN X (Pascal)' (Feature Level 11_0)
+[2019.03.12-10.25.05:112][  0]LogD3D11RHI:       12147/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.12-10.25.05:113][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.12-10.25.05:113][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.12-10.25.05:113][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.12-10.25.05:121][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.12-10.25.05:121][  0]LogD3D11RHI:     GPU DeviceId: 0x1b00 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.12-10.25.05:121][  0]LogWindows: EnumDisplayDevices:
+[2019.03.12-10.25.05:121][  0]LogWindows:    0. 'NVIDIA TITAN X (Pascal)' (P:1 D:1)
+[2019.03.12-10.25.05:121][  0]LogWindows:    1. 'NVIDIA TITAN X (Pascal)' (P:0 D:0)
+[2019.03.12-10.25.05:121][  0]LogWindows:    2. 'NVIDIA TITAN X (Pascal)' (P:0 D:0)
+[2019.03.12-10.25.05:122][  0]LogWindows:    3. 'NVIDIA TITAN X (Pascal)' (P:0 D:0)
+[2019.03.12-10.25.05:122][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.12-10.25.05:122][  0]LogD3D11RHI:     Adapter Name: NVIDIA TITAN X (Pascal)
+[2019.03.12-10.25.05:122][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.03.12-10.25.05:122][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.03.12-10.25.05:122][  0]LogRHI: Texture pool is 8502 MB (70% of 12147 MB)
+[2019.03.12-10.25.05:157][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.12-10.25.05:185][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.12-10.25.05:227][  0]LogShaderCompilers: Guid format shader working directory is 20 characters bigger than the processId version (E:/MARSHMALLOWS-WOOO/MarshMellow/Intermediate/Shaders/WorkingDirectory/5560/).
+[2019.03.12-10.25.05:227][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Lohas_Kevin/AppData/Local/Temp/UnrealShaderWorkingDir/37FF22C54782A29A1C07BCBF5841A31E/'.
+[2019.03.12-10.25.05:471][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.12-10.25.05:482][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.12-10.25.05:492][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.12-10.25.05:503][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.12-10.25.05:513][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.12-10.25.05:524][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.12-10.25.05:535][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.12-10.25.05:545][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.12-10.25.05:550][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.12-10.25.05:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-10.25.05:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-10.25.05:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-10.25.05:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-10.25.05:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-10.25.05:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-10.25.05:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-10.25.05:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-10.25.05:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-10.25.05:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-10.25.05:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-10.25.05:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-10.25.05:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-10.25.05:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-10.25.05:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-10.25.05:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-10.25.05:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-10.25.05:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-10.25.05:613][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.12-10.25.05:666][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.12-10.25.05:666][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.12-10.25.05:684][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.12-10.25.05:684][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.12-10.25.05:693][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.12-10.25.05:703][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.12-10.25.05:712][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.12-10.25.05:722][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.12-10.25.05:729][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.12-10.25.05:730][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.12-10.25.05:783][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.12-10.25.05:783][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.12-10.25.05:783][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.12-10.25.06:400][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.12-10.25.06:458][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Lohas_Kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.12-10.25.06:458][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Lohas_Kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.12-10.25.06:458][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/MARSHMALLOWS-WOOO/MarshMellow/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.12-10.25.06:458][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.12-10.25.06:458][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/MARSHMALLOWS-WOOO/MarshMellow/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.12-10.25.06:459][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.12-10.25.06:469][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.12-10.25.06:481][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Lohas_Kevin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.12-10.25.06:481][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.12-10.25.06:481][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.12-10.25.06:497][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.12-10.25.06:498][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.12-10.25.06:499][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.12-10.25.06:570][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
+[2019.03.12-10.25.06:825][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.12-10.25.06:934][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.12-10.25.06:937][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.12-10.25.06:937][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.12-10.25.06:937][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.12-10.25.06:937][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.12-10.25.06:951][  0]LogNetVersion: MarshMellow 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3750370364)
+[2019.03.12-10.25.07:416][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.092086 seconds
+[2019.03.12-10.25.07:421][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.12-10.25.07:421][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.03.12-10.25.07:421][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.12-10.25.08:100][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.12-10.25.08:114][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.12-10.25.08:238][  0]SourceControl: Source control is disabled
+[2019.03.12-10.25.08:238][  0]SourceControl: Source control is disabled
+[2019.03.12-10.25.08:239][  0]SourceControl: Source control is disabled
+[2019.03.12-10.25.08:240][  0]SourceControl: Source control is disabled
+[2019.03.12-10.25.08:394][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.12-10.25.08:453][  0]LogOcInput: OculusInput pre-init called
+[2019.03.12-10.25.08:504][  0]LogEngine: Initializing Engine...
+[2019.03.12-10.25.08:504][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.12-10.25.08:505][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.12-10.25.08:505][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.12-10.25.08:505][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.12-10.25.08:505][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.12-10.25.08:685][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.12-10.25.08:701][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.12-10.25.08:715][  0]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.12-10.25.08:726][  0]LogInit: FAudioDevice initialized.
+[2019.03.12-10.25.08:726][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.12-10.25.08:770][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/Lohas_Kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.12-10.25.08:774][  0]LogInit: Texture streaming: Enabled
+[2019.03.12-10.25.08:789][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.12-10.25.08:803][  0]LogInit: Transaction tracking system initialized
+[2019.03.12-10.25.08:821][  0]BlueprintLog: New page: Editor Load
+[2019.03.12-10.25.08:888][  0]LocalizationService: Localization service is disabled
+[2019.03.12-10.25.09:097][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.12-10.25.09:097][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.12-10.25.09:097][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.12-10.25.09:097][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.12-10.25.09:097][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.12-10.25.09:097][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.12-10.25.09:097][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.12-10.25.09:198][  0]LogFileCache: Scanning file cache for directory 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/' took 0.03s
+[2019.03.12-10.25.09:198][  0]SourceControl: Source control is disabled
+[2019.03.12-10.25.09:198][  0]Cmd: MAP LOAD FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.12-10.25.09:198][  0]LightingResults: New page: Lighting Build
+[2019.03.12-10.25.09:201][  0]MapCheck: New page: Map Check
+[2019.03.12-10.25.09:201][  0]LightingResults: New page: Lighting Build
+[2019.03.12-10.25.09:485][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.12-10.25.09:495][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.12-10.25.09:512][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.12-10.25.09:573][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.355ms to complete.
+[2019.03.12-10.25.09:573][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.374
+[2019.03.12-10.25.09:714][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.12-10.25.09:723][  0]LogCollectionManager: Loaded 0 collections in 0.001595 seconds
+[2019.03.12-10.25.09:763][  0]LogFileCache: Scanning file cache for directory 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/Collections/' took 0.01s
+[2019.03.12-10.25.09:764][  0]LogFileCache: Scanning file cache for directory 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/Developers/LohasKevin/Collections/' took 0.01s
+[2019.03.12-10.25.09:764][  0]LogFileCache: Scanning file cache for directory 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/Collections/' took 0.01s
+[2019.03.12-10.25.09:764][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.03.12-10.25.09:773][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2572 classes and 603 folders.
+[2019.03.12-10.25.09:780][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.12-10.25.09:914][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.12-10.25.09:918][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.03.12-10.25.09:930][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.12-10.25.09:931][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.12-10.25.09:941][  0]LogSlate: Took 0.004471 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.12-10.25.10:030][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.03.12-10.25.10:148][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.12-10.25.10:148][  0]LogLoad: (Engine Initialization) Total time: 7.28 seconds
+[2019.03.12-10.25.10:148][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.12-10.25.10:178][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.12-10.25.10:267][  2]LogAssetRegistry: Asset discovery search completed in 3.7192 seconds
+[2019.03.12-10.25.10:269][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.12-10.25.10:269][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000074 seconds (updated 0 objects)
+[2019.03.12-10.25.11:241][ 57]LogSlate: Took 0.007071 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.12-10.25.14:257][151]LogSlate: Took 0.000967 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.12-10.25.29:795][549]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.12-10.25.36:120][647]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2019.03.12-10.25.36:794][647]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 116 classes and 0 folders.
+[2019.03.12-10.25.41:791][725]LogSlate: Window 'ThirdPersonGameMode' being destroyed
+[2019.03.12-10.25.41:846][725]LogSlate: Window 'ThirdPersonGameMode' being destroyed
+[2019.03.12-10.25.50:590][931]LogBlueprint: Error: [Compiler NPCTalks] In use pin  <Unnamed>  no longer exists on node  Restore Control . Please refresh node or break links to remove pin.
+[2019.03.12-10.25.50:590][931]LogBlueprint: Error: [Compiler NPCTalks] In use pin  <Unnamed>  no longer exists on node  Restore Control . Please refresh node or break links to remove pin.
+[2019.03.12-10.25.50:590][931]LogBlueprint: Error: [Compiler NPCTalks] In use pin  Target  no longer exists on node  Restore Control . Please refresh node or break links to remove pin.
+[2019.03.12-10.25.50:590][931]LogBlueprint: Error: [Compiler NPCTalks] Could not find a function named "RestoreControl" in 'RevenantPlayerCharacter_C'.
+Make sure 'RevenantPlayerCharacter_C' has been compiled for  Restore Control
+[2019.03.12-10.25.50:599][931]LogBlueprint: Error: [Compiler NPCTalks] This blueprint (self) is not a RevenantPlayerCharacter_C, therefore ' Target ' must have a connection.
+[2019.03.12-10.25.50:621][931]LogBlueprint: Warning: [Compiler NPCTalks] [0047.75] Compile of NPCTalks failed. 5 Fatal Issue(s) 0 Warning(s) [in 72 ms] (/Game/ThirdPersonBP/Blueprints/NPCTalks.NPCTalks)
+[2019.03.12-10.25.50:778][931]LogTexture: Display: Building textures: kisspng-mother-3-video-game-dialog-box-text-box-dialogue-textbox-5abe637fcb2695_9569141615224267518321 (AutoDXT, 1600X1200)
+[2019.03.12-10.25.58:245][ 62]LogBlueprint: Error: [Compiler ThirdPersonCharacter] COMPILER ERROR: failed building connection with 'Array of Object References is not compatible with Array of NPCTalks Object References.' at  Get (a copy)
+[2019.03.12-10.25.58:245][ 62]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  <Unnamed>  no longer exists on node  Start Dialogue . Please refresh node or break links to remove pin.
+[2019.03.12-10.25.58:245][ 62]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  <Unnamed>  no longer exists on node  Start Dialogue . Please refresh node or break links to remove pin.
+[2019.03.12-10.25.58:245][ 62]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  Target  no longer exists on node  Start Dialogue . Please refresh node or break links to remove pin.
+[2019.03.12-10.25.58:245][ 62]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Could not find a function named "Start Dialogue" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Start Dialogue
+[2019.03.12-10.25.58:246][ 62]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Out Actors  and  Target Array : Array of NPCTalks Object References is not compatible with Array of Object References.
+[2019.03.12-10.25.58:246][ 62]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2019.03.12-10.25.58:247][ 62]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Target Array  and  Out Actors : Array of Object References is not compatible with Array of NPCTalks Object References.
+[2019.03.12-10.25.58:248][ 62]LogBlueprint: Error: [Compiler ThirdPersonCharacter] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2019.03.12-10.25.58:250][ 62]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [0055.38] Compile of ThirdPersonCharacter failed. 9 Fatal Issue(s) 0 Warning(s) [in 11 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2019.03.12-10.25.58:354][ 62]LogMetaData: Removing '/Game/BluePrints/Talk.Talk_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Talk.PackageMetaData'
+[2019.03.12-10.25.58:354][ 62]LogMetaData: Removing '/Game/BluePrints/Talk.Talk:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Talk.PackageMetaData'
+[2019.03.12-10.25.58:354][ 62]LogMetaData: Removing '/Game/BluePrints/Talk.Talk:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Talk.PackageMetaData'
+[2019.03.12-10.25.58:354][ 62]LogMetaData: Removing '/Game/BluePrints/Talk.Talk:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Talk.PackageMetaData'
+[2019.03.12-10.25.58:354][ 62]LogMetaData: Removing '/Game/BluePrints/Talk.SKEL_Talk_C:PreConstruct' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Talk.PackageMetaData'
+[2019.03.12-10.25.58:354][ 62]LogMetaData: Removing '/Game/BluePrints/Talk.SKEL_Talk_C:Construct' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Talk.PackageMetaData'
+[2019.03.12-10.25.58:354][ 62]LogMetaData: Removing '/Game/BluePrints/Talk.SKEL_Talk_C:Tick' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Talk.PackageMetaData'
+[2019.03.12-10.25.58:354][ 62]LogMetaData: Removing '/Game/BluePrints/Talk.SKEL_Talk_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Talk.PackageMetaData'
+[2019.03.12-10.25.58:414][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Talk" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Talk.uasset" SILENT=true
+[2019.03.12-10.25.58:424][ 62]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/Talk29BA27324350CFA9AE64EBB5DF2BC500.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/Talk.uasset'
+[2019.03.12-10.25.58:798][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2019.03.12-10.25.58:862][ 62]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/ThirdPersonCharacterC616BFA3480487E0970078B33440FAEF.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.TextBox_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.TextBox:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.TextBox:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.TextBox:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.TextBox:GetToolTipText_0.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.TextBox:GetToolTipText_0.K2Node_FunctionResult_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.TextBox:Typing.K2Node_Tunnel_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.TextBox:Typing.K2Node_Tunnel_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.TextBox:GetName.K2Node_FunctionResult_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.TextBox:GetName.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.SKEL_TextBox_C:PreConstruct' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.SKEL_TextBox_C:Construct' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.SKEL_TextBox_C:Tick' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.SKEL_TextBox_C:Text' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.SKEL_TextBox_C:Message' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.SKEL_TextBox_C:Typing_Speed' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.SKEL_TextBox_C:TextBlock_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.SKEL_TextBox_C:Image_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.SKEL_TextBox_C:Dialogue' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.SKEL_TextBox_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.TextBox_C:Text' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.TextBox_C:Message' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.TextBox_C:Typing_Speed' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.TextBox_C:TextBlock_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.TextBox_C:Image_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.TextBox_C:Dialogue' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:587][152]LogMetaData: Removing '/Game/BluePrints/TextBox.TextBox_C:Construct' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TextBox.PackageMetaData'
+[2019.03.12-10.26.03:659][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/TextBox" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/TextBox.uasset" SILENT=true
+[2019.03.12-10.26.03:693][152]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/TextBox0D8A346442BFA0D3AC5380A20C80B9A7.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/TextBox.uasset'
+[2019.03.12-10.26.03:955][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/NPCTalks" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/NPCTalks.uasset" SILENT=true
+[2019.03.12-10.26.04:087][152]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/NPCTalks1A9256D14F1C2BE967CF0A9E8476235D.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/NPCTalks.uasset'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:ReceiveTick' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:NPCName' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:DialogueIndex' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:Null' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox21' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox20' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox19' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox18' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox17' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox16' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox15' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox14' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox13' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:778][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox12' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox11' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox10' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox9' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox8' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox7' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox6' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox5' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox4' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox3' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:TextBox1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:ActiveText' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:Box' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:StaticMesh' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.SKEL_NPCTalks_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:NPCName' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:DialogueIndex' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:Null' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox21' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox20' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox19' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:779][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox18' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox17' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox16' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox15' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox14' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox13' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox12' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox11' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox10' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox9' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox8' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox7' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox6' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox5' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox4' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox3' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:TextBox1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:ActiveText' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:Box' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:StaticMesh' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:780][214]LogMetaData: Removing '/Game/BluePrints/NPCTalks.NPCTalks_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/NPCTalks.PackageMetaData'
+[2019.03.12-10.26.07:906][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/NPCTalks" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/NPCTalks.uasset" SILENT=true
+[2019.03.12-10.26.08:049][214]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/NPCTalks13212D214F36F6996BFE228A546A6857.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/NPCTalks.uasset'
+[2019.03.12-10.26.08:296][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2019.03.12-10.26.08:378][214]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/ThirdPersonCharacter02E74CB447D88AD2C54E9EB206267B20.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.03.12-10.26.08:402][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/TextBox" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/TextBox.uasset" SILENT=true
+[2019.03.12-10.26.08:469][214]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/TextBoxBDBB701A41396D0EFBD5D3954AD5FE34.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/TextBox.uasset'
+[2019.03.12-10.26.23:887][660]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.03.12-10.26.24:277][660]LogSlate: Took 0.003874 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.12-10.26.24:454][661]LogSlate: Took 0.003786 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.12-10.26.35:743][939]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.03.12-10.26.35:771][939]LogBlueprint: Error: [Compiler ThirdPersonCharacter] COMPILER ERROR: failed building connection with 'Array of Object References is not compatible with Array of NPCTalks Object References.' at  Get (a copy)
+[2019.03.12-10.26.35:771][939]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  <Unnamed>  no longer exists on node  Start Dialogue . Please refresh node or break links to remove pin.
+[2019.03.12-10.26.35:771][939]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  <Unnamed>  no longer exists on node  Start Dialogue . Please refresh node or break links to remove pin.
+[2019.03.12-10.26.35:771][939]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  Target  no longer exists on node  Start Dialogue . Please refresh node or break links to remove pin.
+[2019.03.12-10.26.35:771][939]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Could not find a function named "Start Dialogue" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Start Dialogue
+[2019.03.12-10.26.35:771][939]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Out Actors  and  Target Array : Array of NPCTalks Object References is not compatible with Array of Object References.
+[2019.03.12-10.26.35:772][939]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2019.03.12-10.26.35:772][939]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Target Array  and  Out Actors : Array of Object References is not compatible with Array of NPCTalks Object References.
+[2019.03.12-10.26.35:773][939]LogBlueprint: Error: [Compiler ThirdPersonCharacter] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2019.03.12-10.26.35:924][939]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [0093.06] Compile of ThirdPersonCharacter failed. 9 Fatal Issue(s) 0 Warning(s) [in 181 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2019.03.12-10.28.11:895][156]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/RevenantPlayerCharacter.RevenantPlayerCharacter
+[2019.03.12-10.28.12:284][156]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BluePrints/UI/MainMenu.MainMenu
+[2019.03.12-10.28.12:642][156]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BluePrints/UI/PauseMenu.PauseMenu
+[2019.03.12-10.28.12:952][156]LogLinker: Warning: Can't resolve asset name
+[2019.03.12-10.28.12:954][156]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.28.23:184][419]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.03.12-10.28.33:847][716]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.12-10.28.33:852][716]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/MovementTest.MovementTest
+[2019.03.12-10.28.33:880][716]Cmd: MAP LOAD FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/Levels/MovementTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.12-10.28.33:880][716]LightingResults: New page: Lighting Build
+[2019.03.12-10.28.33:881][716]LoadErrors: New page: Loading map: MovementTest.umap
+[2019.03.12-10.28.33:881][716]MapCheck: New page: Map Check
+[2019.03.12-10.28.33:881][716]LightingResults: New page: Lighting Build
+[2019.03.12-10.28.33:914][716]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.12-10.28.33:965][716]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.12-10.28.34:086][716]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 120.541ms to complete.
+[2019.03.12-10.28.34:087][716]LogFileHelpers: Loading map 'MovementTest' took 0.207
+[2019.03.12-10.28.42:118][858]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2019.03.12-10.28.42:120][858]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2019.03.12-10.28.43:207][861]LogSlate: Window 'PauseMenu' being destroyed
+[2019.03.12-10.28.43:208][861]LogSlate: Window 'PauseMenu' being destroyed
+[2019.03.12-10.28.43:208][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.12-10.28.50:400][  5]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.03.12-10.28.56:021][118]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.29.13:030][463]LogMetaData: Removing '/Game/BluePrints/UI/Talk.Talk_C' ref from Metadata '/Game/BluePrints/Talk.PackageMetaData'
+[2019.03.12-10.29.13:030][463]LogMetaData: Removing '/Game/BluePrints/UI/Talk.SKEL_Talk_C' ref from Metadata '/Game/BluePrints/Talk.PackageMetaData'
+[2019.03.12-10.29.13:030][463]LogMetaData: Removing '/Game/BluePrints/UI/Talk.SKEL_Talk_C:PreConstruct' ref from Metadata '/Game/BluePrints/Talk.PackageMetaData'
+[2019.03.12-10.29.13:030][463]LogMetaData: Removing '/Game/BluePrints/UI/Talk.SKEL_Talk_C:Construct' ref from Metadata '/Game/BluePrints/Talk.PackageMetaData'
+[2019.03.12-10.29.13:030][463]LogMetaData: Removing '/Game/BluePrints/UI/Talk.SKEL_Talk_C:Tick' ref from Metadata '/Game/BluePrints/Talk.PackageMetaData'
+[2019.03.12-10.29.13:030][463]LogMetaData: Removing '/Game/BluePrints/UI/Talk.Talk:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BluePrints/Talk.PackageMetaData'
+[2019.03.12-10.29.13:030][463]LogMetaData: Removing '/Game/BluePrints/UI/Talk.Talk:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BluePrints/Talk.PackageMetaData'
+[2019.03.12-10.29.13:030][463]LogMetaData: Removing '/Game/BluePrints/UI/Talk.Talk:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BluePrints/Talk.PackageMetaData'
+[2019.03.12-10.29.13:059][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/UI/Talk" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/UI/Talk.uasset" SILENT=true
+[2019.03.12-10.29.13:072][463]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/Talk5DE487BC405E45F7CE354C8E51847A98.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/UI/Talk.uasset'
+[2019.03.12-10.29.13:298][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2019.03.12-10.29.13:358][463]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/ThirdPersonCharacter4D7ED080429509FA32891A90275B1F44.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.TextBox_C' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.TextBox_C:Text' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.TextBox_C:Message' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.TextBox_C:Typing_Speed' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.TextBox_C:TextBlock_0' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.TextBox_C:Image_1' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.TextBox_C:Dialogue' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.TextBox_C:Construct' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.SKEL_TextBox_C' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.SKEL_TextBox_C:PreConstruct' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.SKEL_TextBox_C:Construct' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.SKEL_TextBox_C:Tick' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.SKEL_TextBox_C:Text' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.SKEL_TextBox_C:Message' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.SKEL_TextBox_C:Typing_Speed' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.SKEL_TextBox_C:TextBlock_0' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.SKEL_TextBox_C:Image_1' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.SKEL_TextBox_C:Dialogue' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.TextBox:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.TextBox:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.TextBox:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:720][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.TextBox:GetName.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:721][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.TextBox:GetName.K2Node_FunctionResult_0' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:721][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.TextBox:GetToolTipText_0.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:721][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.TextBox:GetToolTipText_0.K2Node_FunctionResult_0' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:721][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.TextBox:Typing.K2Node_Tunnel_0' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:721][517]LogMetaData: Removing '/Game/BluePrints/UI/TextBox.TextBox:Typing.K2Node_Tunnel_1' ref from Metadata '/Game/BluePrints/TextBox.PackageMetaData'
+[2019.03.12-10.29.16:747][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/UI/TextBox" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/UI/TextBox.uasset" SILENT=true
+[2019.03.12-10.29.16:780][517]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/TextBox1397D62C4328DBDB9A523FB2391854A4.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/UI/TextBox.uasset'
+[2019.03.12-10.29.16:953][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/NPCTalks" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/NPCTalks.uasset" SILENT=true
+[2019.03.12-10.29.17:074][517]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/NPCTalksBDB56958439A343D0EE023B7506E7B5F.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/NPCTalks.uasset'
+[2019.03.12-10.29.24:197][682]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/NPCTalks.NPCTalks
+[2019.03.12-10.30.49:818][894]BlueprintLog: New page: Compile NPCTalks
+[2019.03.12-10.30.49:934][894]LogBlueprint: Error: [Compiler NPCTalks] In use pin  <Unnamed>  no longer exists on node  Restore Control . Please refresh node or break links to remove pin.
+[2019.03.12-10.30.49:934][894]LogBlueprint: Error: [Compiler NPCTalks] In use pin  <Unnamed>  no longer exists on node  Restore Control . Please refresh node or break links to remove pin.
+[2019.03.12-10.30.49:934][894]LogBlueprint: Error: [Compiler NPCTalks] In use pin  Target  no longer exists on node  Restore Control . Please refresh node or break links to remove pin.
+[2019.03.12-10.30.49:934][894]LogBlueprint: Error: [Compiler NPCTalks] Could not find a function named "RestoreControl" in 'RevenantPlayerCharacter_C'.
+Make sure 'RevenantPlayerCharacter_C' has been compiled for  Restore Control
+[2019.03.12-10.30.49:936][894]LogBlueprint: Error: [Compiler NPCTalks] This blueprint (self) is not a RevenantPlayerCharacter_C, therefore ' Target ' must have a connection.
+[2019.03.12-10.30.50:123][894]LogBlueprint: Warning: [Compiler NPCTalks] [0347.25] Compile of NPCTalks failed. 5 Fatal Issue(s) 0 Warning(s) [in 305 ms] (/Game/BluePrints/NPCTalks.NPCTalks)
+[2019.03.12-10.34.27:941][838]BlueprintLog: New page: Compile NPCTalks
+[2019.03.12-10.34.28:052][838]LogBlueprint: Error: [Compiler NPCTalks] In use pin  <Unnamed>  no longer exists on node  Restore Control . Please refresh node or break links to remove pin.
+[2019.03.12-10.34.28:052][838]LogBlueprint: Error: [Compiler NPCTalks] In use pin  <Unnamed>  no longer exists on node  Restore Control . Please refresh node or break links to remove pin.
+[2019.03.12-10.34.28:052][838]LogBlueprint: Error: [Compiler NPCTalks] In use pin  Target  no longer exists on node  Restore Control . Please refresh node or break links to remove pin.
+[2019.03.12-10.34.28:052][838]LogBlueprint: Error: [Compiler NPCTalks] Could not find a function named "RestoreControl" in 'RevenantPlayerCharacter_C'.
+Make sure 'RevenantPlayerCharacter_C' has been compiled for  Restore Control
+[2019.03.12-10.34.28:054][838]LogBlueprint: Error: [Compiler NPCTalks] This blueprint (self) is not a RevenantPlayerCharacter_C, therefore ' Target ' must have a connection.
+[2019.03.12-10.34.28:265][838]LogBlueprint: Warning: [Compiler NPCTalks] [0565.40] Compile of NPCTalks failed. 5 Fatal Issue(s) 0 Warning(s) [in 324 ms] (/Game/BluePrints/NPCTalks.NPCTalks)
+[2019.03.12-10.35.18:140][228]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/RevenantPlayerCharacter.RevenantPlayerCharacter
+[2019.03.12-10.35.18:728][228]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.23:228][343]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  Event ActorBeginOverlap  and was replaced as a Custom Event!
+[2019.03.12-10.35.23:231][343]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent_1   conflicted with  Event ActorEndOverlap  and was replaced as a Custom Event!
+[2019.03.12-10.35.23:293][343]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.23:295][343]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.23:296][343]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.23:297][343]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.27:783][413]BlueprintLog: New page: Compile RevenantPlayerCharacter
+[2019.03.12-10.35.27:899][413]LogBlueprint: Warning: [Compiler RevenantPlayerCharacter] Could not find a variable named "Talking" in 'RevenantPlayerCharacter_C'.
+Make sure 'RevenantPlayerCharacter_C' has been compiled for  Set Talking
+[2019.03.12-10.35.27:900][413]LogBlueprint: Warning: [Compiler RevenantPlayerCharacter] Could not find a variable named "CanSpeak" in 'RevenantPlayerCharacter_C'.
+Make sure 'RevenantPlayerCharacter_C' has been compiled for  Set CanSpeak
+[2019.03.12-10.35.27:900][413]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] Can't connect pins  Out Actors  and  Target Array : Array of NPCTalks Object References is not compatible with Array of Object References.
+[2019.03.12-10.35.27:900][413]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2019.03.12-10.35.27:900][413]LogBlueprint: Warning: [Compiler RevenantPlayerCharacter] Could not find a variable named "CanSpeak" in 'RevenantPlayerCharacter_C'.
+Make sure 'RevenantPlayerCharacter_C' has been compiled for  Get CanSpeak
+[2019.03.12-10.35.27:900][413]LogBlueprint: Warning: [Compiler RevenantPlayerCharacter] Could not find a variable named "CanSpeak" in 'RevenantPlayerCharacter_C'.
+Make sure 'RevenantPlayerCharacter_C' has been compiled for  Set CanSpeak
+[2019.03.12-10.35.27:905][413]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] Can't connect pins  Target Array  and  Out Actors : Array of Object References is not compatible with Array of NPCTalks Object References.
+[2019.03.12-10.35.27:909][413]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] The property associated with  Can Speak  could not be found in '/Game/BluePrints/RevenantPlayerCharacter.RevenantPlayerCharacter_C'
+[2019.03.12-10.35.27:909][413]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] The property associated with  Can Speak  could not be found in '/Game/BluePrints/RevenantPlayerCharacter.RevenantPlayerCharacter_C'
+[2019.03.12-10.35.27:909][413]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] The property associated with  Can Speak  could not be found in '/Game/BluePrints/RevenantPlayerCharacter.RevenantPlayerCharacter_C'
+[2019.03.12-10.35.27:909][413]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] The property associated with  Talking  could not be found in '/Game/BluePrints/RevenantPlayerCharacter.RevenantPlayerCharacter_C'
+[2019.03.12-10.35.27:915][413]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.27:917][413]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.27:918][413]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.27:919][413]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.28:112][413]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.28:113][413]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.28:114][413]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.28:141][413]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.28:142][413]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.28:223][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/RevenantPlayerCharacter" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/RevenantPlayerCharacter.uasset" SILENT=true
+[2019.03.12-10.35.28:354][413]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/RevenantPlayerCharacterE87F0DBF4A4E63389C766AB2675FBFB6.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/RevenantPlayerCharacter.uasset'
+[2019.03.12-10.35.28:362][413]LogBlueprint: Warning: [Compiler RevenantPlayerCharacter] [0625.49] Compile of RevenantPlayerCharacter failed. 7 Fatal Issue(s) 4 Warning(s) [in 578 ms] (/Game/BluePrints/RevenantPlayerCharacter.RevenantPlayerCharacter)
+[2019.03.12-10.35.44:285][747]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.44:287][747]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.44:288][747]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.48:672][864]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.48:674][864]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.48:677][864]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.48:678][864]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.50:731][908]BlueprintLog: New page: Compile RevenantPlayerCharacter
+[2019.03.12-10.35.50:840][908]LogBlueprint: Warning: [Compiler RevenantPlayerCharacter] Could not find a variable named "CanSpeak" in 'RevenantPlayerCharacter_C'.
+Make sure 'RevenantPlayerCharacter_C' has been compiled for  Set CanSpeak
+[2019.03.12-10.35.50:840][908]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] Can't connect pins  Out Actors  and  Target Array : Array of NPCTalks Object References is not compatible with Array of Object References.
+[2019.03.12-10.35.50:840][908]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2019.03.12-10.35.50:840][908]LogBlueprint: Warning: [Compiler RevenantPlayerCharacter] Could not find a variable named "CanSpeak" in 'RevenantPlayerCharacter_C'.
+Make sure 'RevenantPlayerCharacter_C' has been compiled for  Get CanSpeak
+[2019.03.12-10.35.50:840][908]LogBlueprint: Warning: [Compiler RevenantPlayerCharacter] Could not find a variable named "CanSpeak" in 'RevenantPlayerCharacter_C'.
+Make sure 'RevenantPlayerCharacter_C' has been compiled for  Set CanSpeak
+[2019.03.12-10.35.50:843][908]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] Can't connect pins  Target Array  and  Out Actors : Array of Object References is not compatible with Array of NPCTalks Object References.
+[2019.03.12-10.35.50:847][908]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] The property associated with  Can Speak  could not be found in '/Game/BluePrints/RevenantPlayerCharacter.RevenantPlayerCharacter_C'
+[2019.03.12-10.35.50:847][908]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] The property associated with  Can Speak  could not be found in '/Game/BluePrints/RevenantPlayerCharacter.RevenantPlayerCharacter_C'
+[2019.03.12-10.35.50:847][908]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] The property associated with  Can Speak  could not be found in '/Game/BluePrints/RevenantPlayerCharacter.RevenantPlayerCharacter_C'
+[2019.03.12-10.35.50:853][908]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.50:856][908]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.50:857][908]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.50:860][908]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.51:025][908]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.51:026][908]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.51:027][908]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.51:056][908]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.51:057][908]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.51:101][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/RevenantPlayerCharacter" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/RevenantPlayerCharacter.uasset" SILENT=true
+[2019.03.12-10.35.51:228][908]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/RevenantPlayerCharacterD22E223C4E54A10B693EFD9E7B400860.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/RevenantPlayerCharacter.uasset'
+[2019.03.12-10.35.51:236][908]LogBlueprint: Warning: [Compiler RevenantPlayerCharacter] [0648.37] Compile of RevenantPlayerCharacter failed. 6 Fatal Issue(s) 3 Warning(s) [in 504 ms] (/Game/BluePrints/RevenantPlayerCharacter.RevenantPlayerCharacter)
+[2019.03.12-10.35.56:337][  9]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.56:338][  9]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.35.56:339][  9]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.36.01:534][140]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.36.01:537][140]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.36.01:538][140]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.36.01:539][140]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.36.03:684][184]BlueprintLog: New page: Compile RevenantPlayerCharacter
+[2019.03.12-10.36.03:783][184]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] Can't connect pins  Out Actors  and  Target Array : Array of NPCTalks Object References is not compatible with Array of Object References.
+[2019.03.12-10.36.03:783][184]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2019.03.12-10.36.03:786][184]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] Can't connect pins  Target Array  and  Out Actors : Array of Object References is not compatible with Array of NPCTalks Object References.
+[2019.03.12-10.36.03:796][184]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.36.03:797][184]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.36.03:799][184]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.36.03:802][184]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.36.03:978][184]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.36.03:979][184]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.36.03:980][184]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.36.04:012][184]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.36.04:013][184]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.36.04:055][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/RevenantPlayerCharacter" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/RevenantPlayerCharacter.uasset" SILENT=true
+[2019.03.12-10.36.04:182][184]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/RevenantPlayerCharacter16A385A9454AF79C1811A29D460009DD.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/RevenantPlayerCharacter.uasset'
+[2019.03.12-10.36.04:189][184]LogBlueprint: Warning: [Compiler RevenantPlayerCharacter] [0661.32] Compile of RevenantPlayerCharacter failed. 3 Fatal Issue(s) 0 Warning(s) [in 505 ms] (/Game/BluePrints/RevenantPlayerCharacter.RevenantPlayerCharacter)
+[2019.03.12-10.37.02:363][580]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.37.02:366][580]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.37.02:367][580]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.40.48:425][245]BlueprintLog: New page: Compile RevenantPlayerCharacter
+[2019.03.12-10.40.48:673][245]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] Can't connect pins  Out Actors  and  Target Array : Array of NPCTalks Object References is not compatible with Array of Object References.
+[2019.03.12-10.40.48:673][245]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2019.03.12-10.40.48:677][245]LogBlueprint: Error: [Compiler RevenantPlayerCharacter] Can't connect pins  Target Array  and  Out Actors : Array of Object References is not compatible with Array of NPCTalks Object References.
+[2019.03.12-10.40.48:702][245]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.40.48:703][245]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.40.48:705][245]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.40.48:707][245]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.40.48:708][245]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.40.48:710][245]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.40.48:877][245]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.40.48:877][245]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.40.48:878][245]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.40.48:889][245]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.40.48:890][245]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.40.48:927][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/RevenantPlayerCharacter" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/RevenantPlayerCharacter.uasset" SILENT=true
+[2019.03.12-10.40.49:059][245]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/RevenantPlayerCharacterE3CADA9943CD3372A5A643B2A14E14C2.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/RevenantPlayerCharacter.uasset'
+[2019.03.12-10.40.49:067][245]LogBlueprint: Warning: [Compiler RevenantPlayerCharacter] [0946.20] Compile of RevenantPlayerCharacter failed. 3 Fatal Issue(s) 0 Warning(s) [in 641 ms] (/Game/BluePrints/RevenantPlayerCharacter.RevenantPlayerCharacter)
+[2019.03.12-10.41.16:701][842]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.16:703][842]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.16:704][842]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.53:497][683]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.53:499][683]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.53:501][683]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.53:502][683]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.54:728][708]BlueprintLog: New page: Compile RevenantPlayerCharacter
+[2019.03.12-10.41.54:859][708]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.54:862][708]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.54:863][708]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.54:865][708]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.55:035][708]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.55:036][708]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.55:038][708]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.55:039][708]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.55:040][708]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.55:071][708]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.55:072][708]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.55:073][708]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.55:074][708]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.41.55:108][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/RevenantPlayerCharacter" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/RevenantPlayerCharacter.uasset" SILENT=true
+[2019.03.12-10.41.55:235][708]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/RevenantPlayerCharacterAC6547CC44CB0A7F575A49A54EC2A6FE.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/RevenantPlayerCharacter.uasset'
+[2019.03.12-10.42.03:411][919]BlueprintLog: New page: Compile NPCTalks
+[2019.03.12-10.42.03:721][919]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.42.03:723][919]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.42.03:724][919]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.42.03:725][919]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.42.03:738][919]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.42.03:739][919]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.42.03:740][919]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.42.03:741][919]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.42.16:021][365]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.12-10.42.26:468][575]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2019.03.12-10.42.39:302][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.12-10.43.07:830][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MovementTest" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/Levels/MovementTest_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.03.12-10.43.08:040][ 47]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/MovementTest_Auto1FDE061FC49D613FAABB60CBCEB4272DB.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/Autosaves/Game/Levels/MovementTest_Auto1.umap'
+[2019.03.12-10.43.08:046][ 47]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MovementTest' took 0.247
+[2019.03.12-10.43.08:046][ 47]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.247
+[2019.03.12-10.43.38:816][583]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.12-10.43.38:864][583]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.12-10.43.38:864][583]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.12-10.43.38:888][583]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2019.03.12-10.43.38:911][583]LogBlueprint: Error: [Compiler ThirdPersonCharacter] COMPILER ERROR: failed building connection with 'Array of Object References is not compatible with Array of NPCTalks Object References.' at  Get (a copy)
+[2019.03.12-10.43.38:911][583]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  <Unnamed>  no longer exists on node  Start Dialogue . Please refresh node or break links to remove pin.
+[2019.03.12-10.43.38:911][583]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  <Unnamed>  no longer exists on node  Start Dialogue . Please refresh node or break links to remove pin.
+[2019.03.12-10.43.38:911][583]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  Target  no longer exists on node  Start Dialogue . Please refresh node or break links to remove pin.
+[2019.03.12-10.43.38:911][583]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Could not find a function named "Start Dialogue" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Start Dialogue
+[2019.03.12-10.43.38:911][583]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Out Actors  and  Target Array : Array of NPCTalks Object References is not compatible with Array of Object References.
+[2019.03.12-10.43.38:911][583]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2019.03.12-10.43.38:912][583]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Target Array  and  Out Actors : Array of Object References is not compatible with Array of NPCTalks Object References.
+[2019.03.12-10.43.38:913][583]LogBlueprint: Error: [Compiler ThirdPersonCharacter] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2019.03.12-10.43.38:916][583]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [1116.05] Compile of ThirdPersonCharacter failed. 9 Fatal Issue(s) 0 Warning(s) [in 28 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2019.03.12-10.43.39:042][583]LogPlayLevel: [PlayLevel] Compiling TextBox before play...
+[2019.03.12-10.43.39:092][583]LogPlayLevel: PlayLevel: Blueprint regeneration took 227 ms (2 blueprints)
+[2019.03.12-10.43.39:092][583]BlueprintLog: Blueprint ThirdPersonCharacter failed to compile
+[2019.03.12-10.43.41:523][583]LogSlate: Window 'Message' being destroyed
+[2019.03.12-10.43.41:541][583]PIE: New page: PIE session: MovementTest (Mar 12, 2019, 2:43:41 AM)
+[2019.03.12-10.43.41:541][583]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.12-10.43.41:543][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001964s)
+[2019.03.12-10.43.41:544][583]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.12-10.43.41:544][583]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2019.03.12-10.43.41:544][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002757s)
+[2019.03.12-10.43.41:576][583]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.12-10.43.41:585][583]LogInit: FAudioDevice initialized.
+[2019.03.12-10.43.41:623][583]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.12-10.43.41:624][583]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.12-06.43.41
+[2019.03.12-10.43.41:625][583]LogWorld: Bringing up level for play took: 0.001005
+[2019.03.12-10.43.41:644][583]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.03.12-10.43.41:645][583]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.43.41:655][583]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 3.512
+[2019.03.12-10.43.41:655][583]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.12-10.43.43:610][702]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.03.12-10.43.45:205][797]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_3
+[2019.03.12-10.43.55:658][418]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.12-10.43.55:659][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.12-10.43.55:704][418]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.12-10.43.55:704][418]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.12-10.43.55:733][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.12-10.43.55:758][420]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.03.12-10.43.56:520][460]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.12-10.44.21:598][977]BlueprintLog: New page: Compile RevenantPlayerCharacter
+[2019.03.12-10.44.21:725][977]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.21:727][977]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.21:728][977]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.21:729][977]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.21:903][977]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.21:904][977]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.21:905][977]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.21:906][977]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.21:907][977]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.21:938][977]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.21:939][977]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.21:940][977]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.21:941][977]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.21:971][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/RevenantPlayerCharacter" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/RevenantPlayerCharacter.uasset" SILENT=true
+[2019.03.12-10.44.22:098][977]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/RevenantPlayerCharacter84B36D2440FD2500DE51C4AE58238B39.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/RevenantPlayerCharacter.uasset'
+[2019.03.12-10.44.59:605][958]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.59:609][958]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.59:611][958]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.59:612][958]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.59:632][958]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.59:635][958]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.59:636][958]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.44.59:637][958]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.47.29:150][644]BlueprintLog: New page: Compile RevenantPlayerCharacter
+[2019.03.12-10.47.29:262][644]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.47.29:264][644]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.47.29:266][644]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.47.29:267][644]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.47.29:442][644]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.47.29:443][644]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.47.29:444][644]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.47.29:445][644]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.47.29:446][644]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.47.29:481][644]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.47.29:482][644]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.47.29:483][644]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.47.29:484][644]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.47.29:523][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/RevenantPlayerCharacter" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/RevenantPlayerCharacter.uasset" SILENT=true
+[2019.03.12-10.47.29:657][644]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/RevenantPlayerCharacter328584F74DA07573F0C5299C9B3337C0.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/BluePrints/RevenantPlayerCharacter.uasset'
+[2019.03.12-10.47.31:640][687]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.12-10.47.31:667][687]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.12-10.47.31:667][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.12-10.47.31:667][687]PIE: New page: PIE session: MovementTest (Mar 12, 2019, 2:47:31 AM)
+[2019.03.12-10.47.31:667][687]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.12-10.47.31:671][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003239s)
+[2019.03.12-10.47.31:671][687]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.12-10.47.31:671][687]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2019.03.12-10.47.31:671][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.003948s)
+[2019.03.12-10.47.31:710][687]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.12-10.47.31:717][687]LogInit: FAudioDevice initialized.
+[2019.03.12-10.47.31:744][687]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.12-10.47.31:745][687]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.12-06.47.31
+[2019.03.12-10.47.31:745][687]LogWorld: Bringing up level for play took: 0.000965
+[2019.03.12-10.47.31:758][687]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.47.31:767][687]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest -0.375
+[2019.03.12-10.47.31:768][687]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.12-10.47.33:975][821]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.03.12-10.47.35:405][906]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_3
+[2019.03.12-10.48.03:760][590]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.12-10.48.12:465][106]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.12-10.48.12:465][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.12-10.48.12:511][106]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.12-10.48.12:511][106]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.12-10.48.12:538][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.12-10.48.12:567][108]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.03.12-10.48.13:074][134]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.12-10.48.18:666][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.12-10.49.48:551][723]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.12-10.49.48:573][723]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.12-10.49.48:573][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.12-10.49.48:573][723]PIE: New page: PIE session: MovementTest (Mar 12, 2019, 2:49:48 AM)
+[2019.03.12-10.49.48:573][723]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.12-10.49.48:576][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002187s)
+[2019.03.12-10.49.48:576][723]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.12-10.49.48:576][723]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2019.03.12-10.49.48:576][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002959s)
+[2019.03.12-10.49.48:614][723]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.12-10.49.48:621][723]LogInit: FAudioDevice initialized.
+[2019.03.12-10.49.48:655][723]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.12-10.49.48:657][723]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.12-06.49.48
+[2019.03.12-10.49.48:658][723]LogWorld: Bringing up level for play took: 0.001771
+[2019.03.12-10.49.48:671][723]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.49.48:680][723]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 0.538
+[2019.03.12-10.49.48:680][723]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.12-10.49.50:780][787]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.12-10.49.50:980][793]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.03.12-10.49.51:132][797]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.12-10.49.51:132][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.12-10.49.51:313][797]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.12-10.49.51:313][797]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.12-10.49.51:348][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.12-10.49.51:577][798]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.03.12-10.49.53:269][841]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.12-10.49.53:288][841]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.12-10.49.53:288][841]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.12-10.49.53:288][841]PIE: New page: PIE session: MovementTest (Mar 12, 2019, 2:49:53 AM)
+[2019.03.12-10.49.53:288][841]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.03.12-10.49.53:290][841]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001919s)
+[2019.03.12-10.49.53:290][841]LogAIModule: Creating AISystem for world MovementTest
+[2019.03.12-10.49.53:290][841]LogPlayLevel: PIE: World Init took: (0.000501s)
+[2019.03.12-10.49.53:290][841]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.002509s)
+[2019.03.12-10.49.53:327][841]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.12-10.49.53:333][841]LogInit: FAudioDevice initialized.
+[2019.03.12-10.49.53:363][841]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.12-10.49.53:365][841]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.03.12-06.49.53
+[2019.03.12-10.49.53:365][841]LogWorld: Bringing up level for play took: 0.000944
+[2019.03.12-10.49.53:378][841]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.03.12-10.49.53:388][841]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest -0.754
+[2019.03.12-10.49.53:388][841]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.12-10.49.55:593][975]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.03.12-10.49.56:887][ 52]LogBlueprintUserMessages: [RevenantPlayerCharacter_C_0] KeyItem_3
+[2019.03.12-10.50.14:130][ 75]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.12-10.50.14:131][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.12-10.50.14:207][ 75]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.12-10.50.14:207][ 75]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.03.12-10.50.14:233][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.12-10.50.14:252][ 76]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.03.12-10.50.20:023][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.12-10.50.22:898][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MovementTest" FILE="E:/MARSHMALLOWS-WOOO/MarshMellow/Content/Levels/MovementTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.12-10.50.23:125][423]LogSavePackage: Moving 'E:/MARSHMALLOWS-WOOO/MarshMellow/Saved/MovementTest7F27428D4D5B5804CA3E528F236F4326.tmp' to 'E:/MARSHMALLOWS-WOOO/MarshMellow/Content/Levels/MovementTest.umap'
+[2019.03.12-10.56.17:479][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.12-10.56.17:533][506]LogSlate: Window 'NPCTalks' being destroyed
+[2019.03.12-10.56.17:537][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.12-10.56.17:592][506]LogSlate: Window 'MarshMellow - Unreal Editor' being destroyed
+[2019.03.12-10.56.17:593][506]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.12-10.56.17:709][507]Cmd: QUIT_EDITOR
+[2019.03.12-10.56.17:763][507]LogExit: Preparing to exit.
+[2019.03.12-10.56.18:105][507]LogExit: Editor shut down
+[2019.03.12-10.56.18:105][507]LogExit: Transaction tracking system shut down
+[2019.03.12-10.56.18:449][507]LogExit: Object subsystem successfully closed.
+[2019.03.12-10.56.18:462][507]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.12-10.56.18:466][507]LogD3D11RHI: Shutdown
+[2019.03.12-10.56.18:466][507]LogD3D11RHI: CleanupD3DDevice
+[2019.03.12-10.56.18:468][507]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.12-10.56.18:486][507]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (618)
+[2019.03.12-10.56.18:486][507]LogModuleManager: Shutting down and abandoning module Voice (616)
+[2019.03.12-10.56.18:486][507]LogModuleManager: Shutting down and abandoning module SequencerWidgets (614)
+[2019.03.12-10.56.18:486][507]LogModuleManager: Shutting down and abandoning module BlueprintGraph (612)
+[2019.03.12-10.56.18:486][507]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2019.03.12-10.56.18:486][507]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2019.03.12-10.56.18:486][507]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.03.12-10.56.18:487][507]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.03.12-10.56.18:488][507]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.03.12-10.56.18:488][507]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.03.12-10.56.18:488][507]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.03.12-10.56.18:488][507]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.03.12-10.56.18:488][507]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.03.12-10.56.18:488][507]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.03.12-10.56.18:488][507]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.03.12-10.56.18:488][507]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.03.12-10.56.18:488][507]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.03.12-10.56.18:488][507]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.03.12-10.56.18:488][507]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.03.12-10.56.18:488][507]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.03.12-10.56.18:488][507]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.03.12-10.56.18:488][507]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.03.12-10.56.18:488][507]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.03.12-10.56.18:488][507]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.03.12-10.56.18:925][507]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.03.12-10.56.18:925][507]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.03.12-10.56.18:925][507]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.03.12-10.56.18:925][507]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.03.12-10.56.18:925][507]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.03.12-10.56.18:925][507]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.03.12-10.56.18:925][507]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.03.12-10.56.18:925][507]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.03.12-10.56.18:925][507]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.03.12-10.56.18:925][507]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.03.12-10.56.18:925][507]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.03.12-10.56.18:925][507]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.03.12-10.56.18:925][507]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.03.12-10.56.18:925][507]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.03.12-10.56.18:925][507]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.03.12-10.56.18:925][507]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.03.12-10.56.18:926][507]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.03.12-10.56.18:926][507]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.03.12-10.56.18:926][507]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.03.12-10.56.18:926][507]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.03.12-10.56.18:926][507]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.03.12-10.56.18:926][507]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.03.12-10.56.18:980][507]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.03.12-10.56.18:980][507]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.03.12-10.56.18:980][507]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.03.12-10.56.18:980][507]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.03.12-10.56.18:980][507]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.03.12-10.56.18:980][507]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.03.12-10.56.18:980][507]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.03.12-10.56.18:980][507]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.03.12-10.56.18:980][507]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.03.12-10.56.18:980][507]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.03.12-10.56.18:985][507]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.03.12-10.56.18:985][507]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.03.12-10.56.18:986][507]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.03.12-10.56.18:990][507]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.03.12-10.56.18:990][507]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.03.12-10.56.18:990][507]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.03.12-10.56.18:990][507]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.03.12-10.56.18:990][507]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.03.12-10.56.18:990][507]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.03.12-10.56.18:990][507]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.03.12-10.56.18:990][507]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.03.12-10.56.18:990][507]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.03.12-10.56.18:990][507]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.03.12-10.56.18:990][507]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.03.12-10.56.18:990][507]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.03.12-10.56.18:990][507]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.03.12-10.56.18:990][507]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.03.12-10.56.18:990][507]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.03.12-10.56.18:990][507]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.03.12-10.56.18:990][507]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.03.12-10.56.18:990][507]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.03.12-10.56.18:993][507]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.03.12-10.56.18:993][507]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.03.12-10.56.18:993][507]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.03.12-10.56.18:993][507]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.03.12-10.56.18:993][507]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.03.12-10.56.18:993][507]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.03.12-10.56.18:993][507]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.03.12-10.56.18:993][507]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.03.12-10.56.18:993][507]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.03.12-10.56.18:993][507]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.03.12-10.56.18:993][507]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.03.12-10.56.18:993][507]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.03.12-10.56.18:994][507]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.03.12-10.56.18:995][507]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.03.12-10.56.18:995][507]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.03.12-10.56.18:995][507]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.03.12-10.56.18:995][507]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.03.12-10.56.19:096][507]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.03.12-10.56.19:197][507]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.03.12-10.56.19:197][507]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.03.12-10.56.19:197][507]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.03.12-10.56.19:197][507]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.03.12-10.56.19:197][507]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.03.12-10.56.19:197][507]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.03.12-10.56.19:197][507]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.03.12-10.56.19:197][507]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.03.12-10.56.19:197][507]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.03.12-10.56.19:197][507]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.03.12-10.56.19:197][507]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.03.12-10.56.19:198][507]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.03.12-10.56.19:198][507]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.03.12-10.56.19:198][507]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.03.12-10.56.19:198][507]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.03.12-10.56.19:199][507]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.03.12-10.56.19:199][507]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.03.12-10.56.19:199][507]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.03.12-10.56.19:200][507]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.03.12-10.56.19:206][507]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.03.12-10.56.19:206][507]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.03.12-10.56.19:206][507]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.03.12-10.56.19:206][507]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.03.12-10.56.19:206][507]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.03.12-10.56.19:206][507]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.03.12-10.56.19:206][507]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.03.12-10.56.19:206][507]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.03.12-10.56.19:206][507]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.03.12-10.56.19:206][507]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.03.12-10.56.19:206][507]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.03.12-10.56.19:206][507]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.03.12-10.56.19:206][507]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.03.12-10.56.19:206][507]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.03.12-10.56.19:206][507]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.03.12-10.56.19:206][507]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.03.12-10.56.19:207][507]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.03.12-10.56.19:207][507]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.03.12-10.56.19:207][507]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.03.12-10.56.19:207][507]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.03.12-10.56.19:208][507]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.03.12-10.56.19:208][507]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.03.12-10.56.19:208][507]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.03.12-10.56.19:208][507]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.03.12-10.56.19:208][507]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.03.12-10.56.19:208][507]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.03.12-10.56.19:208][507]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.03.12-10.56.19:208][507]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.03.12-10.56.19:208][507]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.03.12-10.56.19:208][507]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.03.12-10.56.19:208][507]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.03.12-10.56.19:208][507]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.03.12-10.56.19:208][507]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.03.12-10.56.19:208][507]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.03.12-10.56.19:208][507]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.03.12-10.56.19:208][507]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.03.12-10.56.19:208][507]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.03.12-10.56.19:208][507]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.03.12-10.56.19:258][507]LogDerivedDataCache: Shutdown
+[2019.03.12-10.56.19:258][507]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.03.12-10.56.19:258][507]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.03.12-10.56.19:258][507]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.03.12-10.56.19:258][507]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.03.12-10.56.19:258][507]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.03.12-10.56.19:258][507]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.03.12-10.56.19:258][507]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.03.12-10.56.19:258][507]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.03.12-10.56.19:258][507]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.03.12-10.56.19:258][507]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.03.12-10.56.19:258][507]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.03.12-10.56.19:258][507]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.03.12-10.56.19:258][507]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.03.12-10.56.19:258][507]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.03.12-10.56.19:258][507]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.03.12-10.56.19:258][507]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.03.12-10.56.19:258][507]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.03.12-10.56.19:259][507]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.03.12-10.56.19:259][507]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.03.12-10.56.19:259][507]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.03.12-10.56.19:259][507]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.03.12-10.56.19:259][507]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.03.12-10.56.19:259][507]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.03.12-10.56.19:259][507]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.03.12-10.56.19:259][507]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.03.12-10.56.19:260][507]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.03.12-10.56.19:260][507]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.03.12-10.56.19:264][507]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.03.12-10.56.19:264][507]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.03.12-10.56.19:264][507]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.03.12-10.56.19:264][507]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.03.12-10.56.19:264][507]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.03.12-10.56.19:264][507]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.03.12-10.56.19:264][507]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.03.12-10.56.19:264][507]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.03.12-10.56.19:264][507]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.03.12-10.56.19:264][507]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.03.12-10.56.19:264][507]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.03.12-10.56.19:264][507]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.03.12-10.56.19:264][507]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.03.12-10.56.19:264][507]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.03.12-10.56.19:264][507]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.03.12-10.56.19:264][507]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.03.12-10.56.19:264][507]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.03.12-10.56.19:264][507]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.03.12-10.56.19:265][507]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.03.12-10.56.19:265][507]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.03.12-10.56.19:297][507]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.03.12-10.56.19:297][507]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2019.03.12-10.56.19:297][507]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B220FC761-4F68-C8D5-5989-36BE815296A9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=157e2509421257fb9f3bbdbff5f08b03%7C20079c831a694bbd86d6153fd97feacd%7C3235aa97-86b4-44ca-943f-07a230d6e786&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.12-10.56.19:297][507]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B220FC761-4F68-C8D5-5989-36BE815296A9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=157e2509421257fb9f3bbdbff5f08b03%7C20079c831a694bbd86d6153fd97feacd%7C3235aa97-86b4-44ca-943f-07a230d6e786&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.12-10.56.19:302][507]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.03.12-10.56.19:302][507]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.03.12-10.56.19:302][507]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.03.12-10.56.19:302][507]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.03.12-10.56.19:302][507]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.03.12-10.56.19:302][507]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.03.12-10.56.19:302][507]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.03.12-10.56.19:303][507]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.03.12-10.56.19:303][507]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.03.12-10.56.19:303][507]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.03.12-10.56.19:303][507]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.12-10.56.19:303][507]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.03.12-10.56.19:303][507]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.12-10.56.19:303][507]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.12-10.56.19:303][507]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.12-10.56.19:303][507]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.12-10.56.19:303][507]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.12-10.56.19:303][507]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.12-10.56.19:303][507]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.12-10.56.19:304][507]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.12-10.56.19:304][507]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.12-10.56.19:304][507]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.12-10.56.19:304][507]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.12-10.56.19:304][507]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.12-10.56.19:304][507]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.12-10.56.19:304][507]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.12-10.56.19:304][507]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.12-10.56.19:304][507]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.12-10.56.19:304][507]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.12-10.56.19:304][507]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.12-10.56.19:308][507]LogExit: Exiting.
+[2019.03.12-10.56.19:331][507]Log file closed, 03/12/19 06:56:19
